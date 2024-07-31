@@ -1,5 +1,5 @@
 const Footer = () => {
-  return <div>This is the footer</div>;
+  return <div className="flex mx-12">This is the footer</div>;
 };
 
 export default Footer;
