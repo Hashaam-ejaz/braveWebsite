@@ -126,8 +126,10 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
           <div className="absolute bottom-0 left-0 py-16 px-40">
-            <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond ">
-              Our Approach
+            <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond">
+              <Link href={"/approach"}>
+                Our Approach
+              </Link>
             </div>
           </div>
         </section>
@@ -142,10 +144,10 @@ const Home = () => {
               Our Commitment
             </div>
             <div className="flex flex-row h-[100%] gap-5 ">
-              <Card img={placeholderImg} />
-              <Card img={placeholderImg} />
-              <Card img={placeholderImg} />
-              <Card img={placeholderImg} />
+              <Card img={'/public/images/placeholder.png'} />
+              <Card img={'/public/images/placeholder.png'} />
+              <Card img={'/public/images/placeholder.png'} />
+              <Card img={'/public/images/placeholder.png'} />
             </div>
           </div>
         </section>
