@@ -144,10 +144,10 @@ const Home = () => {
               Our Commitment
             </div>
             <div className="flex flex-row h-[100%] gap-5 ">
-              <Card img={placeholderImg} />
-              <Card img={placeholderImg} />
-              <Card img={placeholderImg} />
-              <Card img={placeholderImg} />
+              <Card img={'/public/images/placeholder.png'} />
+              <Card img={'/public/images/placeholder.png'} />
+              <Card img={'/public/images/placeholder.png'} />
+              <Card img={'/public/images/placeholder.png'} />
             </div>
           </div>
         </section>
