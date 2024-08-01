@@ -1,6 +1,8 @@
 import Image from "next/image";
 import headerImg from "/public/images/appraoch-header.jpg";
 import section1Img from "/public/images/approach1.png";
+import section2Img from "/public/images/appraoch2.png";
+import section3Img from "/public/images/appraoch3.png";
 
 const Approach = () => {
   return (
@@ -61,7 +63,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-row px-40 py-24 font-garamond h-96 ">
+        <section className="flex flex-row px-40 py-24 font-garamond h-[30rem] ">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond ">
             <div className="text-[30px]">THE OPPORTUNITY</div>
             <p className="text-[22px]">
@@ -69,12 +71,36 @@ const Approach = () => {
               combination of Brand-led touch points. Literally any point that
               the people/patient will touch the brand.
             </p>
-            <p className="text-[22px]">Whenever and wherever your customer meets your brand.</p>
+            <p className="text-[22px]">
+              Whenever and wherever your customer meets your brand.
+            </p>
           </div>
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[30px] flex justify-center ">
             <div className="w-full h-full overflow-hidden">
               <Image
-                src={section1Img}
+                src={section2Img}
+                alt="Hero Image"
+                className=" w-full h-full object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="flex flex-row px-40 py-24 font-garamond h-[30rem] ">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond ">
+            <div className="text-[30px]">THE JOURNEY</div>
+            <p className="text-[22px]">
+              Within the proposed project to support and deliver the strategy –
+              a customised Journey Framework will deliver the optimal match
+              making structure to deliver the seamless journey for optimal
+              impact.
+            </p>
+            
+          </div>
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[30px] flex justify-center ">
+            <div className="w-full h-full overflow-hidden">
+              <Image
+                src={section3Img}
                 alt="Hero Image"
                 className=" w-full h-full object-contain"
               />
