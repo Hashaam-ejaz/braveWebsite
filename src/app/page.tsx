@@ -124,9 +124,9 @@ const Home = () => {
           <Image
             src={approachImg}
             alt="Hero Image"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-contain"
           />
-          <div className="absolute bottom-0 left-0 py-16 px-40">
+          <div className="absolute bottom-0 left-0 py-16 px-40 pb-40">
             <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond">
               <Link href={"/approach"}>Our Approach</Link>
             </div>
