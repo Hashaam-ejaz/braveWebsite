@@ -10,7 +10,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ img, text = "" }) => {
   return (
-    <div className="w-full h-full max-w-md rounded-lg overflow-hidden shadow-lg ">
+    <div className="w-full h-full max-w-md rounded-lg overflow-hidden shadow-lg min-h-[16rem]">
       <Image
         src={placeholderImg}
         alt="Cover Image"

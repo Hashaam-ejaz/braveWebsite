@@ -6,6 +6,7 @@ import approachImg from "/public/images/approach.png";
 import placeholderImg from "/public/images/placeholder.png";
 import Image from "next/image";
 import Card from "../components/card/page";
+import landing from "../../public/images/landingSimple.png";
 
 const Home = () => {
   return (
@@ -13,18 +14,22 @@ const Home = () => {
       <main className="flex-1">
         <section className="relative w-full h-[100vh] overflow-hidden">
           <Image
-            src={braveImg}
+            src={landing}
             alt="Hero Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          {/* <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div> */}
+          <div className="relative z-10 flex items-center justify-center w-full h-full pl-2 sm:pl-4 md:pl-6 lg:pl-10">
+            <h1 className=" text-white text-4xl md:text-6xl lg:text-8xl font-bold uppercase font-garamond text-shadow">
+              The Brave Agency
+            </h1>
+          </div>
         </section>
 
-        <section className="flex flex-row px-40 py-24 font-garamond">
-          <div className="basis-1/4 sm:basis-1 lg:basis-1/4 text-[30px] ">
+        <section className="flex flex-col lg:flex-row px-20 lg:px-40 py-12 lg:py-24 font-garamond">
+          <div className="basis-1/2 sm:basis-1 lg:basis-1/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] mb-2 lg:mb-0 lg:mr-2 mr-0">
             We are BRAVE
           </div>
-          <div className="basis-3/4 sm:basis-1 lg:basis-3/4 text-[22px] space-y-4 ">
+          <div className="basis-1/2 sm:basis-1 lg:basis-3/4 text-base sm:text-[18px] md:text-[20px]  lg:text-[22px] space-y-4 ">
             <p>
               Grounded in extensive experience and fueled by an extraordinary,
               talented team, BRAVE is proud of our long-standing reputation for
@@ -47,18 +52,18 @@ const Home = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
-          <div className="absolute bottom-0 left-0 py-16 px-40">
+          <div className="absolute bottom-0 left-0 py-16 w-full flex justify-center lg:px-40 lg:w-fit">
             <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond ">
               <Link href={"/moments"}>Our Moments</Link>
             </div>
           </div>
         </section>
 
-        <section className="flex flex-row px-40 py-24 font-garamond">
-          <div className="basis-1/4 sm:basis-1 lg:basis-1/4 text-[30px] ">
+        <section className="flex flex-col lg:flex-row px-20 lg:px-40 py-12 lg:py-24 font-garamond">
+          <div className="basis-1/2 sm:basis-1 lg:basis-1/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] mb-2 lg:mb-0 lg:mr-2 mr-0">
             Why BRAVE is different
           </div>
-          <div className="basis-3/4 sm:basis-1 lg:basis-3/4 text-[22px] space-y-4">
+          <div className="basis-1/2 sm:basis-1 lg:basis-3/4 text-base sm:text-[18px] md:text-[20px]  lg:text-[22px] space-y-4 ">
             <p>
               While our reach is global, BRAVE is small by design: We work with
               only a handful of projects at a time with{" "}
@@ -88,18 +93,18 @@ const Home = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
-          <div className="absolute bottom-0 left-0 py-16 px-40">
+          <div className="absolute bottom-0 left-0 py-16 w-full flex justify-center lg:px-40 lg:w-fit">
             <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond ">
               <Link href={"/family"}>Our Family</Link>
             </div>
           </div>
         </section>
 
-        <section className="flex flex-row px-40 py-24 font-garamond">
-          <div className="basis-1/4 sm:basis-1 lg:basis-1/4 text-[30px] ">
+        <section className="flex flex-col lg:flex-row px-20 lg:px-40 py-12 lg:py-24 font-garamond">
+          <div className="basis-1/2 sm:basis-1 lg:basis-1/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] mb-2 lg:mb-0 lg:mr-2 mr-0">
             About Us
           </div>
-          <div className="basis-3/4 sm:basis-1 lg:basis-3/4 text-[22px] space-y-4">
+          <div className="basis-1/2 sm:basis-1 lg:basis-3/4 text-base sm:text-[18px] md:text-[20px]  lg:text-[22px] space-y-4">
             <p>
               Led by an extraordinary team of professionals, BRAVE is widely
               recognized for delivering exceptional results with strategically
@@ -119,30 +124,30 @@ const Home = () => {
         </section>
 
         {/* approach */}
-
         <section className="relative w-full h-[100vh] overflow-hidden">
           <Image
             src={approachImg}
             alt="Hero Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute bottom-0 left-0 py-16 px-40">
-            <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond">
+          <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
+          <div className="absolute bottom-0 left-0 py-16 w-full flex justify-center lg:px-40 lg:w-fit">
+            <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond ">
               <Link href={"/approach"}>Our Approach</Link>
             </div>
           </div>
         </section>
 
-        <section className="flex flex-col px-40 py-24 font-garamond">
-          <div className="text-[22px] font-garamond ">
+        <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
+          <div className="text-base sm:text-[18px] md:text-[20px] lg:text-[22px] font-garamond ">
             We combines the fundamental and dynamic elements in any market –
             people, businesses, and their interactions.
           </div>
+          <div className="text-[30px] font-garamond justify-center flex lg:mt-20 md:mt-15 sm:mt-10 mt-8 lg:mb-10 md:mb-8 sm:mb-6 mb-4">
+            Our Commitment
+          </div>
           <div className="flex flex-col">
-            <div className="text-[30px] font-garamond justify-center flex mt-20 mb-10 ">
-              Our Commitment
-            </div>
-            <div className="flex flex-row h-[100%] gap-5 ">
+            <div className="flex flex-col lg:flex-row  gap-5 items-center min-h-40">
               <Card
                 text="BEFORE YOU COME"
                 img={"/public/images/placeholder.png"}

@@ -1,22 +1,20 @@
 import Link from "next/link";
 const Header = () => {
   return (
-    <div className="absolute top-0 left-0  flex font-garamond py-8 text-3xl mx-12 z-20">
-      <Link className="mr-4" href={"/"}>
+    <div className="absolute top-0 z-20 md:w-fit w-full flex justify-center font-garamond py-4 text-md mx-auto sm:py-6 sm:text-xl md:mx-12 md:py-8 md:text-3xl mt-8">
+      <Link className="mr-2 md:mr-4" href={"/"}>
         Brave
       </Link>
-      <div className="w-[2px] h-8 bg-black mr-4" />
-      <Link className="mr-4" href={"/approach"}>
+      <div className="w-[2px] h-8 bg-black mr-2 md:mr-4" />
+      <Link className="mr-2 md:mr-4" href={"/approach"}>
         Our Approach
       </Link>
-      <div className="w-[2px] h-8 bg-black mr-4" />
-      <Link className="mr-4" href={"/family"}>
+      <div className="w-[2px] h-8 bg-black mr-2 md:mr-4" />
+      <Link className="mr-2 md:mr-4" href={"/family"}>
         Our Family
       </Link>
-      <div className="w-[2px] h-8 bg-black mr-4" />
-      <Link className="mr-4" href={"/moments"}>
-        Our Moments
-      </Link>
+      <div className="w-[2px] h-8 bg-black mr-2 md:mr-4" />
+      <Link href={"/moments"}>Our Moments</Link>
     </div>
   );
 };
