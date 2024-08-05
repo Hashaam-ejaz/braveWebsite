@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Header = () => {
   return (
-    <div className="absolute top-0 z-20 md:w-fit w-full flex justify-center font-garamond py-4 text-md mx-auto sm:py-6 sm:text-xl md:mx-12 md:py-8 md:text-3xl">
+    <div className="absolute top-0 z-20 md:w-fit w-full flex justify-center font-garamond py-4 text-md mx-auto sm:py-6 sm:text-xl md:mx-12 md:py-8 md:text-3xl mt-8">
       <Link className="mr-2 md:mr-4" href={"/"}>
         Brave
       </Link>
