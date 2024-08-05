@@ -1,12 +1,14 @@
 import React from "react";
 import placeholderImg from "/public/images/placeholder.png";
 import Image from "next/image";
+import { text } from "stream/consumers";
 
 interface CardProps {
   img: string; // Specifies that `img` should be a string
+  text: string;
 }
 
-const Card: React.FC<CardProps> = ({ img }) => {
+const Card: React.FC<CardProps> = ({ img, text = "" }) => {
   return (
     <div className="w-full h-full max-w-md rounded-lg overflow-hidden shadow-lg ">
       <Image
@@ -29,10 +31,7 @@ const Card: React.FC<CardProps> = ({ img }) => {
         </div>
       </div>
       <div className="p-4 text-center">
-        <p className="text-muted-foreground">
-          Discover the power of our platform and unlock your team&apos;s
-          potential.
-        </p>
+        <p className="text-muted-foreground">{text}</p>
       </div>
     </div>
   );

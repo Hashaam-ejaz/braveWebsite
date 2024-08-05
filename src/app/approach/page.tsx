@@ -35,7 +35,9 @@ const Approach = () => {
 
         <section className="grid grid-cols-3 gap-x-4 px-40 py-24">
           <div className="flex flex-col">
-            <p className="text-[30px] font-garamond ">HUMAN MIND-STATE</p>
+            <p className="text-[30px] font-garamond font-semibold">
+              HUMAN MIND-STATE
+            </p>
             <p className="text-[22px] font-garamond ">
               Explore the changing world of people.
             </p>
@@ -44,7 +46,9 @@ const Approach = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <p className="text-[30px] font-garamond ">EXPERIENCES</p>
+            <p className="text-[30px] font-garamond font-semibold">
+              EXPERIENCES
+            </p>
             <p className="text-[22px] font-garamond ">
               Creating connections with people.
             </p>
@@ -53,7 +57,7 @@ const Approach = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <p className="text-[30px] font-garamond ">ECONOMICS</p>
+            <p className="text-[30px] font-garamond font-semibold">ECONOMICS</p>
             <p className="text-[22px] font-garamond ">
               Sizing, prioritizing & creating opportunities.
             </p>
@@ -95,7 +99,6 @@ const Approach = () => {
               making structure to deliver the seamless journey for optimal
               impact.
             </p>
-            
           </div>
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[30px] flex justify-center ">
             <div className="w-full h-full overflow-hidden">

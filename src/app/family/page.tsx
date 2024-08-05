@@ -17,8 +17,8 @@ const Family = () => {
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
         </section>
 
-        <section className="flex flex-row px-40 py-24 font-garamond h-[50rem]">
-          <div className="basis-1/4 sm:basis-1 lg:basis-1/4 flex flex-col font-garamond">
+        <section className="flex flex-col px-40 py-24 font-garamond h-[50rem] mx-auto">
+          <div className="basis-1/4 sm:basis-full lg:basis-1/4 flex flex-col font-garamond text-center">
             <div className="text-[30px]">Our family</div>
             <p className="text-[22px]">
               Together, we{" "}
@@ -26,7 +26,7 @@ const Family = () => {
               inspire the world.
             </p>
           </div>
-          <div className="basis-3/4 sm:basis-1 lg:basis-3/4 flex justify-center">
+          <div className="basis-3/4 sm:basis-full lg:basis-3/4 flex justify-center">
             <div className="relative w-full h-full overflow-hidden">
               <Image
                 src={section1Img}
@@ -37,7 +37,7 @@ const Family = () => {
           </div>
         </section>
 
-        <section className="w-full flex flex-col px-40 py-24 md:py-24 lg:py-32">
+        <section className="w-full flex flex-col px-40 py-24 md:py-24 lg:py-32 items-center">
           <p>BRAVE Team</p>
           {teamMembers.map((member, index) => (
             <NameCard key={index} member={member} />

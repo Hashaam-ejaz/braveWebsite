@@ -3,7 +3,6 @@ import Image from "next/image";
 import headerImg from "/public/images/appraoch-header.jpg";
 import section1Img from "/public/images/moments1.jpeg";
 
-
 const Moments: NextPage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#fbf6f3]">
@@ -17,8 +16,8 @@ const Moments: NextPage = () => {
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
         </section>
 
-        <section className="flex flex-row px-40 py-24 font-garamond h-[60rem]">
-          <div className="basis-1/4 sm:basis-1 lg:basis-1/4 flex flex-col font-garamond justify-center ">
+        <section className="flex flex-col px-40 py-24 font-garamond h-[60rem]">
+          <div className="basis-1/4 sm:basis-1 lg:basis-1/4 flex flex-col font-garamond justify-center ml-8">
             <div className="text-[30px]">Our moments</div>
             <p className="text-[22px]">
               We create the narrative that make the headlines.
