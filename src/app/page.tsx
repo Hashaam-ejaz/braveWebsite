@@ -2,7 +2,7 @@ import Link from "next/link";
 import braveImg from "/public/images/brave-transformed.jpg";
 import momentsImg from "/public/images/moments.jpeg";
 import familyImg from "/public/images/family.jpeg";
-import approachImg from "/public/images/approach.jpeg";
+import approachImg from "/public/images/approach.png";
 import placeholderImg from "/public/images/placeholder.png";
 import Image from "next/image";
 import Card from "../components/card/page";
@@ -33,7 +33,8 @@ const Home = () => {
             <p>
               From launching new brands and reinvigorating established brands,
               to creating a movement — together, we build{" "}
-              <em>stronger brands</em> that inspire the world.
+              <em className="font-semibold">stronger brands</em> that inspire
+              the world.
             </p>
           </div>
         </section>
@@ -48,7 +49,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
           <div className="absolute bottom-0 left-0 py-16 px-40">
             <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond ">
-            <Link href={"/moments"}>Our Moments</Link>
+              <Link href={"/moments"}>Our Moments</Link>
             </div>
           </div>
         </section>
@@ -60,7 +61,8 @@ const Home = () => {
           <div className="basis-3/4 sm:basis-1 lg:basis-3/4 text-[22px] space-y-4">
             <p>
               While our reach is global, BRAVE is small by design: We work with
-              only a handful of projects at a time with our signature*
+              only a handful of projects at a time with{" "}
+              <span className="underline font-semibold">our signature*</span>{" "}
               framework.
             </p>
             <p>
@@ -124,7 +126,6 @@ const Home = () => {
             alt="Hero Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
           <div className="absolute bottom-0 left-0 py-16 px-40">
             <div className="px-4 py-3 bg-[#ff9999] bg-opacity-80 text-white font-garamond">
               <Link href={"/approach"}>Our Approach</Link>
@@ -142,10 +143,19 @@ const Home = () => {
               Our Commitment
             </div>
             <div className="flex flex-row h-[100%] gap-5 ">
-              <Card img={"/public/images/placeholder.png"} />
-              <Card img={"/public/images/placeholder.png"} />
-              <Card img={"/public/images/placeholder.png"} />
-              <Card img={"/public/images/placeholder.png"} />
+              <Card
+                text="BEFORE YOU COME"
+                img={"/public/images/placeholder.png"}
+              />
+              <Card
+                text="AT THE LOCATION"
+                img={"/public/images/placeholder.png"}
+              />
+              <Card text="TREATMENT" img={"/public/images/placeholder.png"} />
+              <Card
+                text="STAYING IN TOUCH"
+                img={"/public/images/placeholder.png"}
+              />
             </div>
           </div>
         </section>

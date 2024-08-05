@@ -9,7 +9,7 @@ interface TeamMemberCardProps {
 const NameCard: React.FC<TeamMemberCardProps> = ({ member }) => {
   console.log("member", member);
   return (
-    <div className="flex flex-row items-center gap-3 p-4 ">
+    <div className="flex flex-row items-center gap-3 p-4  min-w-[50rem]">
       <div className="relative rounded-full w-24 h-24 overflow-hidden">
         <Image
           src={member.image}
