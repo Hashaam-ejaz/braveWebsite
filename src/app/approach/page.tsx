@@ -8,7 +8,7 @@ const Approach = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#fbf6f3]">
       <main className="flex-1">
-        <section className="relative w-full h-[20vh] overflow-hidden">
+        <section className="relative w-full h-[12vh] md:h-[20vh] overflow-hidden">
           <Image
             src={headerImg}
             alt="Hero Image"
