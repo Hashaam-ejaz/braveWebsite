@@ -7,8 +7,8 @@ import { teamMembers } from "@/assets/lib/contants";
 const Family = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#fbf6f3]">
-      <main className="flex-1">
-        <section className="relative w-full h-[20vh] overflow-hidden">
+      <main className="flex-1 items-center justify-center">
+        <section className="relative w-full h-[12vh] md:h-[20vh] overflow-hidden">
           <Image
             src={headerImg}
             alt="Hero Image"
@@ -17,27 +17,31 @@ const Family = () => {
           <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
         </section>
 
-        <section className="flex flex-col px-40 py-24 font-garamond h-[50rem] mx-auto">
-          <div className="basis-1/4 sm:basis-full lg:basis-1/4 flex flex-col font-garamond text-center">
-            <div className="text-[30px]">Our family</div>
-            <p className="text-[22px]">
-              Together, we{" "}
-              <em className="text-pink-500">build stronger brands</em> that
-              inspire the world.
-            </p>
-          </div>
-          <div className="basis-3/4 sm:basis-full lg:basis-3/4 flex justify-center">
-            <div className="relative w-full h-full overflow-hidden">
-              <Image
-                src={section1Img}
-                alt="Hero Image"
-                className="absolute inset-0 w-full h-full object-contain"
-              />
+        <section className="flex flex-col lg:px-35 py-12 lg:py-24 font-garamond h-[30rem] sm:h-[35rem] md:h-[40rem] lg:h-[50rem] ">
+          <div className="flex flex-col justify-between items-center h-full">
+            <div className="w-full text-center mb-8 ">
+              <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px]">
+                Our family
+              </div>
+              <p className="text-base sm:text-[18px] md:text-[20px]  lg:text-[22px]">
+                Together, we{" "}
+                <em className="text-pink-500">build stronger brands</em> that
+                inspire the world.
+              </p>
+            </div>
+            <div className="w-full flex justify-center h-full">
+              <div className="relative w-[90%] h-full overflow-hidden">
+                <Image
+                  src={section1Img}
+                  alt="Hero Image"
+                  className="absolute inset-0 w-full h-full object-contain"
+                />
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="w-full flex flex-col px-40 py-24 md:py-24 lg:py-32 items-center">
+        <section className="w-full flex flex-col px-10  py-12 lg:px-40 lg:py-24 items-center justify-center">
           <p>BRAVE Team</p>
           {teamMembers.map((member, index) => (
             <NameCard key={index} member={member} />

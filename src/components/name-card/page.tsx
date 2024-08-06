@@ -7,10 +7,9 @@ interface TeamMemberCardProps {
 }
 
 const NameCard: React.FC<TeamMemberCardProps> = ({ member }) => {
-  console.log("member", member);
   return (
-    <div className="flex flex-row items-center gap-3 p-4  min-w-[50rem]">
-      <div className="relative rounded-full w-24 h-24 overflow-hidden">
+    <div className="flex flex-row items-center gap-3 p-4 ">
+      <div className="relative rounded-full h-24 overflow-hidden w-[6rem]">
         <Image
           src={member.image}
           alt={member.name}
@@ -19,10 +18,12 @@ const NameCard: React.FC<TeamMemberCardProps> = ({ member }) => {
           className="object-cover w-full h-full"
         />
       </div>
-      <div className="space-x-6">
-        <p className="ms-6 text-lg font-medium font-garamond">{member.name}</p>
-        <div className="space-y-1 text-sm  font-garamond">
-          <p className="text-start text-sm text-pink-600 font-garamond">
+      <div className="space-x-6  w-[14.5rem] xs:w-[20rem] sm:w-[24rem] lg:w-[32rem]">
+        <p className="ms-6 text-[12px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-medium font-garamond">
+          {member.name}
+        </p>
+        <div className="space-y-1 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px]  font-garamond">
+          <p className="text-start text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] text-pink-600 font-garamond">
             {member.title}
           </p>
           {member.roles.map((role, index) => (
