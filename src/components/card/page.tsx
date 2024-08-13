@@ -12,8 +12,10 @@ const Card: React.FC<CardProps> = ({ img, text = "" }) => {
   return (
     <div className="w-full h-full max-w-md rounded-lg overflow-hidden shadow-lg min-h-[16rem]">
       <Image
-        src={placeholderImg}
+        src={img}
         alt="Cover Image"
+        width={261}
+        height={182}
         className="w-full h-[70%] object-cover"
       />
       <div className="p-4 flex justify-center items-center gap-6">
@@ -31,7 +33,9 @@ const Card: React.FC<CardProps> = ({ img, text = "" }) => {
         </div>
       </div>
       <div className="p-4 text-center">
-        <p className="text-muted-foreground">{text}</p>
+        <p className="text-muted-foreground text-[18.34px] lg:text-[23px]">
+          {text}
+        </p>
       </div>
     </div>
   );
