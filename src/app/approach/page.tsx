@@ -1,8 +1,8 @@
 import Image from "next/image";
-import headerImg from "/public/images/appraoch-header.jpg";
-import section1Img from "/public/images/approach1.png";
-import section2Img from "/public/images/appraoch2.png";
-import section3Img from "/public/images/appraoch3.png";
+import headerImg from "@assets/images/appraoch-header.jpg";
+import section1Img from "@assets/images/approach1.png";
+import section2Img from "@assets/images/appraoch2.png";
+import section3Img from "@assets/images/appraoch3.png";
 
 const Approach = () => {
   return (
