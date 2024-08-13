@@ -1,4 +1,4 @@
-import { TeamMember } from "@/assets/lib/types";
+import { TeamMember } from "@lib/types";
 import Image from "next/image";
 import React from "react";
 

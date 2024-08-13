@@ -1,8 +1,8 @@
 import Image from "next/image";
 import headerImg from "/public/images/appraoch-header.jpg";
 import section1Img from "/public/images/family1.jpg";
-import NameCard from "@/assets/components/name-card/page";
-import { teamMembers } from "@/assets/lib/contants";
+import NameCard from "@components/name-card/page";
+import { teamMembers } from "@lib/contants";
 
 const Family = () => {
   return (
