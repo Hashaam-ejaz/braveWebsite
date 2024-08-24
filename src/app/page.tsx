@@ -141,7 +141,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
+      {/* <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
         <div className="text-[14px] sm:text-[18px] md:text-[24px] lg:text-[32px] font-garamond text-center">
           We combines the fundamental and dynamic elements in any market –
           people, businesses, and their interactions.
@@ -157,7 +157,7 @@ const Home = () => {
             <Card text="STAYING IN TOUCH" img={"/images/stayingTouch.png"} />
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
