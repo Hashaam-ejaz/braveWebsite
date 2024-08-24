@@ -10,7 +10,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ img, text = "" }) => {
   return (
-    <div className="w-full h-full max-w-md rounded-lg overflow-hidden shadow-lg min-h-[16rem]">
+    <div className="w-full h-full max-w-md rounded-lg overflow-hidden shadow-lg min-h-[12rem] lg:min-h-[16rem]">
       <Image
         src={img}
         alt="Cover Image"
@@ -18,20 +18,20 @@ const Card: React.FC<CardProps> = ({ img, text = "" }) => {
         height={182}
         className="w-full h-[70%] object-cover"
       />
-      <div className="p-4 flex justify-center items-center gap-6">
+      {/* <div className="p-4 flex justify-center items-center gap-6">
         <div className="flex flex-col items-center">
           <RocketIcon className="w-8 h-8 text-primary" />
-          {/* <span className="text-sm text-muted-foreground">Rocket</span> */}
+          
         </div>
         <div className="flex flex-col items-center">
           <BriefcaseIcon className="w-8 h-8 text-primary" />
-          {/* <span className="text-sm text-muted-foreground">Briefcase</span> */}
+          
         </div>
         <div className="flex flex-col items-center">
           <BoltIcon className="w-8 h-8 text-primary" />
-          {/* <span className="text-sm text-muted-foreground">Bolt</span> */}
+          
         </div>
-      </div>
+      </div> */}
       <div className="p-4 text-center">
         <p className="text-muted-foreground text-[18.34px] lg:text-[23px]">
           {text}
