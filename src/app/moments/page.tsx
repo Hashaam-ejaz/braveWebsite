@@ -1,37 +1,89 @@
-import { NextPage } from "next";
+"use client";
 import Image from "next/image";
-import headerImg from "/public/images/appraoch-header.jpg";
-import section1Img from "/public/images/moments1.jpeg";
+import moments1 from "@assets/images/moments.png";
+import Card from "@components/moments-card/card2";
 
-const Moments: NextPage = () => {
+const Family = () => {
+  const imageArray = Array.from(
+    { length: 12 },
+    (_, index = 0) => `/images/mom${index + 1}.png`
+  );
+
+  const textArray = [
+    { firstText: "Diesel USA", secondText: "Brand Transformation & new arena" },
+    { firstText: "Prada USA", secondText: "Founded Prada in United states" },
+    {
+      firstText: "Qurate Retail Group",
+      secondText: "Ideated and executed Nasqad ceremony",
+    },
+    {
+      firstText: "Bergdorf Goodman",
+      secondText: "Launched ED by Ellen Degeneres",
+    },
+    {
+      firstText: "Diesel AD campaign",
+      secondText: "AD that Changed the World",
+    },
+    {
+      firstText: "Prada Epicenter 1 & 2",
+      secondText: "Experience: Design, Art & Culture",
+    },
+    {
+      firstText: "Fashion Show",
+      secondText: "Executed New york Runway Show",
+    },
+    {
+      firstText: "Fashion Group International",
+      secondText: "Overall Strategy for 26 global FGI",
+    },
+    {
+      firstText: "Fashion Group International",
+      secondText: "Production of 'Night of Stars'",
+    },
+    {
+      firstText: "GQ & Rolling Stones",
+      secondText: "Launched Pre parties with bon jovi",
+    },
+    {
+      firstText: "Ricky martin & DSquared",
+      secondText: "Executed concert & Celeb Seeding",
+    },
+    {
+      firstText: "Wilsoon",
+      secondText: "official sponsor of the NFL Superbowl",
+    },
+  ];
+
   return (
-    <div className="flex flex-col min-h-screen bg-[#fbf6f3]">
-      <main className="flex-1 ">
-        <section className="relative w-full h-[15vh] md:h-[20vh] overflow-hidden">
+    <div className="flex flex-col min-h-screen ">
+      <main className="flex-1 items-center justify-center font-garamond">
+        <section className="relative w-full h-[100vh] overflow-hidden">
           <Image
-            src={headerImg}
+            src={moments1}
             alt="Hero Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-[#ffcccc] bg-opacity-60"></div>
-        </section>
-
-        <section className="flex flex-col px-8 py-8 lg:px-40 lg:py-24 font-garamond  h-[30rem] sm:h-[35rem] md:h-[40rem] lg:h-[80rem]  text-center ">
-          <div className="basis-1/4 flex flex-col font-garamond justify-center sm:pl-4 pl-0">
-            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[36px]">
-              Our moments
-            </div>
-            <p className="text-base sm:text-[18px] md:text-[20px] lg:text-[26px] pt-2">
-              We create the narrative that make the headlines.
-            </p>
+          <div className="relative z-10 flex flex-col items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
+              Our Moments
+            </h1>
           </div>
-          <div className="basis-3/4  flex justify-center">
-            <div className="relative w-full h-full overflow-hidden">
-              <Image
-                src={section1Img}
-                alt="Hero Image"
-                className="absolute inset-0 w-full h-full ms-4 object-contain "
-              />
+        </section>
+        <section className="mt-[30px] lg:mt-[60px] flex flex-col w-full items-center">
+          <div className="flex flex-col items-center p-4 mb-[42px] lg:mb-[170px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
+              {imageArray.map((imageSrc, index) => {
+                const { firstText, secondText } = textArray[index];
+                return (
+                  <div key={index} className="w-full flex justify-center">
+                    <Card
+                      imageSrc={imageSrc}
+                      firstText={firstText}
+                      secondText={secondText}
+                    />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -40,4 +92,4 @@ const Moments: NextPage = () => {
   );
 };
 
-export default Moments;
+export default Family;

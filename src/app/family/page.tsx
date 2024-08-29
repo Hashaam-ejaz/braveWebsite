@@ -1,15 +1,52 @@
+"use client";
 import Image from "next/image";
-// import headerImg from "/public/images/appraoch-header.jpg";
-// import section1Img from "/public/images/family1.jpg";
-import NameCard from "@components/name-card/page";
 import { teamMembers } from "@lib/contants";
 import family1 from "@assets/images/family.png";
+import "./style.css";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Family = () => {
   const imageArray = Array.from(
     { length: 25 },
     (_, index = 0) => `/images/client${index + 1}.png`
   );
+  const settings = {
+    accessibility: true,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <div className="flex flex-col min-h-screen ">
@@ -29,10 +66,9 @@ const Family = () => {
             </h1>
           </div>
         </section>
-
         <section className="mt-[30px] lg:mt-[60px] flex flex-col w-full items-center">
-          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px]">
-            Our Client&apos;s Footprint
+          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic">
+            Client&apos;s
           </h1>
           <div className="container mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-8 place-items-center">
@@ -53,15 +89,33 @@ const Family = () => {
             </div>
           </div>
         </section>
-
-        <section className="w-full flex flex-col px-10  py-12  items-center justify-center">
-          <p className="text-[20px] md:text-[38px] lg:text-[64px]">
-            BRAVE Team
-          </p>
-          {teamMembers.map((member, index) => (
-            <NameCard key={index} member={member} />
-          ))}
-        </section>
+        <div className="w-3/4 m-auto mb-20">
+          <div className="mt-20">
+            <Slider {...settings}>
+              {teamMembers.map((d, index) => (
+                <div
+                  key={index * 10}
+                  className="h-[600px] text-black rounded-xl border "
+                >
+                  <div className="bg-[#6A397B] rounded-t-xl h-44 flex items-center justify-center">
+                    <img src={d.image} alt="image" />
+                  </div>
+                  <div className="flex flex-col justify-center items-center gap-4 p-4">
+                    <p className="text-xl font-semibold ">{d.name}</p>
+                    <p className="text-lg font-medium text-[#C0428B]">
+                      {d.title}
+                    </p>
+                    <div>
+                      {d.roles.map((role, index) => (
+                        <p key={index}>{role}</p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </Slider>
+          </div>
+        </div>
       </main>
     </div>
   );

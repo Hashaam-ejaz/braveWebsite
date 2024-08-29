@@ -23,8 +23,8 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
-        <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
-          We are BRAVE
+        <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
+          <span className="italic mr-2">We are</span>BRAVE
         </div>
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px]">
           <p>
@@ -61,8 +61,10 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
-        <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
-          Why BRAVE Is Different
+        <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
+          Why{" "}
+          <span className="not-italic ml-2 mr-2 lg:ml-3 lg:mr-3">BRAVE</span> Is
+          Different
         </div>
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px]">
           <p>
@@ -141,7 +143,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
+      <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
         <div className="text-[14px] sm:text-[18px] md:text-[24px] lg:text-[32px] font-garamond text-center">
           We combines the fundamental and dynamic elements in any market –
           people, businesses, and their interactions.
@@ -157,7 +159,7 @@ const Home = () => {
             <Card text="STAYING IN TOUCH" img={"/images/stayingTouch.png"} />
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 };
