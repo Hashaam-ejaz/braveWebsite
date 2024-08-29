@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import headerImg from "/public/images/appraoch-header.jpg";
-// import section1Img from "/public/images/family1.jpg";
 import NameCard from "@components/name-card/page";
 import { teamMembers } from "@lib/contants";
 import family1 from "@assets/images/family.png";
@@ -31,8 +29,8 @@ const Family = () => {
         </section>
 
         <section className="mt-[30px] lg:mt-[60px] flex flex-col w-full items-center">
-          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px]">
-            Our Client&apos;s Footprint
+          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic">
+            Client&apos;s
           </h1>
           <div className="container mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-5 gap-8 place-items-center">
@@ -55,8 +53,8 @@ const Family = () => {
         </section>
 
         <section className="w-full flex flex-col px-10  py-12  items-center justify-center">
-          <p className="text-[20px] md:text-[38px] lg:text-[64px]">
-            BRAVE Team
+          <p className="text-[20px] md:text-[38px] lg:text-[64px] italic">
+            Team
           </p>
           {teamMembers.map((member, index) => (
             <NameCard key={index} member={member} />
