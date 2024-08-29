@@ -89,15 +89,6 @@ const Family = () => {
             </div>
           </div>
         </section>
-
-        {/* <section className="w-full flex flex-col px-10  py-12  items-center justify-center">
-          <p className="text-[20px] md:text-[38px] lg:text-[64px] italic">
-            Team
-          </p>
-          {teamMembers.map((member, index) => (
-            <NameCard key={index} member={member} />
-          ))}
-        </section> */}
         <div className="w-3/4 m-auto mb-20">
           <div className="mt-20">
             <Slider {...settings}>
