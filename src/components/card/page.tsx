@@ -1,7 +1,5 @@
 import React from "react";
-import placeholderImg from "/public/images/placeholder.png";
 import Image from "next/image";
-import { text } from "stream/consumers";
 
 interface CardProps {
   img: string; // Specifies that `img` should be a string
