@@ -66,8 +66,8 @@ const Family = () => {
             </h1>
           </div>
         </section>
-        <section className="mt-[30px] lg:mt-[60px] flex flex-col w-full items-center">
-          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic">
+        <section className="mt-[30px] lg:mt-[60px] flex gap-8 w-full items-center">
+          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic self-start mt-10 ml-10">
             Client&apos;s
           </h1>
           <div className="container mx-auto">

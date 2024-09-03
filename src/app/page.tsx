@@ -16,9 +16,14 @@ const Home = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
-            The Brave Agency
-          </h1>
+          <div className="flex flex-col">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
+              The Brave Agency
+            </h1>
+            <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
+              Building Stronger Brands
+            </h1>
+          </div>
         </div>
       </section>
 
@@ -26,7 +31,7 @@ const Home = () => {
         <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
           <span className="italic mr-2">We are</span>BRAVE
         </div>
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px]">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[100px]  text-justify">
           <p>
             Grounded in extensive experience and fueled by an extraordinary,
             talented team, BRAVE is proud of our long-standing reputation for
@@ -50,7 +55,7 @@ const Home = () => {
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col items-center">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond text-center">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] font-garamond text-center">
               We Inspire the World
             </h1>
             <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
@@ -81,6 +86,9 @@ const Home = () => {
             We engage with our partners & clients in a manner that embraces
             their culture, work hand in hand to achieve their goals, and measure
             results with proprietary tools.
+          </p>
+          <p className="italic text-[12px] sm:text-[16px] md:text-[18px] lg:text-[20px] ">
+            *Neuroeconomics + PHD (Physical, Human, Digital) Framework
           </p>
         </div>
       </section>
