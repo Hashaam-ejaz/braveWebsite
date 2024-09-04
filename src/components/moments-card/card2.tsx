@@ -21,7 +21,7 @@ const Card2: React.FC<CardProps> = ({ imageSrc, firstText, secondText }) => {
       </div>
       <div className="p-4">
         <p className="text-[10px] lg:text-[20px]">{firstText}</p>
-        <p className="text-[16px] lg:text-[32px]">{secondText}</p>
+        <p className="text-[16px] lg:text-[28px]">{secondText}</p>
       </div>
     </div>
   );

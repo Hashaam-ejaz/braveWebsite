@@ -39,9 +39,11 @@ const Home = () => {
           </p>
           <p>
             From launching new brands and reinvigorating established brands, to
-            creating a movement — together, we build{" "}
-            <span className="font-semibold">stronger brands</span> that inspire
-            the world.
+            creating a movement. Together,
+            <span className="italic ml-2 lg:ml-3">
+              we build stronger brands
+            </span>{" "}
+            that inspire the world.
           </p>
         </div>
       </section>
@@ -66,12 +68,14 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
-        <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
-          Why{" "}
-          <span className="not-italic ml-2 mr-2 lg:ml-3 lg:mr-3">BRAVE</span> Is
-          Different
+        <div className=" flex flex-col items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
+          <span>
+            Why
+            <span className="not-italic ml-2 mr-2 lg:ml-3 lg:mr-3">BRAVE</span>
+          </span>
+          <span>is different</span>
         </div>
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px]">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
           <p>
             While our reach is global, BRAVE is small by design: We work with
             only a handful of projects at a time with our signature* framework.
@@ -116,9 +120,9 @@ const Home = () => {
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
         <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
-          About Us
+          About<span className="not-italic ml-2 lg:ml-3">BRAVE</span>
         </div>
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px]">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
           <p>
             Led by an extraordinary team of professionals, BRAVE is widely
             recognized for delivering exceptional results with strategically
@@ -153,7 +157,7 @@ const Home = () => {
 
       <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
         <div className="text-[14px] sm:text-[18px] md:text-[24px] lg:text-[32px] font-garamond text-center">
-          We combines the fundamental and dynamic elements in any market –
+          We combine the fundamental and dynamic elements in any market –
           people, businesses, and their interactions.
         </div>
         <div className="text-[19px] lg:text-[44.15px] font-garamond justify-center flex lg:mt-20 md:mt-15 sm:mt-10 mt-8 lg:mb-10 md:mb-8 sm:mb-6 mb-4">

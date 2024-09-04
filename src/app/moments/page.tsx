@@ -64,9 +64,14 @@ const Family = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="relative z-10 flex flex-col items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
-              Our Moments
-            </h1>
+            <div className="flex flex-col">
+              <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] font-garamond">
+                OUR MOMENTS
+              </h1>
+              <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px] font-garamond font-thin	">
+                Creating stories that are making headlines
+              </h1>
+            </div>
           </div>
         </section>
         <section className="mt-[30px] lg:mt-[60px] flex flex-col w-full items-center">
