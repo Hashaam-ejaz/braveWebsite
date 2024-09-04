@@ -10,8 +10,8 @@ const Family = () => {
   );
 
   const textArray = [
-    { firstText: "Diesel USA", secondText: "Brand Transformation & new arena" },
-    { firstText: "Prada USA", secondText: "Founded Prada in United states" },
+    { firstText: "Diesel USA", secondText: "Brand Transformation & New Arena" },
+    { firstText: "Prada USA", secondText: "Founded Prada in United States" },
     {
       firstText: "Qurate Retail Group",
       secondText: "Ideated and executed Nasqad ceremony",
@@ -30,11 +30,11 @@ const Family = () => {
     },
     {
       firstText: "Fashion Show",
-      secondText: "Executed New york Runway Show",
+      secondText: "Executed New York Runway Show",
     },
     {
       firstText: "Fashion Group International",
-      secondText: "Overall Strategy for 26 global FGI",
+      secondText: "Overall Strategy for 26 Global FGI",
     },
     {
       firstText: "Fashion Group International",
@@ -42,15 +42,15 @@ const Family = () => {
     },
     {
       firstText: "GQ & Rolling Stones",
-      secondText: "Launched Pre parties with bon jovi",
+      secondText: "Launched Pre Parties with Bon Jovi",
     },
     {
       firstText: "Ricky martin & DSquared",
-      secondText: "Executed concert & Celeb Seeding",
+      secondText: "Executed Concert & Celeb Seeding",
     },
     {
       firstText: "Wilsoon",
-      secondText: "official sponsor of the NFL Superbowl",
+      secondText: "Official Sponsor Of The NFL Superbowl",
     },
   ];
 

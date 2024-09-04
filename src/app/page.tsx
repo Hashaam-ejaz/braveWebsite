@@ -104,8 +104,8 @@ const Home = () => {
 
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col items-center">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center uppercase font-garamond">
-              We Build Success Together
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center font-garamond">
+              We build success together
             </h1>
             <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
               <Link href={"/family"}>Our Family</Link>
@@ -161,10 +161,10 @@ const Home = () => {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex-row  gap-5 items-center min-h-40">
-            <Card text="BEFORE YOU COME" img={"/images/beforeCome.png"} />
-            <Card text="AT THE LOCATION" img={"/images/location.png"} />
-            <Card text="TREATMENT" img={"/images/treatment.png"} />
-            <Card text="STAYING IN TOUCH" img={"/images/stayingTouch.png"} />
+            <Card text="Before you come" img={"/images/beforeCome.png"} />
+            <Card text="At the location" img={"/images/location.png"} />
+            <Card text="Treatment" img={"/images/treatment.png"} />
+            <Card text="Staying in touch" img={"/images/stayingTouch.png"} />
           </div>
         </div>
       </section>

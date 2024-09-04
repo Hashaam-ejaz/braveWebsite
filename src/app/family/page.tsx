@@ -61,21 +61,21 @@ const Family = () => {
             <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
               Our Family
             </h1>
-            <h1 className=" text-white text-center text-[18px] md:text-[24px] lg:text-[36px] uppercase font-garamond">
+            <h1 className=" text-white text-center text-[18px] md:text-[24px] lg:text-[36px] font-garamond">
               Together, we build stronger brands that inspire the world.
             </h1>
           </div>
         </section>
-        <section className="mt-[30px] lg:mt-[60px] flex gap-8 w-full items-center">
-          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic self-start mt-10 ml-10">
+        <section className="mt-[30px] lg:mt-[60px] flex flex-col lg:flex-row gap-8 w-full items-center">
+          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic lg:self-start mt-10 ml-10">
             Client&apos;s
           </h1>
-          <div className="container mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 place-items-center">
+          <div className="flex-grow flex justify-center mx-10 lg:mx-20">
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-8 place-items-center">
               {imageArray.map((imageSrc, index) => (
                 <div
                   key={index}
-                  className="relative bg-white w-[150px] h-[150px] lg:w-[200px] lg:h-[200px]"
+                  className="relative bg-white w-[130px] h-[130px] lg:w-[180px] lg:h-[180px]"
                 >
                   <Image
                     src={imageSrc}
@@ -89,6 +89,7 @@ const Family = () => {
             </div>
           </div>
         </section>
+
         <div className="w-3/4 m-auto mb-20">
           <div className="mt-20">
             <Slider {...settings}>

@@ -85,12 +85,14 @@ const Approach = () => {
                 alt="Hero Image"
                 className=" w-full h-full object-contain"
               />
-              <div className="hidden lg:flex text-black justify-between font-bold mt-[-4rem]">
-                <div className="flex flex-col text-lg">HUMAN MIND STATE</div>
-                <div className="flex flex-col text-lg">EXPERIENCES</div>
-                <div className="flex flex-col text-lg"> RCOMONIMCS</div>
+              <div className="hidden lg:flex text-black justify-between font-bold mt-[-4rem] w-full">
+                <div className="flex flex-col text-lg mr-1">
+                  HUMAN MIND STATE
+                </div>
+                <div className="flex flex-col text-lg mr-1">EXPERIENCES</div>
+                <div className="flex flex-col text-lg">ECOMONIMCS</div>
               </div>
-              <div className="hidden lg:flex text-black justify-between ml-[1rem] mt-4">
+              <div className="hidden lg:flex text-black justify-between ml-[1rem] mt-4 w-full text-justify">
                 <div className="flex flex-col text-lg text-center">
                   Exploring the changing world of people.
                 </div>
@@ -101,7 +103,7 @@ const Approach = () => {
                   Sizing, prioritizing & creating opportunities
                 </div>
               </div>
-              <div className="hidden lg:flex justify-between ml-[2rem] mt-4 w-[80%] text-pink-500">
+              <div className="hidden lg:flex justify-between ml-[2rem] mt-4 w-[80%] text-pink-500 mx-auto">
                 <div className="flex flex-col text-lg text-center">
                   Ask the Why behind the What
                 </div>
