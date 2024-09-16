@@ -5,52 +5,82 @@ import Card from "@components/moments-card/card2";
 
 const Family = () => {
   const imageArray = Array.from(
-    { length: 12 },
+    { length: 18 },
     (_, index = 0) => `/images/mom${index + 1}.png`
   );
 
   const textArray = [
-    { firstText: "Diesel USA", secondText: "Brand Transformation & New Arena" },
-    { firstText: "Prada USA", secondText: "Founded Prada in United States" },
     {
-      firstText: "Qurate Retail Group",
-      secondText: "Ideated and executed Nasqad ceremony",
+      firstText: "PRADA USA",
+      secondText: "Founding team of Prada in United States",
     },
     {
-      firstText: "Bergdorf Goodman",
-      secondText: "Launched ED by Ellen Degeneres",
+      firstText: "FASHION GROUP INTERNATIONAL",
+      secondText: "Overall Strategy for 26 Global FGI regions",
     },
     {
-      firstText: "Diesel AD campaign",
-      secondText: "AD that Changed the World",
-    },
-    {
-      firstText: "Prada Epicenter 1 & 2",
+      firstText: "PRADA EPICENTER I & II",
       secondText: "Experience: Design, Art & Culture",
     },
     {
-      firstText: "Fashion Show",
-      secondText: "Executed New York Runway Show",
+      firstText: "DIESEL USA",
+      secondText: "Brand Transformation & New Arenas",
     },
     {
-      firstText: "Fashion Group International",
-      secondText: "Overall Strategy for 26 Global FGI",
+      firstText: "NY FASHION SHOW",
+      secondText: "Executed Runway Show",
     },
     {
-      firstText: "Fashion Group International",
-      secondText: "Production of 'Night of Stars'",
+      firstText: "DIESEL AD CAMPAIGN",
+      secondText: "Tailored Strategy: Ad that changed the world",
     },
     {
-      firstText: "GQ & Rolling Stones",
-      secondText: "Launched Pre Parties with Bon Jovi",
+      firstText: "RICKY MARTIN & DSQUARD ",
+      secondText: "Managed Two Clients & Collaborations",
     },
     {
-      firstText: "Ricky martin & DSquared",
-      secondText: "Executed Concert & Celeb Seeding",
+      firstText: "HIP HOP x TRIBECA FILM FESTIVAL x FASHION",
+      secondText: "Partnership & Premiership at Film Festival",
     },
     {
-      firstText: "Wilsoon",
-      secondText: "Official Sponsor Of The NFL Superbowl",
+      firstText: "WILSON x NFL",
+      secondText: "Executed Sponsorship of NFL Super Bowl 2019-20",
+    },
+    {
+      firstText: "FASHION GROUP INTERNATIONAL",
+      secondText: "Production of  ‘ Night of Stars ’",
+    },
+    {
+      firstText: "GQ 2019 NFL HONORS",
+      secondText: "Partnered to host the Super Bowl 53 Event",
+    },
+    {
+      firstText: "BACCARAT HOTEL, NEW YORK",
+      secondText: "Strategy & Execution",
+    },
+    {
+      firstText: "RODEO DRIVE EVENT",
+      secondText: "Executed the Event & Product Collaborations",
+    },
+    {
+      firstText: "JON BON JOVI",
+      secondText: "Launched HWRW by Jon Bon Jovi Brand",
+    },
+    {
+      firstText: "MARIE CLAIRE",
+      secondText: "Partnered in Hollywood’s Change Makers Event",
+    },
+    {
+      firstText: "Super Bowl LIII x Black Eyed Peas",
+      secondText: "Partnered with Sponsor to Elevate Brand",
+    },
+    {
+      firstText: "RAY J",
+      secondText: "Spearheaded to Launch Scoot-E by Ray J",
+    },
+    {
+      firstText: "DIESEL-U-MUSIC 2009 NYC",
+      secondText: "Kanye West – Managed Celebrity Management",
     },
   ];
 
