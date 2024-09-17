@@ -27,18 +27,18 @@ export const teamMembers: TeamMember[] = [
       "Vice President A Gucci Group – NY, USA",
     ],
   },
-  // {
-  //   name: "JAQUI LIVIDINI",
-  //   image: "/images/team-3.png",
-  //   title: "Chief Executive Officer At The Brave Agency – NY, USA",
-  //   roles: [
-  //     "Founder & CEO At Lividni & Company – NY, USA",
-  //     "Brand Leadership, Saks Fifth Avenue – NY, USA",
-  //     "Vice Chairman Of The Fit Board Of Trustees – NY, USA",
-  //     "Member Board At Fashion Group International – NY, USA",
-  //     "100 Most Influential People In The Fashion Industry",
-  //   ],
-  // },
+  {
+    name: "JAQUI LIVIDINI",
+    image: "/images/team-3.png",
+    title: "Chief Executive Officer At The Brave Agency – NY, USA",
+    roles: [
+      "Founder & CEO At Lividni & Company – NY, USA",
+      "Brand Leadership, Saks Fifth Avenue – NY, USA",
+      "Vice Chairman Of The Fit Board Of Trustees – NY, USA",
+      "Member Board At Fashion Group International – NY, USA",
+      "100 Most Influential People In The Fashion Industry",
+    ],
+  },
   {
     name: "DR. ALI IMTIAZ",
     image: "/images/team-4.png",
@@ -51,15 +51,15 @@ export const teamMembers: TeamMember[] = [
       "Member & Director Of HCP Executive Committee 20-21",
     ],
   },
-  // {
-  //   name: "MARYANNE GRISZ",
-  //   image: "/images/team-5.png",
-  //   title: "Advisor & Consultant At The Brave Agency – NY, USA",
-  //   roles: [
-  //     "President & CEO At The Fashion Group International – NY, USA",
-  //     "Partner & Executive Producer At The Onerock MovingPictures – NY, USA",
-  //     "Producer At The Maryanne Grisz LLC – NY, USA",
-  //     "Executive Producer & Director At Dressed – NY, USA",
-  //   ],
-  // },
+  {
+    name: "MARYANNE GRISZ",
+    image: "/images/team-5.png",
+    title: "Advisor & Consultant At The Brave Agency – NY, USA",
+    roles: [
+      "President & CEO At The Fashion Group International – NY, USA",
+      "Partner & Executive Producer At The Onerock MovingPictures – NY, USA",
+      "Producer At The Maryanne Grisz LLC – NY, USA",
+      "Executive Producer & Director At Dressed – NY, USA",
+    ],
+  },
 ];
