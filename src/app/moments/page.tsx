@@ -5,82 +5,90 @@ import Card from "@components/moments-card/card2";
 
 const Family = () => {
   const imageArray = Array.from(
-    { length: 18 },
+    { length: 20 },
     (_, index = 0) => `/images/mom${index + 1}.png`
   );
 
   const textArray = [
     {
       firstText: "PRADA USA",
-      secondText: "Founding team of Prada in United States",
+      secondText: "Fulfilling PRADAs’ Global Ambition",
     },
     {
       firstText: "FASHION GROUP INTERNATIONAL",
-      secondText: "Overall Strategy for 26 Global FGI regions",
+      secondText: "Providing Leadership to 26 Global FGI regions",
     },
     {
       firstText: "PRADA EPICENTER I & II",
-      secondText: "Experience: Design, Art & Culture",
+      secondText: "Experience Beyond Retail",
     },
     {
       firstText: "DIESEL USA",
-      secondText: "Brand Transformation & New Arenas",
+      secondText: "Reimagining Brand that Connects with Peoples’ DNA",
     },
     {
       firstText: "NY FASHION SHOW",
-      secondText: "Executed Runway Show",
+      secondText: "Bringing the Best of New York to Rest of the World",
     },
     {
       firstText: "DIESEL AD CAMPAIGN",
-      secondText: "Tailored Strategy: Ad that changed the world",
+      secondText: "Iconic Ad that Changed the World",
     },
     {
       firstText: "RICKY MARTIN & DSQUARD ",
-      secondText: "Managed Two Clients & Collaborations",
+      secondText: "Where Music Meets the Brand",
     },
     {
-      firstText: "HIP HOP x TRIBECA FILM FESTIVAL x FASHION",
-      secondText: "Partnership & Premiership at Film Festival",
+      firstText: "HIP HOP x TRIBECA FILM FESTIVAL",
+      secondText: "From Inspiring Singers to Inspiring Movies",
     },
     {
       firstText: "WILSON x NFL",
-      secondText: "Executed Sponsorship of NFL Super Bowl 2019-20",
+      secondText: "Uniting Game Changers",
     },
     {
       firstText: "FASHION GROUP INTERNATIONAL",
-      secondText: "Production of  ‘ Night of Stars ’",
+      secondText: "Production of Night of Stars",
     },
     {
-      firstText: "GQ 2019 NFL HONORS",
-      secondText: "Partnered to host the Super Bowl 53 Event",
+      firstText: "GQ x NFL HONORS",
+      secondText: "A New Way to Play the Game",
     },
     {
       firstText: "BACCARAT HOTEL, NEW YORK",
-      secondText: "Strategy & Execution",
+      secondText: "Creating an Experience Unlike any Other",
     },
     {
-      firstText: "RODEO DRIVE EVENT",
-      secondText: "Executed the Event & Product Collaborations",
+      firstText: "MCM WORLDWIDE",
+      secondText: "Reinvigorating a Legendary Brand",
     },
     {
-      firstText: "JON BON JOVI",
-      secondText: "Launched HWRW by Jon Bon Jovi Brand",
+      firstText: "MARIE CLAIRE x CHANGE MAKERS",
+      secondText: "Made for Makers",
     },
     {
-      firstText: "MARIE CLAIRE",
-      secondText: "Partnered in Hollywood’s Change Makers Event",
+      firstText: "Super Bowl x Black Eyed Peas",
+      secondText: "Sounds like Super Bowl",
     },
     {
-      firstText: "Super Bowl LIII x Black Eyed Peas",
-      secondText: "Partnered with Sponsor to Elevate Brand",
+      firstText: "NFL HALFTIME SHOW",
+      secondText: "When Sports Becomes an Experience",
+    },
+    {
+      firstText: "PUMA x NBA",
+      secondText: "Building Better Together",
     },
     {
       firstText: "RAY J",
-      secondText: "Spearheaded to Launch Scoot-E by Ray J",
+      secondText: "Establishing the New Possible",
     },
     {
-      firstText: "DIESEL-U-MUSIC 2009 NYC",
-      secondText: "Kanye West – Managed Celebrity Management",
+      firstText: "DIESEL-U-MUSIC",
+      secondText: "Movement that Inspires",
+    },
+    {
+      firstText: "JON BON JOVI",
+      secondText: "Turning a Legend into an Icon",
     },
   ];
 
@@ -94,7 +102,7 @@ const Family = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="relative z-10 flex flex-col items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-center">
               <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] font-garamond">
                 OUR MOMENTS
               </h1>

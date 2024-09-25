@@ -39,9 +39,9 @@ const Home = () => {
           </p>
           <p>
             From launching new brands and reinvigorating established brands, to
-            creating a movement. Together,
+            creating a movement. Together, we
             <span className="italic ml-2 lg:ml-3">
-              we build stronger brands
+              build stronger brands
             </span>{" "}
             that inspire the world.
           </p>

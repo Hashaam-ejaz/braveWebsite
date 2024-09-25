@@ -26,9 +26,9 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row font-garamond h-fit text-center text-[16px] sm:text-[20px] md:text-[26px] lg:text-[32px] my-[32px] lg:mt-[70px] lg:mb-[70px] mx-[38px] lg:mx-[400px]">
+        <section className="flex flex-col font-garamond h-fit text-center text-[16px] sm:text-[20px] md:text-[26px] lg:text-[32px] my-[32px] lg:mt-[70px] lg:mb-[70px] mx-[38px] lg:mx-[400px]">
           We are a brand & business strategy company that helps clients build
-          <span className="italic ml-2 lg:ml-3">“Stronger Brands”</span>
+          <span className="italic">“Stronger Brands”</span>
         </section>
 
         <section className="relative w-full overflow-hidden h-[800px]">
@@ -41,12 +41,12 @@ const Approach = () => {
 
         <section className="flex flex-col lg:flex-row font-garamond h-fit lg:h-[40rem] mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px]">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond lg:mr-[100px]">
-            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[32.53px] text-center lg:text-start italic mb-[34px] lg:mt-36">
+            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[32.53px] text-center lg:text-start italic mb-[34px] lg:mt-36 max-w-[20rem] mx-auto">
               <span className="not-italic mr-2 lg:mr-3">BRAVE</span> fuels
               businesses to make Iconic Moves
             </div>
           </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 ">
             <div className="relative w-full h-full">
               {/* Image Section */}
               <Image
@@ -62,7 +62,7 @@ const Approach = () => {
 
         <section className="flex flex-col lg:flex-row font-garamond h-fit lg:h-[30rem] mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px] lg:mb-20 mb-10">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond lg:mr-[100px]">
-            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[32.53px] text-justify lg:text-start italic mb-[34px] lg:mt-36">
+            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[32.53px] text-justify lg:text-start italic mb-[34px] lg:mt-36 max-w-[22rem] mx-auto">
               <span className="not-italic mr-2 lg:mr-3">BRAVE</span> unleashes
               growth led opportunities with the Brand at the Center
             </div>

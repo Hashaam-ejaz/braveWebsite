@@ -5,7 +5,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "OZZY OSMAN",
     image: "/images/team-1.png",
-    title: "Founder & Global CEO At The Brave Aggency – NY, USA",
+    title: "Founder & Global CEO",
     roles: [
       "Brand Leadership At Diesel USA – NY, USA",
       "Brand Leadership At Baccarat – NY, USA",
@@ -17,7 +17,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "PATRICK VALEO",
     image: "/images/team-2.png",
-    title: "Chief Executive Officer At The Brave Agency – NY, USA",
+    title: "CEO",
     roles: [
       "Member Board At Fashion Group International – NY, USA",
       "Chief Executive Officer At Diesel USA – NY, USA",
@@ -30,7 +30,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "JAQUI LIVIDINI",
     image: "/images/team-3.png",
-    title: "Chief Executive Officer At The Brave Agency – NY, USA",
+    title: "Chief Communication Officer",
     roles: [
       "Founder & CEO At Lividni & Company – NY, USA",
       "Brand Leadership, Saks Fifth Avenue – NY, USA",
@@ -42,7 +42,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "DR. ALI IMTIAZ",
     image: "/images/team-4.png",
-    title: "Founder & Chief Strategy Officer At The Brave Agency – NY, USA",
+    title: "Chief Strategy Officer",
     roles: [
       "Ceo At Biztec Ventures – GERMANY",
       "Principal At Ritzenhoefer & Co – GERMANY",
@@ -54,7 +54,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "MARYANNE GRISZ",
     image: "/images/team-5.png",
-    title: "Advisor & Consultant At The Brave Agency – NY, USA",
+    title: "Advisor & Consultant",
     roles: [
       "President & CEO At The Fashion Group International – NY, USA",
       "Partner & Executive Producer At The Onerock MovingPictures – NY, USA",

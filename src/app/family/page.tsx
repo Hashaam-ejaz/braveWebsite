@@ -7,6 +7,7 @@ import "./style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import family11 from "@assets/images/family11.png";
 
 const Family = () => {
   const imageArray = Array.from(
@@ -66,8 +67,9 @@ const Family = () => {
             </h1>
           </div>
         </section>
+
         <section className="mt-[30px] lg:mt-[60px] flex flex-col lg:flex-row gap-8 w-full items-center">
-          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic lg:self-start mt-10 ml-10">
+          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic text-center lg:self-start lg:ml-10 mt-10 mx-auto w-[10rem] flex-shrink-0">
             Client&apos;s
           </h1>
           <div className="flex-grow flex justify-center mx-10 lg:mx-20">
@@ -75,19 +77,22 @@ const Family = () => {
               {imageArray.map((imageSrc, index) => (
                 <div
                   key={index}
-                  className="relative bg-white w-[130px] h-[130px] lg:w-[180px] lg:h-[180px]"
+                  className=" bg-white relative w-[130px] h-[130px] lg:w-[200px] lg:h-[180px]"
                 >
                   <Image
                     src={imageSrc}
                     alt={`Client ${index + 1}`}
                     fill
-                    className=""
-                    style={{ objectFit: "contain" }}
+                    className="object-contain p-3"
                   />
                 </div>
               ))}
             </div>
           </div>
+        </section>
+
+        <section className="mt-10">
+          <Image src={family11} alt="" className="w-full h-full object-cover" />
         </section>
 
         <div className="w-3/4 m-auto mb-20">
@@ -96,7 +101,7 @@ const Family = () => {
               {teamMembers.map((d, index) => (
                 <div
                   key={index * 10}
-                  className="h-[600px] text-black rounded-xl border "
+                  className="h-[650px] lg:h-[550px] text-black rounded-xl border "
                 >
                   <div className="bg-[#6A397B] rounded-t-xl h-44 flex items-center justify-center">
                     <img src={d.image} alt="image" />
