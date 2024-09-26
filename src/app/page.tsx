@@ -39,11 +39,9 @@ const Home = () => {
           </p>
           <p>
             From launching new brands and reinvigorating established brands, to
-            creating a movement. Together, we
-            <span className="italic ml-2 lg:ml-3">
-              build stronger brands
-            </span>{" "}
-            that inspire the world.
+            creating a movement. Together,
+            <span className="italic ml-1">we build stronger brands</span> that
+            inspire the world.
           </p>
         </div>
       </section>

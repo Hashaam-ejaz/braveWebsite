@@ -73,7 +73,7 @@ const Family = () => {
             Client&apos;s
           </h1>
           <div className="flex-grow flex justify-center mx-10 lg:mx-20">
-            <div className="grid grid-cols-3 md:grid-cols-5 gap-8 place-items-center">
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-16 place-items-center">
               {imageArray.map((imageSrc, index) => (
                 <div
                   key={index}
