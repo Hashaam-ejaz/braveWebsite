@@ -23,7 +23,7 @@ const Footer = () => {
         <div className=" text-[28.42px] lg:text-[44.15px] font-garamond font-thin lg:mr-20 text-center lg:whitespace-nowrap">
           THE BRAVE AGENCY
         </div>
-        <div className="lg:text-right mt-4 md:mt-0 text-muted-foreground space-y-1 font-garamond text-sm w-[90%] text-center md:text-right text-[24px] lg:text-[37.15px] leading-8 overflow-hidden">
+        <div className="lg:text-right mt-4 md:mt-0 text-muted-foreground space-y-1 font-garamond w-[90%] text-center md:text-right text-[22px] md:text-[26px] lg:text-[30px] leading-8 overflow-hidden">
           <div>USA</div>
           <div className="truncate lg:pb-2">info@thebraveagency.co</div>
           <div>+1 917 203 4439</div>

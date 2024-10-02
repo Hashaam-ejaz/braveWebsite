@@ -39,9 +39,9 @@ const Home = () => {
           </p>
           <p>
             From launching new brands and reinvigorating established brands, to
-            creating a movement. Together,
-            <span className="italic ml-1">we build stronger brands</span> that
-            inspire the world.
+            creating a movement. Together, we build
+            <span className="italic ml-1">stronger brands</span> that inspire
+            the world.
           </p>
         </div>
       </section>
@@ -133,8 +133,8 @@ const Home = () => {
             strategy, design and ethics, integrated marketing, digital media,
             strategic partnerships, buzz-worthy experiences and experiential
             events – these are just a few of the offerings in our unique and
-            proven holistic approach to helping our clients build stronger
-            brands.
+            proven holistic approach to helping our clients build{" "}
+            <span className="italic ml-1">stronger brands</span>
           </p>
         </div>
       </section>

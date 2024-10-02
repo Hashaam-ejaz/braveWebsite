@@ -12,7 +12,7 @@ const Family = () => {
   const textArray = [
     {
       firstText: "PRADA USA",
-      secondText: "Fulfilling PRADAs’ Global Ambition",
+      secondText: "Fulfilling PRADA's Global Ambition",
     },
     {
       firstText: "FASHION GROUP INTERNATIONAL",
@@ -24,7 +24,7 @@ const Family = () => {
     },
     {
       firstText: "DIESEL USA",
-      secondText: "Reimagining Brand that Connects with Peoples’ DNA",
+      secondText: "Reimagining Brand to Connect with Peoples’ DNA",
     },
     {
       firstText: "NY FASHION SHOW",
