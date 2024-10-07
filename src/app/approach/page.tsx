@@ -1,6 +1,7 @@
 import Image from "next/image";
 import approachTop from "@assets/images/approachTop.png";
 import approach22 from "@assets/images/Approach22.png";
+import approach222 from "@assets/images/Approach222.png";
 import section2Img from "@assets/images/appraoch2.png";
 import section3Img from "@assets/images/approach3.png";
 
@@ -31,11 +32,19 @@ const Approach = () => {
           <span className="italic">“Stronger Brands”</span>
         </section>
 
-        <section className="relative w-full overflow-hidden h-[800px]">
+        <section className="relative w-full overflow-hidden h-[950px]">
+          {/* Mobile image */}
+          <Image
+            src={approach222}
+            alt="Hero Image Mobile"
+            className="absolute inset-0 w-full h-full object-cover lg:hidden"
+          />
+
+          {/* Large screen image */}
           <Image
             src={approach22}
-            alt="Hero Image"
-            className="absolute inset-0 w-full h-full object-cover"
+            alt="Hero Image Desktop"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
         </section>
 
@@ -54,8 +63,6 @@ const Approach = () => {
                 alt="Hero Image"
                 className="w-full h-full object-contain"
               />
-
-              {/* Text Over Image */}
             </div>
           </div>
         </section>

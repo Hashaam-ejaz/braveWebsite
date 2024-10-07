@@ -32,7 +32,7 @@ const Footer = () => {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 bg-black text-white p-2 rounded-full shadow-lg hover:bg-gray-800 transition-colors"
+          className="fixed bottom-4 right-4 bg-black text-white p-2 rounded-full shadow-lg hover:bg-gray-800 transition-colors z-50"
           aria-label="Scroll to top"
         >
           ↑ Top

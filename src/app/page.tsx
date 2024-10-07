@@ -39,8 +39,8 @@ const Home = () => {
           </p>
           <p>
             From launching new brands and reinvigorating established brands, to
-            creating a movement. Together, we build
-            <span className="italic ml-1">stronger brands</span> that inspire
+            creating a movement. Together, we build{" "}
+            <span className="italic lg:ml-1">stronger brands</span> that inspire
             the world.
           </p>
         </div>
@@ -80,7 +80,7 @@ const Home = () => {
           </p>
           <p>
             This discipline allows us to focus on creating and delivering
-            customized strategies to meet each project’s unique needs and
+            customized strategies to meet each project&apos;s unique needs and
             provide a level of service that ensures we are with our partners &
             clients when they need us most.
           </p>
@@ -128,13 +128,13 @@ const Home = () => {
             business solutions.
           </p>
           <p>
-            Our team’s collective expertise is carefully curated and
+            Our team&apos;s collective expertise is carefully curated and
             ever-evolving to keep pace with the needs of our clients. Brand
             strategy, design and ethics, integrated marketing, digital media,
             strategic partnerships, buzz-worthy experiences and experiential
-            events – these are just a few of the offerings in our unique and
+            events - these are just a few of the offerings in our unique and
             proven holistic approach to helping our clients build{" "}
-            <span className="italic ml-1">stronger brands</span>
+            <span className="italic lg:ml-1">stronger brands</span>
           </p>
         </div>
       </section>

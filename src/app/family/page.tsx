@@ -12,7 +12,7 @@ import family11 from "@assets/images/family11.png";
 const Family = () => {
   const imageArray = Array.from(
     { length: 25 },
-    (_, index = 0) => `/images/client${index + 1}.png`
+    (_, index = 0) => `/images/logos-${index + 1}.png`
   );
   const settings = {
     accessibility: true,
@@ -68,31 +68,47 @@ const Family = () => {
           </div>
         </section>
 
-        <section className="mt-[30px] lg:mt-[60px] flex flex-col lg:flex-row gap-8 w-full items-center">
-          <h1 className="text-[20px] md:text-[38px] lg:text-[64px] mb-[4px] italic text-center lg:self-start lg:ml-10 mt-10 mx-auto w-[10rem] flex-shrink-0">
-            Client&apos;s
-          </h1>
-          <div className="flex-grow flex justify-center mx-10 lg:mx-20">
-            <div className="grid grid-cols-3 md:grid-cols-5 gap-[10rem] place-items-center">
-              {imageArray.map((imageSrc, index) => (
-                <div
-                  key={index}
-                  className=" bg-white relative w-[130px] h-[130px] lg:w-[200px] lg:h-[180px]"
-                >
-                  <Image
-                    src={imageSrc}
-                    alt={`Client ${index + 1}`}
-                    fill
-                    className="object-contain p-3"
-                  />
-                </div>
-              ))}
-            </div>
+        <section className="px-4 py-16">
+          <h2 className="text-[64px] text-center mb-12 font-garamond italic hidden lg:block">
+            Clients
+          </h2>
+          <h2 className="text-[20px] text-center mb-12 font-garamond italic lg:hidden">
+            Our Client&apos;s footprint
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            {imageArray.map((src, index) => (
+              <div
+                key={index}
+                className="bg-white relative w-full aspect-square md:aspect-[4/3]"
+              >
+                <Image
+                  src={src}
+                  alt={`Client ${index + 1}`}
+                  fill
+                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                  className="object-contain p-3"
+                />
+              </div>
+            ))}
           </div>
         </section>
 
-        <section className="mt-10">
-          <Image src={family11} alt="" className="w-full h-full object-cover" />
+        <section className="relative w-full h-[100vh] overflow-hidden">
+          <Image
+            src={family11}
+            alt="Hero Image"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
+            <div className="flex flex-col">
+              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
+                Driven by our Purpose
+              </h1>
+              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
+                Building Stronger Brands
+              </h1>
+            </div>
+          </div>
         </section>
 
         <div className="w-3/4 m-auto mb-20">
