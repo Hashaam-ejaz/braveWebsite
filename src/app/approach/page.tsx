@@ -67,9 +67,9 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row font-garamond h-fit lg:h-[30rem] mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px] lg:mb-20 mb-10">
+        <section className="flex flex-col lg:flex-row font-garamond h-fit lg:h-[36rem] mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px] lg:mb-20 mb-10">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond lg:mr-[100px]">
-            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[32.53px] text-justify lg:text-start italic mb-[34px] lg:mt-36 max-w-[22rem] mx-auto">
+            <div className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[32.53px] text-center lg:text-start italic mb-[34px] lg:mt-36 max-w-[22rem] mx-auto">
               <span className="not-italic mr-2 lg:mr-3">BRAVE</span> unleashes
               growth led opportunities with the Brand at the Center
             </div>
