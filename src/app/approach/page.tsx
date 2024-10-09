@@ -32,7 +32,7 @@ const Approach = () => {
           <span className="italic">“Stronger Brands”</span>
         </section>
 
-        <section className="relative w-full overflow-hidden h-[950px]">
+        <section className="relative w-full overflow-hidden h-[1000px]">
           {/* Mobile image */}
           <Image
             src={approach222}
@@ -44,7 +44,7 @@ const Approach = () => {
           <Image
             src={approach22}
             alt="Hero Image Desktop"
-            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
+            className="absolute inset-0 w-full h-full object-contain hidden lg:block"
           />
         </section>
 

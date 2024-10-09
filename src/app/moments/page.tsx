@@ -67,7 +67,7 @@ const Family = () => {
       secondText: "Made for Makers",
     },
     {
-      firstText: "Super Bowl x Black Eyed Peas",
+      firstText: "Super Bowl x BLACK EYED PEAS",
       secondText: "Sounds like Super Bowl",
     },
     {

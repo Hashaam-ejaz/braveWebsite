@@ -101,7 +101,7 @@ const Family = () => {
           />
           <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
             <div className="flex flex-col">
-              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
+              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond">
                 Driven by our Purpose
               </h1>
               <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
@@ -110,6 +110,9 @@ const Family = () => {
             </div>
           </div>
         </section>
+        <h2 className="text-[64px] text-center mt-12 font-garamond italic hidden lg:block">
+          Team
+        </h2>
 
         <div className="w-3/4 m-auto mb-20">
           <div className="mt-20">
