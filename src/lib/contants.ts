@@ -44,7 +44,7 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team-4.png",
     title: "Chief Strategy Officer",
     roles: [
-      "Ceo At Biztec Ventures – GERMANY",
+      "CEO At Biztec Ventures – GERMANY",
       "Principal At Ritzenhoefer & Co – GERMANY",
       "Lead Coordinator European Proj At Fir Achen – GERMANY",
       "Member Of Harvard Business School Global network",
