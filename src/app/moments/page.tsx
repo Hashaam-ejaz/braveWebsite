@@ -35,7 +35,7 @@ const Family = () => {
       secondText: "Iconic Ad that Changed the World",
     },
     {
-      firstText: "RICKY MARTIN & DSQUARD ",
+      firstText: "RICKY MARTIN x DSQUARD ",
       secondText: "Where Music Meets the Brand",
     },
     {
