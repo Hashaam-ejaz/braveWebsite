@@ -1,9 +1,9 @@
 import Image from "next/image";
-import approachTop from "@assets/images/approachTop.png";
-import approach22 from "@assets/images/Approach22.png";
-import approach222 from "@assets/images/Approach222.png";
-import section2Img from "@assets/images/appraoch2.png";
-import section3Img from "@assets/images/approach3.png";
+import approachTop from "@assets/images/approachTop.webp";
+import approach22 from "@assets/images/Approach22.webp";
+import approach222 from "@assets/images/Approach222.webp";
+import section2Img from "@assets/images/appraoch2.webp";
+import section3Img from "@assets/images/approach3.webp";
 
 const Approach = () => {
   return (
