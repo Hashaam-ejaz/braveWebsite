@@ -9,7 +9,7 @@ export const teamMembers: TeamMember[] = [
     roles: [
       "Brand Leadership, Diesel USA",
       "Brand Leadership, Baccarat USA",
-      "Brand Leadership, Dolce & Gabbana ",
+      "Brand Leadership, Dolce & Gabbana",
       "Brand Leadership, Gucci Group, USA ",
       "Founding Team, Prada, USA ",
     ],

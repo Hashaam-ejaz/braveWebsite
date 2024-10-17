@@ -2,6 +2,7 @@ import Link from "next/link";
 import momentsImg from "@assets/images/moments.webp";
 import familyImg from "@assets/images/family.webp";
 import approachImg from "@assets/images/approach.webp";
+import approachmImg from "@assets/images/approachm.webp";
 import Image from "next/image";
 import Card from "../components/card/page";
 import landing from "@assets/images/landingSimple.webp";
@@ -140,11 +141,24 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-[100vh] overflow-hidden">
-        <Image
+      <section className="relative w-full h-[80vh] lg:h-[100vh] overflow-hidden">
+        {/* <Image
           src={approachImg}
           alt="Hero Image"
           className="absolute inset-0 w-full h-full object-cover"
+        /> */}
+        {/* Mobile image */}
+        <Image
+          src={approachmImg}
+          alt="Hero Image Mobile"
+          className="absolute inset-0 w-full h-full object-cover lg:hidden"
+        />
+
+        {/* Large screen image */}
+        <Image
+          src={approachImg}
+          alt="Hero Image Desktop"
+          className="absolute inset-0 w-full h-full object-contain hidden lg:block"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
