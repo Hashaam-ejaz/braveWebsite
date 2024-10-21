@@ -154,7 +154,7 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-[90vh] sm:h-[60vh] md:h-[80vh] lg:h-[101vh] overflow-hidden">
+      <section className="relative w-full h-[80vh] sm:h-[60vh] md:h-[80vh] lg:h-[101vh] overflow-hidden">
         <Image
           src={approachmImg}
           alt="Hero Image Mobile"
