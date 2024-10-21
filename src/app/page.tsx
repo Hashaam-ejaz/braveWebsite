@@ -6,15 +6,28 @@ import approachmImg from "@assets/images/approachm.webp";
 import Image from "next/image";
 import Card from "../components/card/page";
 import landing from "@assets/images/landingSimple.webp";
+import landingm from "@assets/images/landingMobile.webp";
 
 const Home = () => {
   return (
     <div className="flex flex-col min-h-screen ">
       <section className="relative w-full h-[100vh] overflow-hidden">
-        <Image
+        {/* <Image
           src={landing}
           alt="Hero Image"
           className="absolute inset-0 w-full h-full object-cover"
+        /> */}
+        <Image
+          src={landingm}
+          alt="Hero Image Mobile"
+          className="absolute inset-0 w-full h-full object-cover sm:hidden"
+        />
+
+        {/* Large screen image */}
+        <Image
+          src={landing}
+          alt="Hero Image Desktop"
+          className="absolute inset-0 w-full h-full object-cover hidden sm:block"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col">
@@ -141,24 +154,16 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-[80vh] lg:h-[100vh] overflow-hidden">
-        {/* <Image
-          src={approachImg}
-          alt="Hero Image"
-          className="absolute inset-0 w-full h-full object-cover"
-        /> */}
-        {/* Mobile image */}
+      <section className="relative w-full h-[90vh] sm:h-[60vh] md:h-[80vh] lg:h-[101vh] overflow-hidden">
         <Image
           src={approachmImg}
           alt="Hero Image Mobile"
-          className="absolute inset-0 w-full h-full object-cover lg:hidden"
+          className="absolute inset-0 w-full h-full object-cover sm:hidden"
         />
-
-        {/* Large screen image */}
         <Image
           src={approachImg}
           alt="Hero Image Desktop"
-          className="absolute inset-0 w-full h-full object-contain hidden lg:block"
+          className="absolute inset-0 w-full h-full object-contain hidden sm:block"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
@@ -168,12 +173,12 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
-        <div className="text-[14px] sm:text-[18px] md:text-[24px] lg:text-[32px] font-garamond text-center">
+        <div className="text-[19px] lg:text-[44.15px]  font-garamond text-center">
+          Our Commitment
+        </div>
+        <div className="text-center text-[14px] sm:text-[18px] md:text-[24px] lg:text-[32px] font-garamond justify-center flex lg:mt-20 md:mt-15 sm:mt-10 mt-8 lg:mb-10 md:mb-8 sm:mb-6 mb-4">
           We combine the fundamental and dynamic elements in any market –
           people, businesses, and their interactions.
-        </div>
-        <div className="text-[19px] lg:text-[44.15px] font-garamond justify-center flex lg:mt-20 md:mt-15 sm:mt-10 mt-8 lg:mb-10 md:mb-8 sm:mb-6 mb-4">
-          Our Commitment
         </div>
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex-row  gap-5 items-center min-h-40">

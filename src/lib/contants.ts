@@ -34,9 +34,9 @@ export const teamMembers: TeamMember[] = [
     roles: [
       "CEO, Lividni & Company, USA",
       "Brand Leadership, Saks Fifth Av, USA",
-      "VC, FIT Board Of Trustees, USA",
+      "VC, FIT Board of Trustees, USA",
       "Member Board, FGI, USA",
-      "100 Most Influential People In The Fashion Industry",
+      "100 Most Influential People in The Fashion Industry",
     ],
   },
   {
@@ -47,8 +47,8 @@ export const teamMembers: TeamMember[] = [
       "CEO, Biztec Ventures, DE (Germany)",
       "Principal, Ritzenhoefer & Co., DE",
       "Lead Coordinator, FIR, DE",
-      "Member Of Harvard Business School Global Network, USA",
-      "Member & Director Of HCP Executive Committee 20-21",
+      "Member of Harvard Business School Global Network, USA",
+      "Member & Director of HCP Executive Committee 20-21",
     ],
   },
   {
@@ -56,7 +56,7 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team-5.webp",
     title: "Advisor & Consultant",
     roles: [
-      "President & CEO At The Fashion Group International, USA",
+      "President & CEO at The Fashion Group International, USA",
       "Partner, Onerock Pictures, USA",
       "Producer, Maryanne Grisz, USA",
       "Executive Producer & Director, Dressed, USA",

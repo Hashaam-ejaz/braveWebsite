@@ -27,24 +27,25 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col font-garamond h-fit text-center text-[16px] sm:text-[20px] md:text-[26px] lg:text-[32px] my-[32px] lg:mt-[70px] lg:mb-[70px] mx-[38px] lg:mx-[400px]">
+        <section className="font-garamond h-fit text-center text-[16px] sm:text-[20px] md:text-[26px] lg:text-[32px] my-[32px] lg:mt-[70px] lg:mb-[70px] mx-12 lg:mx-24">
           We are a brand & business strategy company that helps clients build
-          <span className="italic">“Stronger Brands”</span>
+          <br className="hidden lg:block" />
+          <span className="italic ml-2 lg:ml-0">“Stronger Brands”</span>
         </section>
 
-        <section className="relative w-full overflow-hidden h-[700px] lg:h-[1000px]">
+        <section className="relative w-full h-[90vh] sm:h-[60vh] md:h-[80vh] lg:h-[101vh]">
           {/* Mobile image */}
           <Image
             src={approach222}
             alt="Hero Image Mobile"
-            className="absolute inset-0 w-full h-full object-cover lg:hidden"
+            className="absolute inset-0 w-full h-full object-cover sm:hidden"
           />
 
           {/* Large screen image */}
           <Image
             src={approach22}
             alt="Hero Image Desktop"
-            className="absolute inset-0 w-full h-full object-contain hidden lg:block"
+            className="absolute inset-0 w-full h-full object-contain hidden sm:block"
           />
         </section>
 

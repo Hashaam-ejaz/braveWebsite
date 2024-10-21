@@ -73,7 +73,7 @@ const Family = () => {
             Clients
           </h2>
           <h2 className="text-[20px] text-center mb-12 font-garamond italic lg:hidden">
-            Our Client&apos;s footprint
+            Our Clients
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
             {imageArray.map((src, index) => (
