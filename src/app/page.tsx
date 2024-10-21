@@ -1,10 +1,11 @@
 import Link from "next/link";
-import momentsImg from "@assets/images/moments.png";
-import familyImg from "@assets/images/family.png";
-import approachImg from "@assets/images/approach.png";
+import momentsImg from "@assets/images/moments.webp";
+import familyImg from "@assets/images/family.webp";
+import approachImg from "@assets/images/approach.webp";
+import approachmImg from "@assets/images/approachm.webp";
 import Image from "next/image";
 import Card from "../components/card/page";
-import landing from "@assets/images/landingSimple.png";
+import landing from "@assets/images/landingSimple.webp";
 
 const Home = () => {
   return (
@@ -140,11 +141,24 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-[100vh] overflow-hidden">
-        <Image
+      <section className="relative w-full h-[80vh] lg:h-[100vh] overflow-hidden">
+        {/* <Image
           src={approachImg}
           alt="Hero Image"
           className="absolute inset-0 w-full h-full object-cover"
+        /> */}
+        {/* Mobile image */}
+        <Image
+          src={approachmImg}
+          alt="Hero Image Mobile"
+          className="absolute inset-0 w-full h-full object-cover lg:hidden"
+        />
+
+        {/* Large screen image */}
+        <Image
+          src={approachImg}
+          alt="Hero Image Desktop"
+          className="absolute inset-0 w-full h-full object-contain hidden lg:block"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
@@ -163,10 +177,10 @@ const Home = () => {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex-row  gap-5 items-center min-h-40">
-            <Card text="Before you come" img={"/images/beforeCome.png"} />
-            <Card text="At the location" img={"/images/location.png"} />
-            <Card text="Treatment" img={"/images/treatment.png"} />
-            <Card text="Staying in touch" img={"/images/stayingTouch.png"} />
+            <Card text="Before you come" img={"/images/beforeCome.webp"} />
+            <Card text="At the location" img={"/images/location.webp"} />
+            <Card text="Treatment" img={"/images/treatment.webp"} />
+            <Card text="Staying in touch" img={"/images/stayingTouch.webp"} />
           </div>
         </div>
       </section>

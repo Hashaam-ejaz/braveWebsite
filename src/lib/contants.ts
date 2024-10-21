@@ -4,19 +4,19 @@ import { TeamMember } from "./types";
 export const teamMembers: TeamMember[] = [
   {
     name: "OZZY OSMAN",
-    image: "/images/team-1.png",
+    image: "/images/team-1.webp",
     title: "Founder & Global CEO",
     roles: [
       "Brand Leadership, Diesel USA",
       "Brand Leadership, Baccarat USA",
-      "Brand Leadership, Dolce & Gabbana ",
+      "Brand Leadership, Dolce & Gabbana",
       "Brand Leadership, Gucci Group, USA ",
       "Founding Team, Prada, USA ",
     ],
   },
   {
     name: "PATRICK VALEO",
-    image: "/images/team-2.png",
+    image: "/images/team-2.webp",
     title: "CEO",
     roles: [
       "Vice Chair, Fashion Group Int'l USA",
@@ -29,7 +29,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "JAQUI LIVIDINI",
-    image: "/images/team-3.png",
+    image: "/images/team-3.webp",
     title: "Chief Communication Officer",
     roles: [
       "CEO, Lividni & Company, USA",
@@ -41,7 +41,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "DR. ALI IMTIAZ",
-    image: "/images/team-4.png",
+    image: "/images/team-4.webp",
     title: "Chief Strategy Officer",
     roles: [
       "CEO, Biztec Ventures, DE (Germany)",
@@ -53,7 +53,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "MARYANNE GRISZ",
-    image: "/images/team-5.png",
+    image: "/images/team-5.webp",
     title: "Advisor & Consultant",
     roles: [
       "President & CEO At The Fashion Group International, USA",

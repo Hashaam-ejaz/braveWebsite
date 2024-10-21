@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
-import moments1 from "@assets/images/moments.png";
+import moments1 from "@assets/images/moments.webp";
 import Card from "@components/moments-card/card2";
 
 const Family = () => {
   const imageArray = Array.from(
     { length: 20 },
-    (_, index = 0) => `/images/mom${index + 1}.png`
+    (_, index = 0) => `/images/mom${index + 1}.webp`
   );
 
   const textArray = [

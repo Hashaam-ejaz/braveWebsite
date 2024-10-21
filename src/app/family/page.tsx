@@ -1,18 +1,18 @@
 "use client";
 import Image from "next/image";
 import { teamMembers } from "@lib/contants";
-import family1 from "@assets/images/family.png";
+import family1 from "@assets/images/family.webp";
 import "./style.css";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import family11 from "@assets/images/family11.png";
+import family11 from "@assets/images/family11.webp";
 
 const Family = () => {
   const imageArray = Array.from(
     { length: 25 },
-    (_, index = 0) => `/images/logos-${index + 1}.png`
+    (_, index = 0) => `/images/logos-${index + 1}.webp`
   );
   const settings = {
     accessibility: true,
@@ -123,7 +123,7 @@ const Family = () => {
                   className="h-[650px] lg:h-[550px] text-black rounded-xl border "
                 >
                   <div className="bg-[#6A397B] rounded-t-xl h-44 flex items-center justify-center">
-                    <img src={d.image} alt="image" />
+                    <Image src={d.image} alt="image" width={150} height={150} />
                   </div>
                   <div className="flex flex-col justify-center items-center gap-4 p-4">
                     <p className="text-xl font-semibold ">{d.name}</p>
