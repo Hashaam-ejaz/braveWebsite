@@ -56,7 +56,7 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team-5.webp",
     title: "Advisor & Consultant",
     roles: [
-      "President & CEO at The Fashion Group International, USA",
+      "President & CEO, The Fashion Group International, USA",
       "Partner, Onerock Pictures, USA",
       "Producer, Maryanne Grisz, USA",
       "Executive Producer & Director, Dressed, USA",

@@ -113,9 +113,12 @@ const Family = () => {
         <h2 className="text-[64px] text-center mt-12 font-garamond italic hidden lg:block">
           Team
         </h2>
+        <h2 className="text-[20px] text-center mt-12 font-garamond italic lg:hidden">
+          Team
+        </h2>
 
         <div className="w-3/4 m-auto mb-20">
-          <div className="mt-20">
+          <div className="mt-10 lg:mt-20">
             <Slider {...settings}>
               {teamMembers.map((d, index) => (
                 <div

@@ -12,11 +12,6 @@ const Home = () => {
   return (
     <div className="flex flex-col min-h-screen ">
       <section className="relative w-full h-[100vh] overflow-hidden">
-        {/* <Image
-          src={landing}
-          alt="Hero Image"
-          className="absolute inset-0 w-full h-full object-cover"
-        /> */}
         <Image
           src={landingm}
           alt="Hero Image Mobile"
@@ -80,7 +75,7 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
-        <div className=" flex flex-col items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
+        <div className=" flex lg:flex-col items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
           <span>
             Why
             <span className="not-italic ml-2 mr-2 lg:ml-3 lg:mr-3">BRAVE</span>
