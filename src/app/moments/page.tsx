@@ -107,7 +107,7 @@ const Family = () => {
                 OUR MOMENTS
               </h1>
               <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px] font-garamond font-thin	">
-                Creating stories that are making headlines
+                We create the narrative that make the headlines
               </h1>
             </div>
           </div>
