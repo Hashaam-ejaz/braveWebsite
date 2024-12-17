@@ -7,6 +7,7 @@ import Image from "next/image";
 import Card from "../components/card/page";
 import landing from "@assets/images/landingSimple.webp";
 import landingm from "@assets/images/landingMobile.webp";
+import SimpleContactForm from "@components/contact-form";
 
 const Home = () => {
   return (
@@ -40,18 +41,25 @@ const Home = () => {
         <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
           <span className="italic mr-2">We are</span>BRAVE
         </div>
+
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[100px]  text-justify">
-          <p>
-            Grounded in extensive experience and fueled by an extraordinary,
-            talented team, BRAVE is proud of our long-standing reputation for
-            delivering exceptional results for our clients.
+          <p className="sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+            Your trusted partner in creating iconic brand and business.
           </p>
-          <p>
-            From launching new brands and reinvigorating established brands, to
-            creating a movement. Together, we build{" "}
-            <span className="italic lg:ml-1">stronger brands</span> that inspire
-            the world.
-          </p>
+          <div className="flex flex-col space-y-8">
+            <p>
+              Grounded in extensive experience and fueled by an extraordinary,
+              talented team, BRAVE team is proud of it&apos;s long-standing
+              reputation for delivering exceptional results for our clients.
+            </p>
+            <p>
+              At BRAVE, we put our client&apos;s success at the core of every
+              interaction. From launching new brands and reinvigorating
+              established business, to creating a movement. Together, we build{" "}
+              <span className="italic lg:ml-1">stronger brands</span> that
+              inspire the world.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -83,9 +91,13 @@ const Home = () => {
           <span>is different</span>
         </div>
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
+          <p className=" sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+            We give our clients the confidence to make iconic moves
+          </p>
           <p>
-            While our reach is global, BRAVE is small by design: We work with
-            only a handful of projects at a time with our signature* framework.
+            We help to unleash the power of your business to achieve exponential
+            growth, through our a exceptional global network and Signature*
+            framework.
           </p>
           <p>
             This discipline allows us to focus on creating and delivering
@@ -130,6 +142,9 @@ const Home = () => {
           About<span className="not-italic ml-2 lg:ml-3">BRAVE</span>
         </div>
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
+          <p className="sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+            We build strong business, and a sustainable, transformative tomorrow
+          </p>
           <p>
             Led by an extraordinary team of professionals, BRAVE is widely
             recognized for delivering exceptional results with strategically
@@ -167,22 +182,35 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col px-20 lg:px-40 py-12 lg:py-24 font-garamond">
-        <div className="text-[19px] lg:text-[44.15px]  font-garamond text-center">
-          Our Commitment
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
+        <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] mx-[3%]">
+          BRAVE&apos;s <span className="italic ml-2">Commitment</span>
         </div>
-        <div className="text-center text-[14px] sm:text-[18px] md:text-[24px] lg:text-[32px] font-garamond justify-center flex lg:mt-20 md:mt-15 sm:mt-10 mt-8 lg:mb-10 md:mb-8 sm:mb-6 mb-4">
-          We combine the fundamental and dynamic elements in any market –
-          people, businesses, and their interactions.
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
+          <p className=" sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+            Delivering on the promise of a memorable experience
+          </p>
+          <p>
+            With experience in every imaginable sector, we help clients across
+            industries create real meaning for their customers and reach their
+            full potential.
+          </p>
+          <p>
+            Business today in incredibly dynamic, challenging some of the most
+            widely accepted constructs in branding. Our approach combines the
+            three fundamental and dynamic elements in any market – people,
+            businesses and their experiences.
+          </p>
+          <p>
+            We build stronger brands that emotionally connect and remain
+            relevant in changing markets. Wherever you are in your business
+            journey, we’re here to help.
+          </p>
         </div>
-        <div className="flex flex-col">
-          <div className="flex flex-col lg:flex-row  gap-5 items-center min-h-40">
-            <Card text="Before you come" img={"/images/beforeCome.webp"} />
-            <Card text="At the location" img={"/images/location.webp"} />
-            <Card text="Treatment" img={"/images/treatment.webp"} />
-            <Card text="Staying in touch" img={"/images/stayingTouch.webp"} />
-          </div>
-        </div>
+      </section>
+      <section>
+        <div className="border-t border-black w-[90%] flex mx-auto"></div>
+        <SimpleContactForm />
       </section>
     </div>
   );
