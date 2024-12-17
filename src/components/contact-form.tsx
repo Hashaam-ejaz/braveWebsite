@@ -8,7 +8,7 @@ export default function SimpleContactForm() {
       <form className="space-y-6">
         <div>
           <label htmlFor="firstName" className="block text-sm font-bold mb-2">
-            First Name *
+            Name *
           </label>
           <input
             id="firstName"
