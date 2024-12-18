@@ -75,30 +75,20 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row-reverse font-garamond h-fit lg:h-[40rem] mx-[36px] lg:mx-[100px] ">
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond">
-            <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mb-10 max-w-[90%] mx-auto">
-              BRAVE helps unlock new opportunities and gives its clients the
-              confidence to make Iconic Moves
-            </div>
-            <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[26px] text-center lg:text-start max-w-[90%] mx-auto ">
-              BRAVE supports clients to understand where their biggest
-              opportunities exist within and across complex and evolving
-              business ecosystem. To take on the emerging challenges and to meet
-              the diverse demands of business and brands on their growth
-              trajectories, we provide a complete set of tools and services, as
-              well as, an understanding the ‘Red Thread’ that pulls each aspect
-              together. BRAVE offers branding and business services, including
-              strategy, design and implementation.
-            </p>
-          </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 ">
+        <section className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 font-garamond h-auto  mx-[25px] lg:mx-[30px] gap-8 lg:gap-0">
+          {/* Left Column - Tiles */}
+          <div className="flex flex-col justify-center text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] min-h-fit ">
             <div className="flex flex-col">
-              Where to GO
-              <div className="flex space-x-6 mb-5">
+              {/* Section Header */}
+              <div className="text-center lg:text-start font-bold mb-6 lg:mb-10">
+                Where to GO
+              </div>
+
+              {/* First Grid Section */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 2xl:grid-cols-3 justify-items-center">
                 <FlipTile
                   text={
-                    "Global Network We design and deliver dynamic frameworks to helps our clients proactively create opportunities with our global network."
+                    "Global Network We design and deliver dynamic frameworks to help our clients proactively create opportunities with our global network."
                   }
                 />
                 <FlipTile
@@ -112,11 +102,17 @@ const Approach = () => {
                   }
                 />
               </div>
-              How to GET THERE
-              <div className="flex space-x-6">
+
+              {/* Section Header */}
+              <div className="text-center lg:text-start font-bold mb-6 lg:mb-10">
+                How to GET THERE
+              </div>
+
+              {/* Second Grid Section */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 2xl:grid-cols-3 justify-items-center">
                 <FlipTile
                   text={
-                    "Growth Roadmap We help our clients work out where they want to be, by when – creating vision, drive and focus on strategy for growth. "
+                    "Growth Roadmap We help our clients work out where they want to be, by when – creating vision, drive and focus on strategy for growth."
                   }
                 />
                 <FlipTile
@@ -126,11 +122,29 @@ const Approach = () => {
                 />
                 <FlipTile
                   text={
-                    "Sustainable Impact We unite brand, culture and experience to drive impact inside and outside an organization and to stay relevant over time"
+                    "Sustainable Impact We unite brand, culture and experience to drive impact inside and outside an organization and to stay relevant over time."
                   }
                 />
               </div>
             </div>
+          </div>
+
+          {/* Right Column - Text */}
+          <div className="flex flex-col justify-center lg:justify-start font-garamond p-4 lg:p-0">
+            <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mb-10 max-w-[90%] mx-auto">
+              BRAVE helps unlock new opportunities and gives its clients the
+              confidence to make Iconic Moves
+            </div>
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[26px] text-center lg:text-start max-w-[90%] mx-auto">
+              BRAVE supports clients to understand where their biggest
+              opportunities exist within and across complex and evolving
+              business ecosystems. To take on the emerging challenges and to
+              meet the diverse demands of business and brands on their growth
+              trajectories, we provide a complete set of tools and services, as
+              well as an understanding of the ‘Red Thread’ that pulls each
+              aspect together. BRAVE offers branding and business services,
+              including strategy, design, and implementation.
+            </p>
           </div>
         </section>
 
@@ -155,7 +169,7 @@ const Approach = () => {
               connection.
             </p>
           </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center ">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mt-10 lg:mt-0">
             <div className="w-full h-full overflow-hidden">
               <Image
                 src={section3Img}
