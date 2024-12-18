@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import moments1 from "@assets/images/moments.webp";
+import moments1 from "@assets/images/moments3.webp";
 import Card from "@components/moments-card/card2";
 
 const Family = () => {
