@@ -18,7 +18,7 @@ export default function FlipTile({
 
   return (
     <div
-      className="w-64 h-64 [perspective:1000px]"
+      className="w-full aspect-square"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
     >
@@ -46,10 +46,10 @@ export default function FlipTile({
 
         {/* Back side (Text) */}
         <div className="flex flex-col absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-[#F1E8F4] text-white rounded-lg  items-center justify-center p-2">
-          <p className="text-center text-[25px] text-[#632B60] font-bold mb-[1rem] mt-[1rem]">
+          <p className="text-center text-[20px] text-[#632B60] font-bold mb-[1rem] mt-[1rem]">
             {text.split(" ").slice(0, 2).join(" ")}
           </p>
-          <p className="text-center text-[22px] text-[#632B60] mb-[5%]">
+          <p className="text-center text-[18px] text-[#632B60] mb-[5%]">
             {text.split(" ").slice(2).join(" ")}
           </p>
         </div>

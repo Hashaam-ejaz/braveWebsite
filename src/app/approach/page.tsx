@@ -85,7 +85,7 @@ const Approach = () => {
               </div>
 
               {/* First Grid Section */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 2xl:grid-cols-3 justify-items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 lg:grid-cols-3 justify-items-center">
                 <FlipTile
                   text={
                     "Global Network We design and deliver dynamic frameworks to help our clients proactively create opportunities with our global network."
@@ -109,7 +109,7 @@ const Approach = () => {
               </div>
 
               {/* Second Grid Section */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 2xl:grid-cols-3 justify-items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3 justify-items-center">
                 <FlipTile
                   text={
                     "Growth Roadmap We help our clients work out where they want to be, by when – creating vision, drive and focus on strategy for growth."
@@ -148,7 +148,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row font-garamond h-fit lg:h-[36rem] mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px] lg:mb-20 mb-10">
+        <section className="flex flex-col lg:flex-row font-garamond h-fit  mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px] lg:mb-20 mb-10">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond lg:mr-[100px]">
             <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mb-10 max-w-[90%] mx-auto">
               BRAVE unleashes growth led opportunities with the Client at the
