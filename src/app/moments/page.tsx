@@ -5,7 +5,7 @@ import Card from "@components/moments-card/card2";
 
 const Family = () => {
   const imageArray = Array.from(
-    { length: 20 },
+    { length: 23 },
     (_, index = 0) => `/images/mom${index + 1}.webp`
   );
 
@@ -49,6 +49,18 @@ const Family = () => {
     {
       firstText: "FASHION GROUP INTERNATIONAL",
       secondText: "Production of Night of Stars",
+    },
+    {
+      firstText: "EUROPEAN COMMISSION",
+      secondText: "Transforming manufacturing sector for trade enhancement",
+    },
+    {
+      firstText: "EUROPEAN BANK",
+      secondText: "Merger that redefines banking",
+    },
+    {
+      firstText: "GLOBAL INSURANCE LEADER",
+      secondText: "Banking on Happy Customer – A century Strategy",
     },
     {
       firstText: "GQ x NFL HONORS",

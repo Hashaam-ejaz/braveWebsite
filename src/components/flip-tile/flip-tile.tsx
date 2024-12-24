@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface FlipTileProps {
-  imageSrc?: string;
+  imageSrc?: StaticImageData;
   text: string;
   altText?: string;
 }

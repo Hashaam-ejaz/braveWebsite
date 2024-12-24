@@ -1,10 +1,10 @@
 import Link from "next/link";
 import momentsImg from "@assets/images/moments.webp";
+import momentsmImg from "@assets/images/momentsm.webp";
 import familyImg from "@assets/images/family.webp";
 import approachImg from "@assets/images/approach.webp";
 import approachmImg from "@assets/images/approachm.webp";
 import Image from "next/image";
-import Card from "../components/card/page";
 import landing from "@assets/images/landingSimple.webp";
 import landingm from "@assets/images/landingMobile.webp";
 import SimpleContactForm from "@components/contact-form";
@@ -65,10 +65,17 @@ const Home = () => {
 
       {/* moment */}
       <section className="relative w-full h-[100vh] overflow-hidden">
+        {/* Desktop Image */}
         <Image
           src={momentsImg}
           alt="Hero Image"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover hidden lg:block"
+        />
+        {/* Mobile Image */}
+        <Image
+          src={momentsmImg}
+          alt="Hero Image Mobile"
+          className="absolute inset-0 w-full h-full object-cover block lg:hidden"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col items-center">

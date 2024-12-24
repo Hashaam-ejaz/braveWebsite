@@ -5,6 +5,14 @@ import approach222 from "@assets/images/Approach222.webp";
 import section2Img from "@assets/images/appraoch2.webp";
 import section3Img from "@assets/images/approach3.webp";
 import FlipTile from "@components/flip-tile/flip-tile";
+import lineArrow from "@assets/images/lineArrow.svg";
+import lineCircle from "@assets/images/lineCircle.svg";
+import tile1 from "@assets/images/tile1.webp";
+import tile2 from "@assets/images/tile2.webp";
+import tile3 from "@assets/images/tile3.webp";
+import tile4 from "@assets/images/tile4.webp";
+import tile5 from "@assets/images/tile5.webp";
+import tile6 from "@assets/images/tile6.webp";
 
 const Approach = () => {
   return (
@@ -50,7 +58,17 @@ const Approach = () => {
           />
         </section>
 
-        <section className="flex flex-col lg:flex-row-reverse font-garamond h-fit lg:h-[40rem] mx-[36px] lg:mx-[100px] mt-[100px] lg:mt-[136px]">
+        <section className="flex flex-col lg:flex-row-reverse font-garamond h-fit lg:h-[40rem] mx-[25px] lg:mx-[30px] mt-[100px] lg:mt-[136px]">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 w-full">
+            <div className="relative w-full h-full">
+              {/* Image Section */}
+              <Image
+                src={section2Img}
+                alt="Hero Image"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond">
             <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mt-36 max-w-[90%] mx-auto">
               Our Approach gives us clear understandings of people,
@@ -63,25 +81,16 @@ const Approach = () => {
               extraordinary business results.
             </p>
           </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 ">
-            <div className="relative w-full h-full">
-              {/* Image Section */}
-              <Image
-                src={section2Img}
-                alt="Hero Image"
-                className="w-full h-full object-contain"
-              />
-            </div>
-          </div>
         </section>
 
-        <section className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 font-garamond h-auto  mx-[25px] lg:mx-[30px] gap-8 lg:gap-0">
+        <section className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 font-garamond h-auto  mx-[35px] lg:mx-[60px] gap-8 lg:gap-0">
           {/* Left Column - Tiles */}
           <div className="flex flex-col justify-center text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] min-h-fit ">
             <div className="flex flex-col">
               {/* Section Header */}
-              <div className="text-center lg:text-start font-bold mb-6 lg:mb-10">
+              <div className="text-center lg:text-start mb-3 lg:mb-5 flex justify-between">
                 Where to GO
+                <Image src={lineArrow} alt="arrow " />
               </div>
 
               {/* First Grid Section */}
@@ -90,22 +99,27 @@ const Approach = () => {
                   text={
                     "Global Network We design and deliver dynamic frameworks to help our clients proactively create opportunities with our global network."
                   }
+                  imageSrc={tile1}
                 />
                 <FlipTile
                   text={
                     "Strategic Leadership We help our clients do things right by creating exceptional experiences – through clear and uncompromising ethics"
                   }
+                  imageSrc={tile2}
                 />
+
                 <FlipTile
                   text={
                     "Iconic Moves We are able to set an ambition for business and seize opportunities for innovation, revenue growth, and expansion."
                   }
+                  imageSrc={tile3}
                 />
               </div>
 
               {/* Section Header */}
-              <div className="text-center lg:text-start font-bold mb-6 lg:mb-10">
+              <div className="text-center lg:text-start mb-3 lg:mb-5 flex justify-between">
                 How to GET THERE
+                <Image src={lineCircle} alt="arrow " />
               </div>
 
               {/* Second Grid Section */}
@@ -114,16 +128,19 @@ const Approach = () => {
                   text={
                     "Growth Roadmap We help our clients work out where they want to be, by when – creating vision, drive and focus on strategy for growth."
                   }
+                  imageSrc={tile4}
                 />
                 <FlipTile
                   text={
                     "Targeted Navigation Our approach is anchored to objective measures of commercial success. We set, measure and manage clear targets."
                   }
+                  imageSrc={tile5}
                 />
                 <FlipTile
                   text={
                     "Sustainable Impact We unite brand, culture and experience to drive impact inside and outside an organization and to stay relevant over time."
                   }
+                  imageSrc={tile6}
                 />
               </div>
             </div>
@@ -148,7 +165,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row font-garamond h-fit  mx-[36px] lg:mx-[160px] mt-[100px] lg:mt-[136px] lg:mb-20 mb-10">
+        <section className="flex flex-col lg:flex-row font-garamond h-fit  mx-[25px] lg:mx-[30px] mt-[50px] lg:mt-[70px] lg:mb-20 mb-10">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond lg:mr-[100px]">
             <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mb-10 max-w-[90%] mx-auto">
               BRAVE unleashes growth led opportunities with the Client at the
