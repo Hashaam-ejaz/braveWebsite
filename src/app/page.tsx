@@ -215,10 +215,6 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section>
-        <div className="border-t border-black w-[90%] flex mx-auto"></div>
-        <SimpleContactForm />
-      </section>
     </div>
   );
 };
