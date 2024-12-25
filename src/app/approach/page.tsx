@@ -5,8 +5,6 @@ import approach222 from "@assets/images/Approach222.webp";
 import section2Img from "@assets/images/appraoch2.webp";
 import section3Img from "@assets/images/approach3.webp";
 import FlipTile from "@components/flip-tile/flip-tile";
-import lineArrow from "@assets/images/lineArrow.svg";
-import lineCircle from "@assets/images/lineCircle.svg";
 import tile1 from "@assets/images/tile1.webp";
 import tile2 from "@assets/images/tile2.webp";
 import tile3 from "@assets/images/tile3.webp";
@@ -58,8 +56,8 @@ const Approach = () => {
           />
         </section>
 
-        <section className="flex flex-col lg:flex-row-reverse font-garamond h-fit lg:h-[40rem] mx-[25px] lg:mx-[30px] mt-[100px] lg:mt-[136px]">
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 w-full">
+        <section className="flex flex-col-reverse lg:flex-row-reverse font-garamond h-fit lg:h-[40rem] mx-[25px] lg:mx-[30px] mt-[100px] lg:mt-[136px]">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 w-full mt-10 lg:mt-0">
             <div className="relative w-full h-full">
               {/* Image Section */}
               <Image
@@ -88,9 +86,8 @@ const Approach = () => {
           <div className="flex flex-col justify-center text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] min-h-fit ">
             <div className="flex flex-col">
               {/* Section Header */}
-              <div className="text-center lg:text-start mb-3 lg:mb-5 flex justify-between">
+              <div className="text-center lg:text-start mb-3 lg:mb-5 flex justify-between mt-5">
                 Where to GO
-                <Image src={lineArrow} alt="arrow " />
               </div>
 
               {/* First Grid Section */}
@@ -119,7 +116,6 @@ const Approach = () => {
               {/* Section Header */}
               <div className="text-center lg:text-start mb-3 lg:mb-5 flex justify-between">
                 How to GET THERE
-                <Image src={lineCircle} alt="arrow " />
               </div>
 
               {/* Second Grid Section */}
