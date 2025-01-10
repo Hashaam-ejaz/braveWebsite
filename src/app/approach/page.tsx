@@ -14,7 +14,7 @@ import tile6 from "@assets/images/tile6.webp";
 
 const Approach = () => {
   return (
-    <div className="flex flex-col min-h-screen font-garamond">
+    <div className="flex flex-col min-h-screen ">
       <main className="flex-1">
         <section className="relative w-full h-[100vh] overflow-hidden">
           <Image
@@ -24,17 +24,17 @@ const Approach = () => {
           />
           <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
             <div className="flex flex-col">
-              <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
+              <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase ">
                 OUR APPROACH
               </h1>
-              <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px] font-garamond font-thin	">
+              <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px]  font-thin	">
                 Strategy & Creativity
               </h1>
             </div>
           </div>
         </section>
 
-        <section className="font-garamond h-fit text-center text-[16px] sm:text-[20px] md:text-[26px] lg:text-[32px] my-[32px] lg:mt-[70px] lg:mb-[70px] mx-12 lg:mx-24">
+        <section className=" h-fit text-center text-[16px] sm:text-[20px] md:text-[26px] lg:text-[32px] my-[32px] lg:mt-[70px] lg:mb-[70px] mx-12 lg:mx-24">
           We are a strategy company that helps clients build
           <br className="hidden lg:block" />
           <span className="italic ml-2 lg:ml-0">“Stronger Brands”</span>
@@ -56,7 +56,7 @@ const Approach = () => {
           />
         </section>
 
-        <section className="flex flex-col-reverse lg:flex-row-reverse font-garamond h-fit lg:h-[40rem] mx-[25px] lg:mx-[30px] mt-[100px] lg:mt-[136px]">
+        <section className="flex flex-col-reverse lg:flex-row-reverse  h-fit lg:h-[40rem] mx-[25px] lg:mx-[30px] mt-[100px] lg:mt-[136px]">
           <div className="basis-2/4 sm:basis-1 lg:basis-2/4 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] flex justify-center mb-10 w-full mt-10 lg:mt-0">
             <div className="relative w-full h-full">
               {/* Image Section */}
@@ -67,7 +67,7 @@ const Approach = () => {
               />
             </div>
           </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col ">
             <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mt-36 max-w-[90%] mx-auto">
               Our Approach gives us clear understandings of people,
               organizations. and their interactions
@@ -81,7 +81,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-1 font-garamond h-auto  mx-[35px] lg:mx-[60px] gap-8 lg:gap-0">
+        <section className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-1  h-auto  mx-[35px] lg:mx-[60px] gap-8 lg:gap-0">
           {/* Left Column - Tiles */}
           <div className="flex flex-col justify-center text-[22px] sm:text-[24px] md:text-[26px] lg:text-[30px] min-h-fit ">
             <div className="flex flex-col">
@@ -143,7 +143,7 @@ const Approach = () => {
           </div>
 
           {/* Right Column - Text */}
-          <div className="flex flex-col justify-center lg:justify-start font-garamond p-4 lg:p-0">
+          <div className="flex flex-col justify-center lg:justify-start  p-4 lg:p-0">
             <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mb-10 max-w-[90%] mx-auto">
               BRAVE helps unlock new opportunities and gives its clients the
               confidence to make Iconic Moves
@@ -161,8 +161,8 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row font-garamond h-fit  mx-[25px] lg:mx-[30px] mt-[50px] lg:mt-[70px] lg:mb-20 mb-10">
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col font-garamond lg:mr-[100px]">
+        <section className="flex flex-col lg:flex-row  h-fit  mx-[25px] lg:mx-[30px] mt-[50px] lg:mt-[70px] lg:mb-20 mb-10">
+          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col lg:mr-[100px]">
             <div className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[28px] text-center lg:text-start font-bold mb-[20px] lg:mb-10 max-w-[90%] mx-auto">
               BRAVE unleashes growth led opportunities with the Client at the
               Center

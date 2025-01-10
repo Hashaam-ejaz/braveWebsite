@@ -7,7 +7,6 @@ import approachmImg from "@assets/images/approachm.webp";
 import Image from "next/image";
 import landing from "@assets/images/landingSimple.webp";
 import landingm from "@assets/images/landingMobile.webp";
-import SimpleContactForm from "@components/contact-form";
 
 const Home = () => {
   return (
@@ -27,17 +26,17 @@ const Home = () => {
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase">
               The Brave Agency
             </h1>
-            <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
+            <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] italic">
               Building Stronger Brands
             </h1>
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
         <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
           <span className="italic mr-2">We are</span>BRAVE
         </div>
@@ -79,17 +78,17 @@ const Home = () => {
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col items-center">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] font-garamond text-center">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center">
               We Inspire the World
             </h1>
-            <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
+            <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
               <Link href={"/moments"}>Our Moments</Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
         <div className=" flex lg:flex-col items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
           <span>
             Why
@@ -134,17 +133,17 @@ const Home = () => {
 
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="flex flex-col items-center">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center font-garamond">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center">
               We build success together
             </h1>
-            <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
+            <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
               <Link href={"/family"}>Our Family</Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
         <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
           About<span className="not-italic ml-2 lg:ml-3">BRAVE</span>
         </div>
@@ -183,13 +182,13 @@ const Home = () => {
           className="absolute inset-0 w-full h-full object-contain hidden sm:block"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white font-garamond rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
+          <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
             <Link href={"/approach"}>Our Approach</Link>
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] font-garamond w-full">
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
         <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] mx-[3%]">
           BRAVE&apos;s <span className="italic ml-2">Commitment</span>
         </div>

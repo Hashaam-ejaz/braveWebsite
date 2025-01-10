@@ -51,7 +51,7 @@ const Family = () => {
 
   return (
     <div className="flex flex-col min-h-screen ">
-      <main className="flex-1 items-center justify-center font-garamond">
+      <main className="flex-1 items-center justify-center">
         <section className="relative w-full h-[100vh] overflow-hidden">
           <Image
             src={family1}
@@ -59,20 +59,20 @@ const Family = () => {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="relative z-10 flex flex-col items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase font-garamond">
+            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase">
               Our Family
             </h1>
-            <h1 className=" text-white text-center text-[18px] md:text-[24px] lg:text-[36px] font-garamond">
+            <h1 className=" text-white text-center text-[18px] md:text-[24px] lg:text-[36px]">
               Together, we build stronger brands that inspire the world.
             </h1>
           </div>
         </section>
 
         <section className="px-4 py-16">
-          <h2 className="text-[64px] text-center mb-12 font-garamond italic hidden lg:block">
+          <h2 className="text-[64px] text-center mb-12 italic hidden lg:block">
             Clients
           </h2>
-          <h2 className="text-[20px] text-center mb-12 font-garamond italic lg:hidden">
+          <h2 className="text-[20px] text-center mb-12 italic lg:hidden">
             Our Clients
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
@@ -101,21 +101,19 @@ const Family = () => {
           />
           <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
             <div className="flex flex-col">
-              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond">
+              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px]">
                 Driven by our Purpose
               </h1>
-              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] font-garamond italic">
+              <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] italic">
                 Building Stronger Brands
               </h1>
             </div>
           </div>
         </section>
-        <h2 className="text-[64px] text-center mt-12 font-garamond italic hidden lg:block">
+        <h2 className="text-[64px] text-center mt-12 italic hidden lg:block">
           Team
         </h2>
-        <h2 className="text-[20px] text-center mt-12 font-garamond italic lg:hidden">
-          Team
-        </h2>
+        <h2 className="text-[20px] text-center mt-12 italic lg:hidden">Team</h2>
 
         <div className="w-3/4 m-auto mb-20">
           <div className="mt-10 lg:mt-20">

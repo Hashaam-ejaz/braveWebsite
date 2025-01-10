@@ -106,7 +106,7 @@ const Family = () => {
 
   return (
     <div className="flex flex-col min-h-screen ">
-      <main className="flex-1 items-center justify-center font-garamond">
+      <main className="flex-1 items-center justify-center">
         <section className="relative w-full h-[100vh] overflow-hidden">
           <Image
             src={moments1}
@@ -115,10 +115,10 @@ const Family = () => {
           />
           <div className="relative z-10 flex flex-col items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
             <div className="flex flex-col text-center">
-              <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] font-garamond">
+              <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px]">
                 OUR MOMENTS
               </h1>
-              <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px] font-garamond font-thin	">
+              <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px] font-thin	">
                 We create the narrative that make the headlines
               </h1>
             </div>

@@ -4,7 +4,7 @@ import braveLogo from "../../../public/images/braveLogo.svg";
 
 const Header = () => {
   return (
-    <div className="absolute top-0 z-20 flex justify-around items-center w-full text-white font-garamond mt-[20px] lg:mt-[26px] md:text-[24px] text-[13px] lg:text-[32px]">
+    <div className="absolute top-0 z-20 flex justify-around items-center w-full text-white mt-[20px] lg:mt-[26px] md:text-[24px] text-[13px] lg:text-[32px]">
       <Link href={"/"}>
         <Image
           src={braveLogo}
