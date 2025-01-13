@@ -14,7 +14,7 @@ const Header = () => {
         />
       </Link>
 
-      <div className="w-[1px] h-6 lg:h-12 bg-white " />
+      {/* <div className="w-[1px] h-6 lg:h-12 bg-white " /> */}
 
       <Link href={"/"}>
         <span className="font-bold">BRAVE</span>

@@ -24,38 +24,39 @@ const Home = () => {
           alt="Hero Image Desktop"
           className="absolute inset-0 w-full h-full object-cover hidden sm:block"
         />
-        <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <div className="flex flex-col">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] uppercase">
-              The Brave Agency
-            </h1>
-            <h1 className="text-center text-white text-[15px] md:text-[36px] lg:text-[48px] italic">
+        <div className="relative z-10 flex flex-col h-full">
+          <div className="flex h-1/2 lg:h-2/3">
+            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 xl:ml-32 lg:pt-24 pl-5 lg:pl-20 text-white uppercase">
               Building Stronger Brands
-            </h1>
+            </div>
+            <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
           </div>
+          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+            The Brave Agency
+          </div>
+          <div className="flex h-1/4 lg:hidden" />
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
-        <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
-          <span className="italic mr-2">We are</span>BRAVE
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
+        <div className="flex justify-start lg:items-center text-start text-[40px] font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+          We are <br className="hidden lg:block" /> BRAVE
         </div>
 
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[100px]  text-justify">
-          <p className="sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px]">
             Your trusted partner in creating iconic brand and business.
           </p>
-          <div className="flex flex-col space-y-8">
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
             <p>
               Grounded in extensive experience and fueled by an extraordinary,
               talented team, BRAVE team is proud of it&apos;s long-standing
               reputation for delivering exceptional results for our clients.
             </p>
             <p>
-              At BRAVE, we put our client&apos;s success at the core of every
-              interaction. From launching new brands and reinvigorating
-              established business, to creating a movement. Together, we build{" "}
-              <span className="italic lg:ml-1">stronger brands</span> that
+              From launching new brands and reinvigorating established business,
+              to creating a movement. Together, we build{" "}
+              <span className="font-bold lg:ml-1">stronger brands</span> that
               inspire the world.
             </p>
           </div>
@@ -64,7 +65,7 @@ const Home = () => {
 
       {/* moment */}
       <section className="relative w-full h-[100vh] overflow-hidden">
-        {/* Desktop Image */}
+        Desktop Image
         <Image
           src={momentsImg}
           alt="Hero Image"
@@ -76,49 +77,52 @@ const Home = () => {
           alt="Hero Image Mobile"
           className="absolute inset-0 w-full h-full object-cover block lg:hidden"
         />
-        <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <div className="flex flex-col items-center">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center">
-              We Inspire the World
-            </h1>
-            <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
+        <div className="relative z-10 flex flex-col h-full">
+          <div className="flex h-1/2 lg:h-2/3">
+            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase">
+              We Inspire the world
+            </div>
+            <div className="flex flex-col w-1/3 lg:w-3/5" />
+          </div>
+          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28 uppercase">
+            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[40px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#FF007B] lg:text-[#A30953] rounded-full lg:border-[#A30953] lg:border-[3.28px] lg:border-solid ">
               <Link href={"/moments"}>Our Moments</Link>
             </div>
           </div>
+          <div className="flex h-1/4 lg:hidden" />
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
-        <div className=" flex lg:flex-col items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] whitespace-nowrap">
-          <span>
-            Why
-            <span className="not-italic ml-2 mr-2 lg:ml-3 lg:mr-3">BRAVE</span>
-          </span>
-          <span>is different</span>
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
+        <div className="flex justify-start lg:items-center text-start text-[40px]  lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
+          Why <br /> BRAVE is different
         </div>
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
-          <p className=" sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[62px]">
             We give our clients the confidence to make iconic moves
           </p>
-          <p>
-            We help to unleash the power of your business to achieve exponential
-            growth, through our a exceptional global network and Signature*
-            framework.
-          </p>
-          <p>
-            This discipline allows us to focus on creating and delivering
-            customized strategies to meet each project&apos;s unique needs and
-            provide a level of service that ensures we are with our partners &
-            clients when they need us most.
-          </p>
-          <p>
-            We engage with our partners & clients in a manner that embraces
-            their culture, work hand in hand to achieve their goals, and measure
-            results with proprietary tools.
-          </p>
-          <p className="italic text-[12px] sm:text-[16px] md:text-[18px] lg:text-[20px] ">
-            *Neuroeconomics + PHD (Physical, Human, Digital) Framework
-          </p>
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+            <p>
+              While our reach is global, BRAVE is small by design: We work with
+              only a handful of projects at a time with our signature*
+              framework.
+            </p>
+            <p>
+              This discipline allows us to focus on creating and delivering
+              customized strategies to meet each project’s unique needs and
+              provide a level of service that ensures we are with our partners &
+              clients when they need us most.
+            </p>
+            <p>
+              We engage with our partners & clients in a manner that embraces
+              their culture, work hand in hand to achieve their goals, and
+              measure results with proprietary tools.
+            </p>
+            <p className="lg:text-[24px] text-[10px]">
+              *Neuroeconomics + PHD (Physical, Human, Digital) Framework
+            </p>
+          </div>
         </div>
       </section>
 
@@ -131,41 +135,47 @@ const Home = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <div className="flex flex-col items-center">
-            <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px] text-center">
+        <div className="relative z-10 flex flex-col h-full">
+          <div className="flex h-1/2 lg:h-2/3">
+            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[70px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase">
               We build success together
-            </h1>
-            <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
+            </div>
+            <div className="flex flex-col w-1/3 lg:w-3/5" />
+          </div>
+          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28 uppercase">
+            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[40px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#6A397B] lg:text-[#671E80] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#671E80]">
               <Link href={"/family"}>Our Family</Link>
             </div>
           </div>
+          <div className="flex h-1/4 lg:hidden" />
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
-        <div className=" flex items-center justify-center text-center font-normal italic text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%]">
-          About<span className="not-italic ml-2 lg:ml-3">BRAVE</span>
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
+        <div className="flex justify-start lg:items-center text-start text-[40px] font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+          About <br /> BRAVE
         </div>
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
-          <p className="sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
+
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px]">
             We build strong business, and a sustainable, transformative tomorrow
           </p>
-          <p>
-            Led by an extraordinary team of professionals, BRAVE is widely
-            recognized for delivering exceptional results with strategically
-            grounded, creatively executed and measurably effective brand and
-            business solutions.
-          </p>
-          <p>
-            Our team&apos;s collective expertise is carefully curated and
-            ever-evolving to keep pace with the needs of our clients. Brand
-            strategy, design and ethics, integrated marketing, digital media,
-            strategic partnerships, buzz-worthy experiences and experiential
-            events - these are just a few of the offerings in our unique and
-            proven holistic approach to helping our clients build{" "}
-            <span className="italic lg:ml-1">stronger brands</span>
-          </p>
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+            <p>
+              While our reach is global, BRAVE is small by design: We work with
+              only a handful of projects at a time with our signature*
+              framework.
+            </p>
+            <p>
+              This discipline allows us to focus on creating and delivering
+              customized strategies to meet each project’s unique needs and
+              provide a level of service that ensures we are with our partners &
+              clients when they need us most.
+            </p>
+            <p className="lg:text-[24px] text-[10px]">
+              *Neuroeconomics + PHD (Physical, Human, Digital) Framework
+            </p>
+          </div>
         </div>
       </section>
 
@@ -182,36 +192,39 @@ const Home = () => {
           className="absolute inset-0 w-full h-full object-contain hidden sm:block"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <div className="px-4 py-3 text-[12px] lg:text-[39.32px] w-[113px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-white rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
+          <div className="bg-white lg:bg-white/20 lg:text-[#5C2A5F] lg:border-[#5C2A5F] lg:text-[40px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#FF4076] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
             <Link href={"/approach"}>Our Approach</Link>
           </div>
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[24px] lg:mt-[69px] lg:mb-[73px] w-full">
-        <div className=" flex items-center justify-center text-center font-normal text-[19px] lg:text-[44.15px] mb-[23px] lg:w-[40%] mx-[3%]">
-          BRAVE&apos;s <span className="italic ml-2">Commitment</span>
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
+        <div className="flex justify-start lg:items-center text-start text-[40px] font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
+          BRAVE&apos;s <br /> Promise
         </div>
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] space-y-8 lg:w-[60%] lg:mr-[150px] mx-[45px] text-justify">
-          <p className=" sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold">
-            Delivering on the promise of a memorable experience
+
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px]">
+            A memorable experience that powers growth
           </p>
-          <p>
-            With experience in every imaginable sector, we help clients across
-            industries create real meaning for their customers and reach their
-            full potential.
-          </p>
-          <p>
-            Business today in incredibly dynamic, challenging some of the most
-            widely accepted constructs in branding. Our approach combines the
-            three fundamental and dynamic elements in any market – people,
-            businesses and their experiences.
-          </p>
-          <p>
-            We build stronger brands that emotionally connect and remain
-            relevant in changing markets. Wherever you are in your business
-            journey, we’re here to help.
-          </p>
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+            <p>
+              With experience in every imaginable sector, we help clients across
+              industries create real meaning for their customers and reach their
+              full potential.
+            </p>
+            <p>
+              Business today in incredibly dynamic, challenging some of the most
+              widely accepted constructs in branding. Our approach combines the
+              three fundamental and dynamic elements in any market – people,
+              businesses and their experiences.
+            </p>
+            <p>
+              We build stronger brands that emotionally connect and remain
+              relevant in changing markets. Wherever you are in your business
+              journey, we&apos;re here to help.
+            </p>
+          </div>
         </div>
       </section>
     </div>
