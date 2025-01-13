@@ -180,7 +180,7 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-[80vh] sm:h-[60vh] md:h-[80vh] lg:h-[101vh] overflow-hidden">
+      <section className="relative w-full sm:h-[50vh] lg:h-[60vh] xl:h-[70vh] 2xl:h-[100vh] h-[100vh] overflow-hidden">
         <Image
           src={approachmImg}
           alt="Hero Image Mobile"
