@@ -38,8 +38,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
-        <div className="flex justify-start lg:items-center text-start text-[40px] font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
+        <div className="flex justify-start lg:items-center text-start text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
           We are <br className="hidden lg:block" /> BRAVE
         </div>
 
@@ -93,9 +93,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
-        <div className="flex justify-start lg:items-center text-start text-[40px]  lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
-          Why <br /> BRAVE is different
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
+        <div className="flex justify-start lg:font-normal font-medium lg:items-center text-start text-[40px]  lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
+          Why <br className="hidden lg:block" /> BRAVE is different
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
@@ -151,9 +151,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
-        <div className="flex justify-start lg:items-center text-start text-[40px] font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
-          About <br /> BRAVE
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
+        <div className="flex justify-start lg:items-center text-start text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+          About <br className="hidden lg:block" /> BRAVE
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
@@ -198,9 +198,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full px-">
-        <div className="flex justify-start lg:items-center text-start text-[40px] font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
-          BRAVE&apos;s <br /> Promise
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
+        <div className="flex justify-start lg:items-center text-start text-[40px] font-medium lg:font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
+          BRAVE&apos;s <br className="hidden lg:block" /> Promise
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
