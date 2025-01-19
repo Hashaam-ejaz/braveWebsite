@@ -26,7 +26,7 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 xl:ml-32 lg:pt-24 pl-5 lg:pl-20 text-white uppercase">
+            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[6.25rem] sm:leading-[4.5rem]">
               Building Stronger Brands
             </div>
             <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
@@ -84,7 +84,7 @@ const Home = () => {
             </div>
             <div className="flex flex-col w-1/3 lg:w-3/5" />
           </div>
-          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28 uppercase">
+          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
             <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[40px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#FF007B] lg:text-[#A30953] rounded-full lg:border-[#A30953] lg:border-[3.28px] lg:border-solid ">
               <Link href={"/moments"}>Our Moments</Link>
             </div>
@@ -142,7 +142,7 @@ const Home = () => {
             </div>
             <div className="flex flex-col w-1/3 lg:w-3/5" />
           </div>
-          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28 uppercase">
+          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
             <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[40px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#6A397B] lg:text-[#671E80] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#671E80]">
               <Link href={"/family"}>Our Family</Link>
             </div>
@@ -172,15 +172,12 @@ const Home = () => {
               provide a level of service that ensures we are with our partners &
               clients when they need us most.
             </p>
-            <p className="lg:text-[24px] text-[10px]">
-              *Neuroeconomics + PHD (Physical, Human, Digital) Framework
-            </p>
           </div>
         </div>
       </section>
 
       {/* approach */}
-      <section className="relative w-full sm:h-[50vh] lg:h-[60vh] xl:h-[70vh] 2xl:h-[100vh] h-[100vh] overflow-hidden">
+      <section className="relative w-full sm:h-[51vw] h-[100vh] overflow-hidden">
         <Image
           src={approachmImg}
           alt="Hero Image Mobile"
@@ -219,7 +216,7 @@ const Home = () => {
               three fundamental and dynamic elements in any market – people,
               businesses and their experiences.
             </p>
-            <p>
+            <p className="pb-9 lg:pb-0">
               We build stronger brands that emotionally connect and remain
               relevant in changing markets. Wherever you are in your business
               journey, we&apos;re here to help.
