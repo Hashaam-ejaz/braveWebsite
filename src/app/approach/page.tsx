@@ -5,12 +5,18 @@ import approach222 from "@assets/images/Approach222.webp";
 import section2Img from "@assets/images/appraoch2.webp";
 import section3Img from "@assets/images/approach3.webp";
 import FlipTile from "@components/flip-tile/flip-tile";
-// import tile1 from "@assets/images/tile1.webp";
-// import tile2 from "@assets/images/tile2.webp";
-// import tile3 from "@assets/images/tile3.webp";
-// import tile4 from "@assets/images/tile4.webp";
-// import tile5 from "@assets/images/tile5.webp";
-// import tile6 from "@assets/images/tile6.webp";
+import tile1 from "@assets/images/tile1.webp";
+import tile2 from "@assets/images/tile2.webp";
+import tile3 from "@assets/images/tile3.webp";
+import tile4 from "@assets/images/tile4.webp";
+import tile5 from "@assets/images/tile5.webp";
+import tile6 from "@assets/images/tile6.webp";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@components/ui/accordion";
 
 const Approach = () => {
   return (
@@ -102,7 +108,7 @@ const Approach = () => {
             strategy, design, and implementation.
           </p>
         </div>
-        {/* <section className="flex-col bg-[#F4F1F1] px-4 lg:px-8 hidden lg:flex">
+        <section className="flex-col bg-[#F4F1F1] px-4 lg:px-8 hidden lg:flex">
           <div className="mt-4 lg:flex justify-evenly">
             <span className="text-[#8F3966] font-extrabold lg:hidden">
               From Where to go
@@ -325,7 +331,7 @@ const Approach = () => {
               </AccordionItem>
             </Accordion>
           </div>
-        </section> */}
+        </section>
 
         <div className="text-[20px] lg:text-[48px] text-start font-medium lg:font-normal mx-4 lg:mx-24 mt-[40px] lg:mt-[70px] mb-[22px]">
           BRAVE unleashes growth led opportunities with the Client at the Center
