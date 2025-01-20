@@ -48,7 +48,7 @@ const Approach = () => {
           <span className="lg:italic ml-2 lg:ml-0">“Stronger Brands”</span>
         </section>
 
-        <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden bg-red-100">
+        <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden">
           {/* Mobile image */}
           <Image
             src={approach222}

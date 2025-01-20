@@ -177,16 +177,16 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full sm:h-[51vw] h-[100vh] overflow-hidden">
+      <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden">
         <Image
           src={approachmImg}
           alt="Hero Image Mobile"
-          className="absolute inset-0 w-full h-full object-cover sm:hidden"
+          className="block sm:hidden w-full h-auto"
         />
         <Image
           src={approachImg}
           alt="Hero Image Desktop"
-          className="absolute inset-0 w-full h-full object-contain hidden sm:block"
+          className="hidden sm:block absolute inset-0 w-full h-full object-contain"
         />
         <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
           <div className="bg-white lg:bg-white/20 lg:text-[#5C2A5F] lg:border-[#5C2A5F] lg:text-[40px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#FF4076] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
