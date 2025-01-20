@@ -5,26 +5,22 @@ import Card from "@components/moments-card/card2";
 
 const Family = () => {
   const imageArray = Array.from(
-    { length: 23 },
+    { length: 32 },
     (_, index = 0) => `/images/mom${index + 1}.webp`
   );
 
   const textArray = [
     {
       firstText: "PRADA USA",
-      secondText: "Fulfilling PRADA's Global Ambition",
+      secondText: "Fulfilling a Designers Global Ambition",
     },
     {
       firstText: "FASHION GROUP INTERNATIONAL",
       secondText: "Providing Leadership to 26 Global FGI regions",
     },
     {
-      firstText: "PRADA EPICENTER I & II",
-      secondText: "Experience Beyond Retail",
-    },
-    {
       firstText: "DIESEL USA",
-      secondText: "Reimagining Brand to Connect with Peoples’ DNA",
+      secondText: "Reimagining Brand to Connect with Peoples' DNA",
     },
     {
       firstText: "NY FASHION SHOW",
@@ -32,7 +28,19 @@ const Family = () => {
     },
     {
       firstText: "DIESEL AD CAMPAIGN",
-      secondText: "Iconic Ad that Changed the World",
+      secondText: "Iconic - Beauty in all of its Forms",
+    },
+    {
+      firstText: "PRADA USA",
+      secondText: "Fortifying an ICON",
+    },
+    {
+      firstText: "FASHION GROUP INTERNATIONAL",
+      secondText: "Production of Night of Stars",
+    },
+    {
+      firstText: "PRADA EPICENTER I & II",
+      secondText: "Experience Beyond Retail",
     },
     {
       firstText: "RICKY MARTIN x DSQUARD ",
@@ -43,44 +51,68 @@ const Family = () => {
       secondText: "From Inspiring Singers to Inspiring Movies",
     },
     {
+      firstText: "MIU MIU",
+      secondText: "A playground for beauty experience",
+    },
+    {
+      firstText: "HSTERN",
+      secondText: "Making moments that matter",
+    },
+    {
+      firstText: "FIFA QATAR 2022 x FRENCH MONTANA",
+      secondText: "There's no place like the World Cup",
+    },
+    {
+      firstText: "ICONIC LUXURY CRUISE – QM2",
+      secondText: "Reinvigorating a 180 year old icon",
+    },
+    {
+      firstText: "UNITED NATIONS",
+      secondText: "Building better together",
+    },
+    {
       firstText: "WILSON x NFL",
       secondText: "Uniting Game Changers",
-    },
-    {
-      firstText: "FASHION GROUP INTERNATIONAL",
-      secondText: "Production of Night of Stars",
-    },
-    {
-      firstText: "EUROPEAN COMMISSION",
-      secondText: "Transforming manufacturing sector for trade enhancement",
-    },
-    {
-      firstText: "EUROPEAN BANK",
-      secondText: "Merger that redefines banking",
     },
     {
       firstText: "GLOBAL INSURANCE LEADER",
       secondText: "Banking on Happy Customer – A century Strategy",
     },
     {
+      firstText: "SMCP",
+      secondText: "Reinventing a French icon",
+    },
+    {
+      firstText: "MCM WORLDWIDE",
+      secondText: "Iconic supermodel for an iconic brand ",
+    },
+    {
       firstText: "GQ x NFL HONORS",
       secondText: "A New Way to Play the Game",
     },
     {
-      firstText: "BACCARAT HOTEL, NEW YORK",
+      firstText: "BACCARAT HOTEL",
       secondText: "Creating an Experience Unlike any Other",
     },
     {
-      firstText: "MCM WORLDWIDE",
+      firstText: "MCM WROLDWIDE",
       secondText: "Reinvigorating a Legendary Brand",
     },
     {
-      firstText: "MARIE CLAIRE x CHANGE MAKERS",
+      firstText: "EUROPEAN COMMISSION",
+      secondText: "Transforming a European icon",
+    },
+    {
+      firstText: "FASHION CHANGE MAKERS",
       secondText: "Made for Makers",
     },
     {
-      firstText: "SUPER BOWL x BLACK EYED PEAS",
-      secondText: "Sounds like Super Bowl",
+      firstText: "NFL 100TH ANNIVERSARY",
+      secondText: "Celebrating sports lifestyle iconic movement  ",
+    },
+    {
+      firstText: "EUROPEAN BANK",
+      secondText: "Merger that redefines banking",
     },
     {
       firstText: "NFL HALFTIME SHOW",
@@ -88,7 +120,7 @@ const Family = () => {
     },
     {
       firstText: "PUMA x NBA",
-      secondText: "Building Better Together",
+      secondText: "Play to be different",
     },
     {
       firstText: "RAY J",
@@ -97,6 +129,10 @@ const Family = () => {
     {
       firstText: "DIESEL-U-MUSIC",
       secondText: "Movement that Inspires",
+    },
+    {
+      firstText: "MAISON MARTIN MARGIELA",
+      secondText: "Creating New Yorks newest icon",
     },
     {
       firstText: "JON BON JOVI",
@@ -115,12 +151,12 @@ const Family = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[6.25rem] sm:leading-[4.5rem]">
+              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
                 Making Headlines
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
             </div>
-            <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
               Our Moments
             </div>
             <div className="flex h-1/4 lg:hidden" />

@@ -26,12 +26,12 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[6.25rem] sm:leading-[4.5rem]">
+            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
               Building Stronger Brands
             </div>
             <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
           </div>
-          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+          <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
             The Brave Agency
           </div>
           <div className="flex h-1/4 lg:hidden" />
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px]">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-left">
             Your trusted partner in creating iconic brand and business.
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
@@ -99,7 +99,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[62px]">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[62px] text-start">
             We give our clients the confidence to make iconic moves
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
@@ -157,7 +157,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px]">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-start">
             We build strong business, and a sustainable, transformative tomorrow
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
@@ -178,19 +178,21 @@ const Home = () => {
 
       {/* approach */}
       <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden">
-        <Image
-          src={approachmImg}
-          alt="Hero Image Mobile"
-          className="block sm:hidden w-full h-auto"
-        />
-        <Image
-          src={approachImg}
-          alt="Hero Image Desktop"
-          className="hidden sm:block absolute inset-0 w-full h-full object-contain"
-        />
-        <div className="relative z-10 flex items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-          <div className="bg-white lg:bg-white/20 lg:text-[#5C2A5F] lg:border-[#5C2A5F] lg:text-[40px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#FF4076] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white">
-            <Link href={"/approach"}>Our Approach</Link>
+        <div className="relative w-full h-auto sm:h-full">
+          <Image
+            src={approachmImg}
+            alt="Hero Image Mobile"
+            className="block sm:hidden w-full h-auto"
+          />
+          <Image
+            src={approachImg}
+            alt="Hero Image Desktop"
+            className="hidden sm:block absolute inset-0 w-full h-full object-contain"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="bg-white/20 text-[#5C2A5F] border-[#5C2A5F] lg:text-[40px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
+              <Link href={"/approach"}>Our Approach</Link>
+            </div>
           </div>
         </div>
       </section>
@@ -201,7 +203,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px]">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-start">
             A memorable experience that powers growth
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">

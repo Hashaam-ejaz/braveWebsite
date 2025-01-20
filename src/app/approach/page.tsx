@@ -30,21 +30,21 @@ const Approach = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[6.25rem] sm:leading-[4.5rem]">
+              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
                 Strategy & Creativity
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
             </div>
-            <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
               Our Approach
             </div>
             <div className="flex h-1/4 lg:hidden" />
           </div>
         </section>
 
-        <section className="h-fit text-start lg:text-center text-[40px] lg:text-[48px] my-[32px] lg:my-[63px] mx-4 lg:mx-24">
+        <section className="h-fit text-center lg:text-center text-[33px] lg:text-[48px] my-[32px] lg:my-[63px] mx-4 lg:mx-24">
           We are a strategy company that helps clients build
-          <br className="hidden lg:block" />
+          <br className="block xs:hidden md:block" />
           <span className="lg:italic ml-2 lg:ml-0">“Stronger Brands”</span>
         </section>
 
@@ -195,7 +195,7 @@ const Approach = () => {
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
                   <Image
-                    src={tile6}
+                    src={tile4}
                     alt={"tile 6"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
@@ -216,7 +216,7 @@ const Approach = () => {
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
                   <Image
-                    src={tile4}
+                    src={tile5}
                     alt={"tile 4"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
@@ -237,7 +237,7 @@ const Approach = () => {
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
                   <Image
-                    src={tile5}
+                    src={tile6}
                     alt={"tile 5"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
@@ -300,7 +300,7 @@ const Approach = () => {
                   Growth Roadmap
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile6} alt={"tile 6"} />
+                  <Image src={tile4} alt={"tile 6"} />
                   We help our clients work out where they want to be, by when -
                   creating vision, drive and focus on strategy for growth
                 </AccordionContent>
@@ -312,7 +312,7 @@ const Approach = () => {
                   Targeted Navigation
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile4} alt={"tile 4"} />
+                  <Image src={tile5} alt={"tile 4"} />
                   Our approach is anchored to objective measures of commercial
                   success. We set, measure and manage clear targets.
                 </AccordionContent>
@@ -324,7 +324,7 @@ const Approach = () => {
                   Sustainable Impact
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile5} alt={"tile 5"} />
+                  <Image src={tile6} alt={"tile 5"} />
                   We unite brand, culture and experience to drive impact inside
                   and outside an organization and to stay relevant over time
                 </AccordionContent>
