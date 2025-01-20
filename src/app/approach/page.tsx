@@ -48,19 +48,19 @@ const Approach = () => {
           <span className="lg:italic ml-2 lg:ml-0">“Stronger Brands”</span>
         </section>
 
-        <section className="relative w-full h-[100vw] sm:h-[51vw] overflow-hidden">
+        <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden bg-red-100">
           {/* Mobile image */}
           <Image
             src={approach222}
             alt="Hero Image Mobile"
-            className="absolute inset-0 w-full h-full object-contain sm:hidden"
+            className="block sm:hidden w-full h-auto"
           />
 
           {/* Large screen image */}
           <Image
             src={approach22}
             alt="Hero Image Desktop"
-            className="absolute inset-0 w-full h-full object-contain hidden sm:block"
+            className="hidden sm:block absolute inset-0 w-full h-full object-contain"
           />
         </section>
 
