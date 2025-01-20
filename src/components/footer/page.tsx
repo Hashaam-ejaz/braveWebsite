@@ -32,7 +32,7 @@ const Footer = () => {
   const [showSheet, setshowSheet] = useState<boolean>(false);
 
   return (
-    <footer className="flex justify-center items-center w-full flex-col">
+    <footer className="flex justify-center items-center w-full flex-col mt-6">
       <div className="flex flex-col w-full pl-4 bg-[#D9D9D9] pt-1 md:w-[90%] md:mb-[14px]">
         <div className="text-[28.42px]">
           For <span className="font-bold">BRAVE</span> Living

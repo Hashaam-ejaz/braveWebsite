@@ -113,15 +113,17 @@ const Family = () => {
             alt="Hero Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="relative z-10 flex flex-col items-center justify-center w-full h-full  sm:pl-1 md:pl-2 lg:pl-10">
-            <div className="flex flex-col text-center">
-              <h1 className=" text-white text-[32px] md:text-[48px] lg:text-[100px]">
-                OUR MOMENTS
-              </h1>
-              <h1 className="text-center text-white text-[15px] md:text-[30px] lg:text-[36px] font-thin	">
-                We create the narrative that make the headlines
-              </h1>
+          <div className="relative z-10 flex flex-col h-full">
+            <div className="flex h-1/2 lg:h-2/3">
+              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[6.25rem] sm:leading-[4.5rem]">
+                Making Headlines
+              </div>
+              <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
             </div>
+            <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+              Our Moments
+            </div>
+            <div className="flex h-1/4 lg:hidden" />
           </div>
         </section>
         <section className="mt-[30px] lg:mt-[60px] flex flex-col w-full items-center">
