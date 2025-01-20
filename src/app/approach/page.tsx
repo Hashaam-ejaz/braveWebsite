@@ -4,7 +4,6 @@ import approach22 from "@assets/images/Approach22.webp";
 import approach222 from "@assets/images/Approach222.webp";
 import section2Img from "@assets/images/appraoch2.webp";
 import section3Img from "@assets/images/approach3.webp";
-import FlipTile from "@components/flip-tile/flip-tile";
 import tile1 from "@assets/images/tile1.webp";
 import tile2 from "@assets/images/tile2.webp";
 import tile3 from "@assets/images/tile3.webp";
@@ -30,12 +29,12 @@ const Approach = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
+              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
                 Strategy & Creativity
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
             </div>
-            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[64px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
               Our Approach
             </div>
             <div className="flex h-1/4 lg:hidden" />
@@ -257,7 +256,7 @@ const Approach = () => {
               <AccordionItem value="item-1">
                 <AccordionTrigger>Global Network</AccordionTrigger>
                 <AccordionContent className="flex items-center text-[#7F7F7F] gap-x-4">
-                  <Image src={tile1} alt="tile 1" />
+                  <Image src={tile1} alt="tile 1" className="object-cover" />
                   <div className="flex flex-col justify-center">
                     We design and deliver dynamic frameworks to help our clients
                     proactively create opportunities with our global network.
@@ -271,7 +270,7 @@ const Approach = () => {
                   Strategic Leadership
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile2} alt={"tile 2"} />
+                  <Image src={tile2} alt={"tile 2"} className="object-cover" />
                   We help our clients do things right by creating exceptional
                   experiences through clear and uncompromising ethics.
                 </AccordionContent>
@@ -283,7 +282,7 @@ const Approach = () => {
                   Iconic Moves
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile3} alt={"tile 3"} />
+                  <Image src={tile3} alt={"tile 3"} className="object-cover" />
                   We are able to set an ambition for business and seize
                   opportunities for innovation, revenue, growth, and expansion.
                 </AccordionContent>
@@ -300,7 +299,7 @@ const Approach = () => {
                   Growth Roadmap
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile4} alt={"tile 6"} />
+                  <Image src={tile4} alt={"tile 6"} className="object-cover" />
                   We help our clients work out where they want to be, by when -
                   creating vision, drive and focus on strategy for growth
                 </AccordionContent>
@@ -312,7 +311,7 @@ const Approach = () => {
                   Targeted Navigation
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile5} alt={"tile 4"} />
+                  <Image src={tile5} alt={"tile 4"} className="object-cover" />
                   Our approach is anchored to objective measures of commercial
                   success. We set, measure and manage clear targets.
                 </AccordionContent>
@@ -324,7 +323,7 @@ const Approach = () => {
                   Sustainable Impact
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile6} alt={"tile 5"} />
+                  <Image src={tile6} alt={"tile 5"} className="object-cover" />
                   We unite brand, culture and experience to drive impact inside
                   and outside an organization and to stay relevant over time
                 </AccordionContent>

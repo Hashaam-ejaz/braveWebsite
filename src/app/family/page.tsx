@@ -60,12 +60,12 @@ const Family = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
+              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10  landscape:mt-32">
                 Build success together
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
             </div>
-            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white justify-center items-center pb-28 uppercase">
+            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[64px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
               Our Family
             </div>
             <div className="flex h-1/4 lg:hidden" />
@@ -105,14 +105,14 @@ const Family = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col  sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[66px] lg:pt-24 pl-5 text-white uppercase lg:leading-[4.75rem] sm:leading-[4.5rem] leading-10">
+              <div className="flex flex-col  sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[66px] lg:pt-24 pl-5 text-white uppercase lg:leading-[4.75rem] sm:leading-[4.5rem] leading-10 landscape-mt">
                 Driven by our Purpose <br /> Building Stronger Brands
               </div>
             </div>
-            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white italic justify-center pb-28 uppercase">
+            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[96px] text-white justify-center pb-28 uppercase">
               Our Team
             </div>
-            <div className="flex h-1/4 lg:hidden" />
+            <div className="flex h-1/4 lg:hidden landscape-hidden" />
           </div>
         </section>
         {/* <h2 className="text-[64px] text-center mt-12 italic hidden lg:block">

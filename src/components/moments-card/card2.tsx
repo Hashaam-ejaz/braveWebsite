@@ -12,8 +12,8 @@ interface CardProps {
 // Functional component using the props
 const Card2: React.FC<CardProps> = ({ imageSrc, firstText, secondText }) => {
   return (
-    <div className="bg-white border border-gray-200 text-black rounded-lg shadow-md overflow-hidden w-[350px] lg:w-[600px] min-h-[320px] lg:min-h-[387px]">
-      <div className="relative w-full h-[200px] lg:h-[250px]">
+    <div className="bg-white border border-gray-200 text-black rounded-lg shadow-md overflow-hidden w-[350px] lg:w-[600px] min-h-[320px] lg:min-h-[486px]">
+      <div className="relative w-full h-[200px] lg:h-[350px]">
         <Image
           src={imageSrc}
           alt="Card"
