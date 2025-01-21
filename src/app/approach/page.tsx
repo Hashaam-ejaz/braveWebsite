@@ -29,12 +29,12 @@ const Approach = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
-                Strategy & Creativity
+              <div className="flex drop-shadow-custom flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
+                uniting <br /> Strategy & Creativity
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
             </div>
-            <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[64px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
+            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center pb-28 uppercase landscape:mt-28">
               Our Approach
             </div>
             <div className="flex h-1/4 lg:hidden" />
@@ -43,8 +43,9 @@ const Approach = () => {
 
         <section className="h-fit text-center lg:text-center text-[33px] lg:text-[48px] my-[32px] lg:my-[63px] mx-4 lg:mx-24">
           We are a strategy company that helps clients build
-          <br className="block xs:hidden md:block" />
-          <span className="lg:italic ml-2 lg:ml-0">“Stronger Brands”</span>
+          <span className="lg:italic ml-2 lg:ml-0 italic">
+            “Stronger Brands”
+          </span>
         </section>
 
         <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden">
@@ -108,13 +109,12 @@ const Approach = () => {
           </p>
         </div>
         <section className="flex-col bg-[#F4F1F1] px-4 lg:px-8 hidden lg:flex">
-          <div className="mt-4 lg:flex justify-evenly">
+          <div className="mt-4 flex justify-evenly">
             <span className="text-[#8F3966] font-extrabold lg:hidden">
               From Where to go
             </span>
             <Accordion
               type="single"
-              collapsible
               defaultValue="item-1"
               className="min-w-[33.333%]"
             >
@@ -137,7 +137,6 @@ const Approach = () => {
             </Accordion>
             <Accordion
               type="single"
-              collapsible
               defaultValue="item-2"
               className="min-w-[33.333%]"
             >
@@ -151,14 +150,15 @@ const Approach = () => {
                     alt={"tile 2"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
-                  We help our clients do things right by creating exceptional
-                  experiences through clear and uncompromising ethics.
+                  <div className="flex flex-col justify-center">
+                    We help our clients do things right by creating exceptional
+                    experiences through clear and uncompromising ethics.
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
             <Accordion
               type="single"
-              collapsible
               defaultValue="item-3"
               className="min-w-[33.333%]"
             >
@@ -172,8 +172,11 @@ const Approach = () => {
                     alt={"tile 3"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
-                  We are able to set an ambition for business and seize
-                  opportunities for innovation, revenue, growth, and expansion.
+                  <div className="flex flex-col justify-center">
+                    We are able to set an ambition for business and seize
+                    opportunities for innovation, revenue, growth, and
+                    expansion.
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -184,7 +187,6 @@ const Approach = () => {
             </span>
             <Accordion
               type="single"
-              collapsible
               defaultValue="item-4"
               className="min-w-[33.333%]"
             >
@@ -198,14 +200,15 @@ const Approach = () => {
                     alt={"tile 6"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
-                  We help our clients work out where they want to be, by when -
-                  creating vision, drive and focus on strategy for growth
+                  <div className="flex flex-col justify-center">
+                    We help our clients work out where they want to be, by when
+                    - creating vision, drive and focus on strategy for growth
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
             <Accordion
               type="single"
-              collapsible
               defaultValue="item-5"
               className="min-w-[33.333%]"
             >
@@ -219,14 +222,15 @@ const Approach = () => {
                     alt={"tile 4"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
-                  Our approach is anchored to objective measures of commercial
-                  success. We set, measure and manage clear targets.
+                  <div className="flex flex-col justify-center">
+                    Our approach is anchored to objective measures of commercial
+                    success. We set, measure and manage clear targets.
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
             <Accordion
               type="single"
-              collapsible
               defaultValue="item-6"
               className="min-w-[33.333%]"
             >
@@ -240,8 +244,11 @@ const Approach = () => {
                     alt={"tile 5"}
                     className="flex-shrink-0 object-cover w-[200px] h-[200px] rounded-md"
                   />
-                  We unite brand, culture and experience to drive impact inside
-                  and outside an organization and to stay relevant over time
+                  <div className="flex flex-col justify-center">
+                    We unite brand, culture and experience to drive impact
+                    inside and outside an organization and to stay relevant over
+                    time
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -252,7 +259,7 @@ const Approach = () => {
             <span className="text-[#8F3966] font-extrabold">
               From Where to go
             </span>
-            <Accordion type="single" collapsible>
+            <Accordion type="single">
               <AccordionItem value="item-1">
                 <AccordionTrigger>Global Network</AccordionTrigger>
                 <AccordionContent className="flex items-center text-[#7F7F7F] gap-x-4">
@@ -264,7 +271,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single" collapsible>
+            <Accordion type="single">
               <AccordionItem value="item-2">
                 <AccordionTrigger className="lg:font-bold lg:text-[24px]">
                   Strategic Leadership
@@ -276,7 +283,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single" collapsible>
+            <Accordion type="single">
               <AccordionItem value="item-3">
                 <AccordionTrigger className="lg:font-bold lg:text-[24px]">
                   Iconic Moves
@@ -293,7 +300,7 @@ const Approach = () => {
             <span className="text-[#8F3966] font-extrabold">
               To Getting you There
             </span>
-            <Accordion type="single" collapsible>
+            <Accordion type="single">
               <AccordionItem value="item-4">
                 <AccordionTrigger className="lg:font-bold lg:text-[24px]">
                   Growth Roadmap
@@ -305,7 +312,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single" collapsible>
+            <Accordion type="single">
               <AccordionItem value="item-5">
                 <AccordionTrigger className="lg:font-bold lg:text-[24px]">
                   Targeted Navigation
@@ -317,7 +324,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single" collapsible>
+            <Accordion type="single">
               <AccordionItem value="item-6">
                 <AccordionTrigger className="lg:font-bold lg:text-[24px]">
                   Sustainable Impact

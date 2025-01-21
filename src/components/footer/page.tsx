@@ -60,6 +60,7 @@ const Footer = () => {
           <div></div>
         </div>
         <div className="lg:text-right mt-4 md:mt-0 text-muted-foreground space-y-1 w-[90%] text-center md:text-right text-[22px] md:text-[22px] lg:text-[24px] leading-8 overflow-hidden">
+          <div className="lg:pb-2">USA</div>
           <div className="truncate lg:pb-2">info@thebraveagency.co</div>
           <div>+1 917 203 4439</div>
         </div>

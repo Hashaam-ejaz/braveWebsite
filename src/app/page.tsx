@@ -26,12 +26,12 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
+            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 drop-shadow-custom sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
               Building Stronger Brands
             </div>
             <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
           </div>
-          <div className="flex h-1/4 lg:h-1/3 text-[24px] lg:text-[64px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
+          <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
             The Brave Agency
           </div>
           <div className="flex h-1/4 lg:hidden" />
@@ -39,7 +39,7 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:items-center text-start text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+        <div className="flex justify-start lg:items-center text-left text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
           We are <br className="hidden lg:block" /> BRAVE
         </div>
 
@@ -47,7 +47,7 @@ const Home = () => {
           <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-left">
             Your trusted partner in creating iconic brand and business.
           </p>
-          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
             <p>
               Grounded in extensive experience and fueled by an extraordinary,
               talented team, BRAVE team is proud of it&apos;s long-standing
@@ -85,7 +85,7 @@ const Home = () => {
             <div className="flex flex-col w-1/3 lg:w-3/5" />
           </div>
           <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
-            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[40px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#FF007B] lg:text-[#A30953] rounded-full lg:border-[#A30953] lg:border-[3.28px] lg:border-solid ">
+            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] w-[143px] h-[28px] lg:text-[20px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center text-[#FF007B] lg:text-[#A30953] rounded-full lg:border-[#A30953] lg:border-[3.28px] lg:border-solid">
               <Link href={"/moments"}>Our Moments</Link>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Home = () => {
           <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[62px] text-start">
             We give our clients the confidence to make iconic moves
           </p>
-          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
             <p>
               While our reach is global, BRAVE is small by design: We work with
               only a handful of projects at a time with our signature*
@@ -143,7 +143,7 @@ const Home = () => {
             <div className="flex flex-col w-1/3 lg:w-3/5" />
           </div>
           <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
-            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[40px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center text-[#6A397B] lg:text-[#671E80] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#671E80]">
+            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[20px] w-[143px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center text-[#6A397B] lg:text-[#671E80] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#671E80]">
               <Link href={"/family"}>Our Family</Link>
             </div>
           </div>
@@ -157,20 +157,24 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-start">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[34px] text-start">
             We build strong business, and a sustainable, transformative tomorrow
           </p>
-          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
             <p>
-              While our reach is global, BRAVE is small by design: We work with
-              only a handful of projects at a time with our signature*
-              framework.
+              Led by an extraordinary team of professionals, BRAVE is widely
+              recognized for delivering exceptional results with strategically
+              grounded, creatively executed and measurably effective brand and
+              business solutions.
             </p>
             <p>
-              This discipline allows us to focus on creating and delivering
-              customized strategies to meet each project’s unique needs and
-              provide a level of service that ensures we are with our partners &
-              clients when they need us most.
+              Our team&apos;s collective expertise is carefully curated and
+              ever-evolving to keep pace with the needs of our clients. Brand
+              strategy, design and ethics, integrated marketing, digital media,
+              strategic partnerships, buzz-worthy experiences and experiential
+              events - these are just a few of the offerings in our unique and
+              proven holistic approach to helping our clients build stronger
+              brands
             </p>
           </div>
         </div>
@@ -190,7 +194,7 @@ const Home = () => {
             className="hidden sm:block absolute inset-0 w-full h-full object-contain"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/20 text-[#5C2A5F] border-[#5C2A5F] lg:text-[40px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[370px] lg:h-[75px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
+            <div className="bg-white/20 text-[#5C2A5F] border-[#5C2A5F] lg:text-[20px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
               <Link href={"/approach"}>Our Approach</Link>
             </div>
           </div>
@@ -206,7 +210,7 @@ const Home = () => {
           <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-start">
             A memorable experience that powers growth
           </p>
-          <div className="flex flex-col space-y-8 text-[14px] md:text-[20px] lg:text-[32.53px]">
+          <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
             <p>
               With experience in every imaginable sector, we help clients across
               industries create real meaning for their customers and reach their

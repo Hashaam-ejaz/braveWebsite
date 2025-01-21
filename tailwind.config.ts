@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        custom: "0 3.78px 3.78px rgba(0, 0, 0, 0.25)", // Custom drop shadow
+      },
+
       screens: {
         xs: "500px",
       },

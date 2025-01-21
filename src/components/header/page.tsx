@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute top-0 z-20 flex justify-around items-center w-full text-white mt-[20px] lg:mt-[26px] md:text-[24px] text-[13px] lg:text-[32px]">
+    <div className="lg:w-2/3 w-full absolute top-0 z-20 flex justify-around items-center text-white mt-[20px] lg:mt-[26px] md:text-[24px] text-[10px] lg:text-[28px]">
       <Link href={"/"}>
         <Image src={braveLogo} alt="Brave Logo" width={25} height={25} />
       </Link>
