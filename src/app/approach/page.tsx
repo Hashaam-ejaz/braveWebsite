@@ -4,12 +4,12 @@ import approach22 from "@assets/images/Approach22.webp";
 import approach222 from "@assets/images/Approach222.webp";
 import section2Img from "@assets/images/appraoch2.webp";
 import section3Img from "@assets/images/approach3.webp";
-import tile1 from "@assets/images/tile1.webp";
-import tile2 from "@assets/images/tile2.webp";
-import tile3 from "@assets/images/tile3.webp";
-import tile4 from "@assets/images/tile4.webp";
-import tile5 from "@assets/images/tile5.webp";
-import tile6 from "@assets/images/tile6.webp";
+import tile1 from "@assets/images/tile1.png";
+import tile2 from "@assets/images/tile2.png";
+import tile3 from "@assets/images/tile3.png";
+import tile4 from "@assets/images/tile4.png";
+import tile5 from "@assets/images/tile5.png";
+import tile6 from "@assets/images/tile6.png";
 import {
   Accordion,
   AccordionContent,
@@ -29,7 +29,7 @@ const Approach = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex drop-shadow-custom flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10  lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
+              <div className="flex drop-shadow-custom flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px]  lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
                 uniting <br /> Strategy & Creativity
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
@@ -64,31 +64,28 @@ const Approach = () => {
           />
         </section>
 
-        <div className="text-[20px] lg:text-[48px] lg:font-normal font-medium text-start lg:text-start mb-[20px] mx-4 lg:mx-[106px] mt-[37px] lg:mt-[63px]">
-          Our Approach gives us clear <br className="block lg:hidden" />
-          understandings of people, <br className="block lg:hidden" />
-          organizations. and their <br className="block lg:hidden" />
-          interactions
-        </div>
-
-        <section className="flex flex-col-reverse lg:flex-row-reverse  h-fit lg:h-[40rem] mx-4 lg:ml-[65px] lg:mr-[83px]">
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 flex justify-center mb-10 w-full mt-10 lg:mt-0">
-            <div className="relative w-full h-full">
-              {/* Image Section */}
-              <Image
-                src={section2Img}
-                alt="Hero Image"
-                className="w-full h-full object-contain"
-              />
-            </div>
+        <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center items-center">
+          <div className="flex justify-start lg:items-center text-start text-[20px] font-medium lg:font-normal lg:text-[48px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-8 sm:leading-[4rem]">
+            Approach with clear understandings of people, organizations and
+            their interactions
           </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 font-normal flex flex-col justify-center">
-            <p className="text-[14px] text-start lg:text-[33px]">
-              When a business makes an iconic move, it alters the competitive
-              landscape, capturing peoples imagination. The move shifts
-              people&apos;s expectation. creates memories and delivers
-              extraordinary business results.
-            </p>
+          <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+            <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
+              <p>
+                When a business makes an iconic move, it alters the competitive
+                landscape, capturing peoples imagination. The move shifts
+                people&apos;s expectation. creates memories and delivers
+                extraordinary business results.
+              </p>
+              <div className="relative w-full h-full">
+                {/* Image Section */}
+                <Image
+                  src={section2Img}
+                  alt="Hero Image"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -108,6 +105,7 @@ const Approach = () => {
             strategy, design, and implementation.
           </p>
         </div>
+
         <section className="flex-col bg-[#F4F1F1] px-4 lg:px-8 hidden lg:flex">
           <div className="mt-4 flex justify-evenly">
             <span className="text-[#8F3966] font-extrabold lg:hidden">
@@ -339,36 +337,37 @@ const Approach = () => {
           </div>
         </section>
 
-        <div className="text-[20px] lg:text-[48px] text-start font-medium lg:font-normal mx-4 lg:mx-24 mt-[40px] lg:mt-[70px] mb-[22px]">
-          BRAVE unleashes growth led opportunities with the Client at the Center
-        </div>
-        <section className="flex flex-col lg:flex-row mx-4 lg:mx-24 ">
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4  flex flex-col lg:mr-[100px] lg:pr-24">
-            <div className="text-[14px] lg:text-[26px] text-start">
-              In an experience economy, memories are valuable commodities.
-              Grounded in a deep understanding of operational, economic and
-              regulatory realities, BRAVE designs and delivers an Experience
-              Signature which is unique in every dimension and holistic as an
-              outcome. This framework in-turn increases satisfaction and powers
-              growth that is measurable, traceable and sustainable.
-              <br />
-              <div className="mb-4" />
-              <span className="text-[14px] lg:text-[26px] text-start">
-                Our &apos;Experience signature&apos; is an understanding of
-                Neuroeconomics to merge with Physical, Human and Digital
-                dimensions over a seamless journey of these sequential mind
-                states that differentiates and produces competitive advantages
-                for lasting connection.
-              </span>
-            </div>
+        <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center items-center">
+          <div className="flex justify-start lg:items-center text-start text-[20px] font-medium lg:font-normal lg:text-[48px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-8 sm:leading-[4rem]">
+            BRAVE unleashes growth led opportunities with Client at the Center
           </div>
-          <div className="basis-2/4 sm:basis-1 lg:basis-2/4 flex justify-center mb-[50px] mt-[20px]">
-            <div className="w-full h-full overflow-hidden">
-              <Image
-                src={section3Img}
-                alt="Hero Image"
-                className=" w-full h-full object-contain"
-              />
+          <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+            <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
+              <div className="text-[14px] lg:text-[26px] text-start">
+                In an experience economy, memories are valuable commodities.
+                Grounded in a deep understanding of operational, economic and
+                regulatory realities, BRAVE designs and delivers an Experience
+                Signature which is unique in every dimension and holistic as an
+                outcome. This framework in-turn increases satisfaction and
+                powers growth that is measurable, traceable and sustainable.
+                <br />
+                <div className="mb-4" />
+                <span className="text-[14px] lg:text-[26px] text-start">
+                  Our &apos;Experience signature&apos; is an understanding of
+                  Neuroeconomics to merge with Physical, Human and Digital
+                  dimensions over a seamless journey of these sequential mind
+                  states that differentiates and produces competitive advantages
+                  for lasting connection.
+                </span>
+              </div>
+              <div className="relative w-full h-full">
+                {/* Image Section */}
+                <Image
+                  src={section3Img}
+                  alt="Hero Image"
+                  className=" w-full h-full object-contain"
+                />
+              </div>
             </div>
           </div>
         </section>

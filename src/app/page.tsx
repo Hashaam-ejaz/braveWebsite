@@ -26,7 +26,7 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 drop-shadow-custom sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] sm:ml-10 lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
+            <div className="flex flex-col w-2/3 sm:w-1/3 lg:w-2/5 drop-shadow-custom sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[96px] lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
               Building Stronger Brands
             </div>
             <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
@@ -39,12 +39,12 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:items-center text-left text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+        <div className="flex justify-start lg:items-center text-left text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0 leading-[5.75rem]">
           We are <br className="hidden lg:block" /> BRAVE
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-left">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[32px] text-left">
             Your trusted partner in creating iconic brand and business.
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
@@ -94,12 +94,12 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:font-normal font-medium lg:items-center text-start text-[40px]  lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
+        <div className="flex justify-start lg:font-normal font-medium lg:items-center text-start text-[40px]  lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-[5.75rem]">
           Why <br className="hidden lg:block" /> BRAVE is different
         </div>
 
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[62px] text-start">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[1000px] px-4">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[32px] text-start">
             We give our clients the confidence to make iconic moves
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
@@ -119,7 +119,7 @@ const Home = () => {
               their culture, work hand in hand to achieve their goals, and
               measure results with proprietary tools.
             </p>
-            <p className="lg:text-[24px] text-[10px]">
+            <p className="lg:text-[18px] text-[10px]">
               *Neuroeconomics + PHD (Physical, Human, Digital) Framework
             </p>
           </div>
@@ -137,7 +137,7 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[70px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
+            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[70px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[4.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
               We build success together
             </div>
             <div className="flex flex-col w-1/3 lg:w-3/5" />
@@ -152,12 +152,12 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:items-center text-start text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0">
+        <div className="flex justify-start lg:items-center text-start text-[40px] lg:font-normal font-medium lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0 leading-[5.75rem]">
           About <br className="hidden lg:block" /> BRAVE
         </div>
 
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[34px] text-start">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[1000px] px-4">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[32px] text-start">
             We build strong business, and a sustainable, transformative tomorrow
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
@@ -202,12 +202,12 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:items-center text-start text-[40px] font-medium lg:font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0">
+        <div className="flex justify-start lg:items-center text-start text-[40px] font-medium lg:font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-[5.75rem]">
           BRAVE&apos;s <br className="hidden lg:block" /> Promise
         </div>
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
-          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[62px] text-start">
+          <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[32px] text-start">
             A memorable experience that powers growth
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
