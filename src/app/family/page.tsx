@@ -65,7 +65,7 @@ const Family = () => {
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
             </div>
-            <div className="flex h-1/4 lg:h-1/3 drop-shadow-custom text-[24px] lg:text-[54px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
+            <div className="flex h-1/4 lg:h-1/3 drop-shadow-custom text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20">
               Our Family
             </div>
             <div className="flex h-1/4 lg:hidden" />

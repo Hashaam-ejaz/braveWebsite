@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
           </div>
-          <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center pb-28 uppercase landscape:mt-20">
+          <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20">
             The Brave Agency
           </div>
           <div className="flex h-1/4 lg:hidden" />
@@ -45,7 +45,7 @@ const Home = () => {
 
         <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
           <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[32px] text-left">
-            Your trusted partner in creating iconic brand and business.
+            Your trusted partner in creating iconic brand and business
           </p>
           <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
             <p>
@@ -79,10 +79,9 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
-              We Inspire the world
+            <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
+              We Inspire <br /> the world
             </div>
-            <div className="flex flex-col w-1/3 lg:w-3/5" />
           </div>
           <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
             <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] w-[143px] h-[28px] lg:text-[20px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center text-[#FF007B] lg:text-[#A30953] rounded-full lg:border-[#A30953] lg:border-[3.28px] lg:border-solid">
@@ -137,7 +136,7 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[70px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[4.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
               We build success together
             </div>
             <div className="flex flex-col w-1/3 lg:w-3/5" />

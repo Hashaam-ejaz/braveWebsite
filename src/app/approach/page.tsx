@@ -34,7 +34,7 @@ const Approach = () => {
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
             </div>
-            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center pb-28 uppercase landscape:mt-28">
+            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-28">
               Our Approach
             </div>
             <div className="flex h-1/4 lg:hidden" />
