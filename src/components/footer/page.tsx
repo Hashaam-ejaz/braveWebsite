@@ -33,17 +33,19 @@ const Footer = () => {
 
   return (
     <footer className="flex justify-center items-center w-full flex-col mt-6">
-      <div className="flex flex-col w-full pl-4 bg-[#D9D9D9] pt-1 md:w-[90%] md:mb-[14px]">
-        <div className="text-[28.42px]">
-          For <span className="font-bold">BRAVE</span> Living
-          <br />
-        </div>
-        <div className="text-[1rem] mb-[25px]">
-          Get Connected To The Brave Community
+      <div className="flex flex-col lg:flex-row w-full pl-4 bg-[#D9D9D9] pt-1 md:w-[90%] md:mb-[14px] items-center">
+        <div className="flex flex-col">
+          <div className="text-[28.42px]">
+            For <span className="font-bold">BRAVE</span> Living
+            <br />
+          </div>
+          <div className="text-[1rem] mb-[25px]">
+            Get Connected To The Brave Community
+          </div>
         </div>
         <Drawer open={showSheet} onOpenChange={setshowSheet}>
           <DrawerTrigger asChild>
-            <button className=" bg-black text-white px-4 py-2 rounded-full text-lg hover:bg-gray-800 transition-colors w-[180px] text-[14px] font-bold mb-4 lg:ml-48 ml-auto mr-auto">
+            <button className=" bg-black text-white px-4 py-2 rounded-full text-lg hover:bg-gray-800 transition-colors w-[180px] text-[14px] font-bold mb-4 lg:ml-48 ml-auto mr-auto h-12">
               Get in TOUCH
             </button>
           </DrawerTrigger>
