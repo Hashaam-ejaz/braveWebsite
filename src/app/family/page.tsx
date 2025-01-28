@@ -106,9 +106,9 @@ const Family = () => {
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-3/4">
               <div className="flex flex-col  sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[80px] lg:pt-24 pl-5 text-white uppercase lg:leading-[4.75rem] sm:leading-[4.5rem] leading-10 landscape-mt">
-                Delivering <br />
-                Confidence to <br />
-                Make iconic moves
+                Staying <br />
+                ahead of <br />
+                Expectations
               </div>
             </div>
             <div className="flex h-1/4 lg:h-1/4 text-[24px] lg:text-[54px] text-white justify-center uppercase">

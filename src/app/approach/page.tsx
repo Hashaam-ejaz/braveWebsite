@@ -2,8 +2,10 @@ import Image from "next/image";
 import approachTop from "@assets/images/approachTop.webp";
 import approach22 from "@assets/images/Approach22.png";
 import approach222 from "@assets/images/Approach222.webp";
-import section2Img from "@assets/images/appraoch2.png";
+import section2Img from "@assets/images/appraoch2.webp";
 import section3Img from "@assets/images/approach3.webp";
+import img00 from "@assets/images/img00.webp";
+import img01 from "@assets/images/img01.webp";
 import tile1 from "@assets/images/tile1.png";
 import tile2 from "@assets/images/tile2.png";
 import tile3 from "@assets/images/tile3.png";
@@ -16,6 +18,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@components/ui/accordion";
+import Link from "next/link";
 
 const Approach = () => {
   return (
@@ -84,6 +87,22 @@ const Approach = () => {
                   alt="Hero Image"
                   className="w-full h-full object-contain"
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="relative w-full h-[100vh] overflow-hidden hidden md:block">
+          <Image
+            src={img00}
+            alt="Hero Image"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+
+          <div className="relative z-10 flex flex-col h-full">
+            <div className="flex h-1/2 lg:h-2/3">
+              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+                Delivering <br /> Confidence <br /> to Make <br /> Iconic Moves
               </div>
             </div>
           </div>
@@ -332,6 +351,22 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
+          </div>
+        </section>
+
+        <section className="relative w-full h-[100vh] overflow-hidden hidden md:block">
+          <Image
+            src={img01}
+            alt="Hero Image"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+
+          <div className="relative z-10 flex flex-col h-full">
+            <div className="flex h-1/2 lg:h-2/3">
+              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+                Brave New <br /> Tomorrow
+              </div>
+            </div>
           </div>
         </section>
 

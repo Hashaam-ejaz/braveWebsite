@@ -3,7 +3,7 @@ import momentsImg from "@assets/images/moments.webp";
 import momentsmImg from "@assets/images/momentsm.webp";
 import familyImg from "@assets/images/family.webp";
 import approachImg from "@assets/images/approach.webp";
-import approachmImg from "@assets/images/approachm.webp";
+import approachmImg from "@assets/images/approachm.png";
 import Image from "next/image";
 import landing from "@assets/images/landingSimple.webp";
 import landingm from "@assets/images/landingMobile.webp";
@@ -180,23 +180,39 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-auto sm:h-[51vw] overflow-hidden">
+      <section className="relative w-full h-auto overflow-hidden md:hidden">
         <div className="relative w-full h-auto sm:h-full">
           <Image
             src={approachmImg}
             alt="Hero Image Mobile"
-            className="block sm:hidden w-full h-auto"
-          />
-          <Image
-            src={approachImg}
-            alt="Hero Image Desktop"
-            className="hidden sm:block absolute inset-0 w-full h-full object-contain"
+            className="block w-full h-auto"
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="bg-white/20 text-[#5C2A5F] border-[#5C2A5F] lg:text-[20px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
               <Link href={"/approach"}>Our Approach</Link>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="relative w-full h-[100vh] overflow-hidden hidden md:block">
+        <Image
+          src={approachImg}
+          alt="Hero Image"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <div className="relative z-10 flex flex-col h-full">
+          <div className="flex h-1/2 lg:h-2/3">
+            <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+              Re-imagine <br /> experiences
+            </div>
+          </div>
+          <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
+            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[20px] w-[143px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center text-[#A30953] lg:text-[#A30953] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#671E80]">
+              <Link href={"/approach"}>Our Approach</Link>
+            </div>
+          </div>
+          <div className="flex h-1/4 lg:hidden" />
         </div>
       </section>
 
