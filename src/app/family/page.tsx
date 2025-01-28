@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { teamMembers } from "@lib/contants";
 import family1 from "@assets/images/family.webp";
+import logoFinal from "@assets/images/logos-26.png";
 import "./style.css";
 
 import "slick-carousel/slick/slick.css";
@@ -94,6 +95,15 @@ const Family = () => {
                 />
               </div>
             ))}
+            <div className=" relative w-full aspect-square md:aspect-[4/3] block md:hidden">
+              <Image
+                src={logoFinal}
+                alt="Client 26"
+                fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                className="object-contain p-3"
+              />
+            </div>
           </div>
         </section>
 
@@ -105,7 +115,7 @@ const Family = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-3/4">
-              <div className="flex flex-col  sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[80px] lg:pt-24 pl-5 text-white uppercase lg:leading-[4.75rem] sm:leading-[4.5rem] leading-10 landscape-mt">
+              <div className="flex flex-col sm:text-white items-center font-normal justify-center text-[36px] sm:text-[50px] lg:text-[80px] lg:pt-24 pl-5 text-white uppercase lg:leading-[4.75rem] sm:leading-[4.5rem] leading-10 landscape-mt">
                 Staying <br />
                 ahead of <br />
                 Expectations
@@ -117,10 +127,6 @@ const Family = () => {
             <div className="flex h-1/4 lg:hidden landscape-hidden" />
           </div>
         </section>
-        {/* <h2 className="text-[64px] text-center mt-12 italic hidden lg:block">
-          Team
-        </h2>
-        <h2 className="text-[20px] text-center mt-12 italic lg:hidden">Team</h2> */}
 
         <div className="w-3/4 m-auto mb-20">
           <div className="mt-10 lg:mt-20">
