@@ -151,7 +151,7 @@ const Family = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col drop-shadow-custom sm:text-white items-center font-normal justify-center text-[34px] sm:text-[50px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-20">
+              <div className="flex flex-col drop-shadow-custom sm:text-white items-center font-normal justify-center text-[46px] sm:text-[50px] lg:text-[80px] lg:pt-24 pl-5 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-20">
                 creating stories <br />
                 Making Headlines
               </div>

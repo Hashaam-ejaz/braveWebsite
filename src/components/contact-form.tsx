@@ -42,28 +42,11 @@ export default function SimpleContactForm({
             htmlFor="company"
             className="block text-sm font-bold mb-2 dark:text-neutral-300"
           >
-            Company *
+            Company
           </label>
           <input
             id="company"
             type="text"
-            required
-            className="w-full py-2 px-0 border-b border-gray-300 dark:border-neutral-700 focus:border-blue-500 focus:outline-none text-base dark:bg-neutral-900 dark:text-neutral-200"
-          />
-        </div>
-
-        {/* Company Address */}
-        <div>
-          <label
-            htmlFor="companyAddress"
-            className="block text-sm font-bold mb-2 dark:text-neutral-300"
-          >
-            Company Address *
-          </label>
-          <input
-            id="companyAddress"
-            type="text"
-            required
             className="w-full py-2 px-0 border-b border-gray-300 dark:border-neutral-700 focus:border-blue-500 focus:outline-none text-base dark:bg-neutral-900 dark:text-neutral-200"
           />
         </div>
@@ -80,6 +63,21 @@ export default function SimpleContactForm({
             id="email"
             type="email"
             required
+            className="w-full py-2 px-0 border-b border-gray-300 dark:border-neutral-700 focus:border-blue-500 focus:outline-none text-base dark:bg-neutral-900 dark:text-neutral-200"
+          />
+        </div>
+
+        {/* Company Address */}
+        <div>
+          <label
+            htmlFor="companyAddress"
+            className="block text-sm font-bold mb-2 dark:text-neutral-300"
+          >
+            Company Address
+          </label>
+          <input
+            id="companyAddress"
+            type="text"
             className="w-full py-2 px-0 border-b border-gray-300 dark:border-neutral-700 focus:border-blue-500 focus:outline-none text-base dark:bg-neutral-900 dark:text-neutral-200"
           />
         </div>

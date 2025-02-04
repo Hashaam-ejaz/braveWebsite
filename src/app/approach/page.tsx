@@ -32,10 +32,10 @@ const Approach = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex pl-5 drop-shadow-custom flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[80px]  lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
-                uniting <br /> Strategy & Creativity
+              <div className="flex pl-5 drop-shadow-custom flex-col lg:w-3/5 sm:text-white items-center font-light justify-center text-[46px] sm:text-[50px] lg:text-[80px]  lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
+                uniting Strategy & Creativity
               </div>
-              <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
+              <div className="hidden lg:flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
             </div>
             <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-extralight">
               Our Approach
@@ -67,7 +67,7 @@ const Approach = () => {
           />
         </section>
 
-        <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center items-center">
+        <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center items-center gap-x-10">
           <div className="flex justify-start lg:items-center text-start text-[20px] font-medium lg:font-normal lg:text-[42px] mb-[12px] lg:w-[50%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-8 sm:leading-[4rem]">
             Approach with clear understandings of people, organizations, and
             their interactions
@@ -92,7 +92,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="relative w-full h-[100vh] overflow-hidden hidden md:block bg-green-200">
+        <section className="relative w-full h-[110vw] lg:h-[100vh] overflow-hidden">
           <Image
             src={img00}
             alt="Hero Image"
@@ -102,15 +102,14 @@ const Approach = () => {
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-1/3"></div>
             <div className="flex h-1/2 lg:h-2/3">
-              {" "}
-              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
-                Delivering <br /> Confidence <br /> to Make <br /> Iconic Moves
+              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-10 text-white uppercase leading-8 lg:leading-[5rem] sm:leading-[3rem] md:leading-[3rem] max-w-[700px]">
+                Delivering Confidence to Make Iconic Moves
               </div>
             </div>
           </div>
         </section>
 
-        <div className="px-4 lg:px-24 lg:bg-[#F4F1F1] pt-9 flex flex-col lg:flex-row">
+        <div className="px-4 lg:px-12 lg:bg-[#F4F1F1] pt-9 flex flex-col lg:flex-row">
           <p className="text-[20px] font-medium mb-6 lg:font-normal lg:text-[48px] lg:w-1/2">
             BRAVE helps unlock new opportunities and gives its clients the
             confidence to make Iconic Moves
@@ -136,7 +135,7 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Global Network
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
+                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[18px] h-[250px] w-[95%]">
                   <Image
                     src={tile1}
                     alt="tile 1"
@@ -158,7 +157,7 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Strategic Leadership
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
+                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[18px] h-[250px] w-[95%]">
                   <Image
                     src={tile2}
                     alt={"tile 2"}
@@ -180,7 +179,7 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Iconic Moves
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
+                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[18px] h-[250px] w-[95%]">
                   <Image
                     src={tile3}
                     alt={"tile 3"}
@@ -205,7 +204,7 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Growth Roadmap
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
+                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[18px] h-[250px] w-[95%]">
                   <Image
                     src={tile4}
                     alt={"tile 6"}
@@ -227,7 +226,7 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Targeted Navigation
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
+                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[18px] h-[250px] w-[95%]">
                   <Image
                     src={tile5}
                     alt={"tile 4"}
@@ -249,7 +248,7 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Sustainable Impact
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[20px] h-[250px]">
+                <AccordionContent className="flex text-[#7F7F7F] gap-x-4 lg:text-[18px] h-[250px] w-[95%]">
                   <Image
                     src={tile6}
                     alt={"tile 5"}
@@ -376,7 +375,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="relative w-full h-[100vh] overflow-hidden hidden md:block">
+        <section className="relative w-full h-[110vw] lg:h-[100vh] overflow-hidden">
           <Image
             src={img01}
             alt="Hero Image"
@@ -385,7 +384,7 @@ const Approach = () => {
 
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
                 Brave New <br /> Tomorrow
               </div>
             </div>

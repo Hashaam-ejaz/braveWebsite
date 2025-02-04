@@ -45,8 +45,8 @@ const Footer = () => {
         </div>
         <Drawer open={showSheet} onOpenChange={setshowSheet}>
           <DrawerTrigger asChild>
-            <button className=" bg-black text-white px-4 py-2 rounded-full text-lg hover:bg-gray-800 transition-colors w-[180px] text-[14px] font-bold mb-4 lg:ml-48 ml-auto mr-auto h-12">
-              Get in TOUCH
+            <button className=" bg-black text-white px-4 py-2 rounded-full text-lg hover:bg-gray-800 transition-colors w-[180px] text-[14px] font-normal mb-4 lg:ml-48 ml-auto mr-auto h-12">
+              Get in Touch
             </button>
           </DrawerTrigger>
           <DrawerContent>
@@ -66,8 +66,6 @@ const Footer = () => {
           <div className="truncate lg:pb-2">info@thebraveagency.co</div>
           <div>+1 917 203 4439</div>
         </div>
-
-        {/* "Get in Touch" Button Below "THE BRAVE AGENCY" */}
       </div>
 
       {/* Scroll to Top Button */}
