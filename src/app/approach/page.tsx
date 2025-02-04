@@ -2,7 +2,7 @@ import Image from "next/image";
 import approachTop from "@assets/images/approachTop.webp";
 import approach22 from "@assets/images/Approach22.png";
 import approach222 from "@assets/images/Approach222.webp";
-import section2Img from "@assets/images/appraoch2.webp";
+import section2Img from "@assets/images/appraoch2.png";
 import section3Img from "@assets/images/approach3.webp";
 import img00 from "@assets/images/img00.webp";
 import img01 from "@assets/images/img01.webp";
@@ -32,12 +32,12 @@ const Approach = () => {
           />
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex pl-5 drop-shadow-custom flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[96px]  lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
+              <div className="flex pl-5 drop-shadow-custom flex-col w-2/3 sm:w-1/3 lg:w-3/5 sm:text-white items-center font-light justify-center text-[36px] sm:text-[50px] lg:text-[80px]  lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-36 landscape:w-2/3">
                 uniting <br /> Strategy & Creativity
               </div>
               <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-2/5" />
             </div>
-            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-light">
+            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-extralight">
               Our Approach
             </div>
             <div className="flex h-1/4 lg:hidden" />
@@ -68,11 +68,11 @@ const Approach = () => {
         </section>
 
         <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center items-center">
-          <div className="flex justify-start lg:items-center text-start text-[20px] font-medium lg:font-normal lg:text-[48px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-8 sm:leading-[4rem]">
-            Approach with clear understandings of people, organizations and
+          <div className="flex justify-start lg:items-center text-start text-[20px] font-medium lg:font-normal lg:text-[42px] mb-[12px] lg:w-[50%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-8 sm:leading-[4rem]">
+            Approach with clear understandings of people, organizations, and
             their interactions
           </div>
-          <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
+          <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[700px] px-4">
             <div className="flex flex-col space-y-8 text-[14px] md:text-[18px] lg:text-[20px]">
               <p>
                 When a business makes an iconic move, it alters the competitive
@@ -92,7 +92,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <section className="relative w-full h-[100vh] overflow-hidden hidden md:block">
+        <section className="relative w-full h-[100vh] overflow-hidden hidden md:block bg-green-200">
           <Image
             src={img00}
             alt="Hero Image"
@@ -100,8 +100,10 @@ const Approach = () => {
           />
 
           <div className="relative z-10 flex flex-col h-full">
+            <div className="flex h-1/2 lg:h-1/3"></div>
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+              {" "}
+              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
                 Delivering <br /> Confidence <br /> to Make <br /> Iconic Moves
               </div>
             </div>
@@ -125,9 +127,6 @@ const Approach = () => {
 
         <section className="flex-col bg-[#F4F1F1] px-4 lg:px-8 hidden lg:flex">
           <div className="mt-4 flex justify-evenly">
-            <span className="text-[#8F3966] font-extrabold lg:hidden">
-              From Where to go
-            </span>
             <Accordion
               type="single"
               defaultValue="item-1"
@@ -197,9 +196,6 @@ const Approach = () => {
             </Accordion>
           </div>
           <div className="my-4 lg:flex justify-evenly">
-            <span className="text-[#8F3966] font-extrabold lg:hidden">
-              To Getting you There
-            </span>
             <Accordion
               type="single"
               defaultValue="item-4"
@@ -363,7 +359,7 @@ const Approach = () => {
 
           <div className="relative z-10 flex flex-col h-full">
             <div className="flex h-1/2 lg:h-2/3">
-              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+              <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
                 Brave New <br /> Tomorrow
               </div>
             </div>

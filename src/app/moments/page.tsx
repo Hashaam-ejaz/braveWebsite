@@ -156,7 +156,7 @@ const Family = () => {
                 Making Headlines
               </div>
             </div>
-            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-light lg:pt-12">
+            <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-extralight lg:pt-12">
               Our Moments
             </div>
             <div className="flex h-1/4 lg:hidden" />

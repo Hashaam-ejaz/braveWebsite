@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <div className="flex flex-col w-1/3 sm:w-2/3 lg:w-3/5" />
           </div>
-          <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-light">
+          <div className="flex drop-shadow-custom h-1/4 lg:h-1/3 text-[24px] lg:text-[54px] text-white justify-center items-center uppercase landscape:mt-20 font-extralight">
             The Brave Agency
           </div>
           <div className="flex h-1/4 lg:hidden" />
@@ -65,7 +65,7 @@ const Home = () => {
 
       {/* moment */}
       <section className="relative w-full h-[100vh] overflow-hidden">
-        Desktop Image
+        {/* Desktop Image */}
         <Image
           src={momentsImg}
           alt="Hero Image"
@@ -79,7 +79,7 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
+            <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10">
               We Inspire <br /> the world
             </div>
           </div>
@@ -92,12 +92,13 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:font-normal font-medium lg:items-center text-start text-[40px]  lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 lg:leading-[5.75rem]">
-          Why <br className="hidden lg:block" /> BRAVE is different
+      <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center ">
+        <div className="flex justify-start lg:font-normal font-medium lg:items-center text-[40px] lg:text-[85px] mb-[12px] lg:w-[50%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 lg:leading-[5.75rem]">
+          Why <br className="hidden lg:block" /> BRAVE is{" "}
+          <br className="hidden lg:block" /> different
         </div>
 
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[1000px] px-4">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] px-4 lg:w-[50%]">
           <p className="text-[20px] md:text-[24px] lg:text-[48px] mb-[25px] font-medium lg:font-normal lg:mb-[32px] text-start">
             We give our clients the confidence to make iconic moves
           </p>
@@ -136,7 +137,7 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[96px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+            <div className="flex flex-col w-2/3 lg:w-2/5 items-center justify-center text-[36px] lg:text-[80px] lg:pt-24 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
               We build success together
             </div>
             <div className="flex flex-col w-1/3 lg:w-3/5" />
@@ -155,7 +156,7 @@ const Home = () => {
           About <br className="hidden lg:block" /> BRAVE
         </div>
 
-        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[1000px] px-4">
+        <div className="flex flex-col text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px] text-justify lg:pr-[80px] max-w-[880px] px-4">
           <p className="text-[20px] md:text-[24px] lg:text-[48px] font-medium lg:font-normal mb-[25px] lg:mb-[32px] text-start">
             We build strong business, and a sustainable, transformative tomorrow
           </p>
@@ -188,7 +189,7 @@ const Home = () => {
             className="block w-full h-auto"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/20 text-[#5C2A5F] border-[#5C2A5F] lg:text-[20px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
+            <div className="bg-white/20 text-[#A30953] border-[#A30953] lg:text-[20px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
               <Link href={"/approach"}>Our Approach</Link>
             </div>
           </div>
@@ -203,12 +204,12 @@ const Home = () => {
 
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex flex-col items-center justify-center text-[36px] lg:text-[96px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
+            <div className="flex flex-col items-center justify-center text-[36px] lg:text-[80px] lg:pt-12 pl-5 lg:pl-20 text-white uppercase lg:leading-[5.75rem] sm:leading-[3rem] md:leading-[3rem] leading-10">
               Re-imagine <br /> experiences
             </div>
           </div>
           <div className="flex h-1/4 lg:h-1/3 text-[30px] lg:text-[70px] text-white justify-center items-center pb-28">
-            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[20px] w-[143px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center text-[#A30953] lg:text-[#A30953] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#671E80]">
+            <div className="bg-white lg:bg-white/60 px-4 py-3 text-[12px] lg:text-[20px] w-[143px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center text-[#A30953] lg:text-[#A30953] rounded-full border-solid border-[1px] lg:border-[3.28px] border-white lg:border-[#A30953]">
               <Link href={"/approach"}>Our Approach</Link>
             </div>
           </div>
@@ -217,7 +218,7 @@ const Home = () => {
       </section>
 
       <section className="flex flex-col lg:flex-row mt-[32.17px] mb-[13px] lg:mt-[83px] lg:mb-[73px] w-full md:justify-center">
-        <div className="flex justify-start lg:items-center text-start text-[40px] font-medium lg:font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 2xl:mr-0 leading-[5.75rem]">
+        <div className="flex justify-start lg:items-center text-start text-[40px] font-medium lg:font-normal lg:text-[85px] mb-[12px] lg:w-[40%] lg:pl-[37px] pl-4 lg:mr-16 xl:mr-0 leading-[5.75rem]">
           BRAVE&apos;s <br className="hidden lg:block" /> Promise
         </div>
 
