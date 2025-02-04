@@ -26,7 +26,7 @@ const Home = () => {
         />
         <div className="relative z-10 flex flex-col h-full">
           <div className="flex h-1/2 lg:h-2/3">
-            <div className="flex pl-5 flex-col lg:w-2/5 drop-shadow-custom sm:text-white items-center font-normal justify-center text-[46px] sm:text-[50px] lg:text-[96px] lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
+            <div className="flex pl-5 flex-col lg:w-2/5 drop-shadow-custom sm:text-white items-center font-normal justify-center text-[46px] sm:text-[50px] lg:text-[80px] lg:pt-24 lg:pl-10 text-white uppercase lg:leading-[5.75rem] sm:leading-[4.5rem] leading-10 landscape:mt-32">
               Building Stronger Brands
             </div>
             <div className="flex-col w-1/3 sm:w-2/3 lg:w-3/5 hidden lg:flex" />
@@ -55,9 +55,9 @@ const Home = () => {
             </p>
             <p>
               From launching new brands and reinvigorating established business,
-              to creating a movement. Together, we build{" "}
-              <span className="font-bold lg:ml-1">stronger brands</span> that
-              inspire the world.
+              to creating a movement. Together, we
+              <span className="font-bold lg:mx-2">build stronger brands</span>
+              that inspire the world.
             </p>
           </div>
         </div>

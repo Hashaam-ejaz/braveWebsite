@@ -114,7 +114,7 @@ const Approach = () => {
             BRAVE helps unlock new opportunities and gives its clients the
             confidence to make Iconic Moves
           </p>
-          <p className="pb-12 lg:font-normal lg:text-[20px] leading-[1.75rem] pl-8 lg:w-1/2 lg:text-justify">
+          <p className="lg:font-normal lg:text-[20px] leading-[1.75rem] lg:w-1/2 lg:text-justify">
             BRAVE supports clients to take on the emerging challenges and to
             meet the diverse demands of business and brands on their growth
             trajectories. We provide a complete set of tools and services, as
@@ -124,7 +124,7 @@ const Approach = () => {
           </p>
         </div>
 
-        <section className="flex-col bg-[#F4F1F1] px-4 lg:px-8 hidden lg:flex">
+        <section className="flex-col px-4 lg:px-8 hidden lg:flex">
           <div className="mt-4 flex justify-evenly">
             <Accordion
               type="single"
@@ -264,12 +264,12 @@ const Approach = () => {
             </Accordion>
           </div>
         </section>
-        <section className="flex-col bg-[#F4F1F1] px-4 flex lg:hidden">
+        <section className="flex-col px-4 flex lg:hidden">
           <div className="mt-4">
             <span className="text-[#8F3966] font-extrabold">
               From Where to go
             </span>
-            <Accordion type="single">
+            <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
                 <AccordionTrigger>Global Network</AccordionTrigger>
                 <AccordionContent className="flex items-center text-[#7F7F7F] gap-x-4">
@@ -285,7 +285,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single">
+            <Accordion type="single" collapsible>
               <AccordionItem value="item-2">
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Strategic Leadership
@@ -301,7 +301,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single">
+            <Accordion type="single" collapsible>
               <AccordionItem value="item-3">
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Iconic Moves
@@ -322,7 +322,7 @@ const Approach = () => {
             <span className="text-[#8F3966] font-extrabold">
               To Getting you There
             </span>
-            <Accordion type="single">
+            <Accordion type="single" collapsible>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Growth Roadmap
@@ -340,7 +340,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single">
+            <Accordion type="single" collapsible>
               <AccordionItem value="item-5">
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Targeted Navigation
@@ -356,7 +356,7 @@ const Approach = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <Accordion type="single">
+            <Accordion type="single" collapsible>
               <AccordionItem value="item-6">
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Sustainable Impact
