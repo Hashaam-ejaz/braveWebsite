@@ -274,7 +274,11 @@ const Approach = () => {
               <AccordionItem value="item-1">
                 <AccordionTrigger>Global Network</AccordionTrigger>
                 <AccordionContent className="flex items-center text-[#7F7F7F] gap-x-4">
-                  <Image src={tile1} alt="tile 1" className="object-cover" />
+                  <Image
+                    src={tile1}
+                    alt="tile 1"
+                    className="w-24 h-24 object-cover rounded-md"
+                  />
                   <div className="flex flex-col justify-center">
                     We design and deliver dynamic frameworks to help our clients
                     proactively create opportunities with our global network.
@@ -288,7 +292,11 @@ const Approach = () => {
                   Strategic Leadership
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile2} alt={"tile 2"} className="object-cover" />
+                  <Image
+                    src={tile2}
+                    alt={"tile 2"}
+                    className="w-24 h-24 object-cover rounded-md"
+                  />
                   We help our clients do things right by creating exceptional
                   experiences through clear and uncompromising ethics.
                 </AccordionContent>
@@ -300,7 +308,11 @@ const Approach = () => {
                   Iconic Moves
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile3} alt={"tile 3"} className="object-cover" />
+                  <Image
+                    src={tile3}
+                    alt={"tile 3"}
+                    className="w-24 h-24 object-cover rounded-md"
+                  />
                   We are able to set an ambition for business and seize
                   opportunities for innovation, revenue, growth, and expansion.
                 </AccordionContent>
@@ -316,10 +328,16 @@ const Approach = () => {
                 <AccordionTrigger className="uppercase lg:text-[24px]">
                   Growth Roadmap
                 </AccordionTrigger>
-                <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile4} alt={"tile 6"} className="object-cover" />
-                  We help our clients work out where they want to be, by when -
-                  creating vision, drive and focus on strategy for growth
+                <AccordionContent className="flex flex-row items-start text-[#7F7F7F] gap-2">
+                  <Image
+                    src={tile4}
+                    alt={"tile 4"}
+                    className="w-24 h-24 object-cover rounded-md"
+                  />
+                  <div className="text-sm leading-tight">
+                    We help our clients work out where they want to be, by when
+                    - creating vision, drive and focus on strategy for growth.
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -329,7 +347,11 @@ const Approach = () => {
                   Targeted Navigation
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile5} alt={"tile 4"} className="object-cover" />
+                  <Image
+                    src={tile5}
+                    alt={"tile 5"}
+                    className="object-cover w-24 h-24 rounded-md"
+                  />
                   Our approach is anchored to objective measures of commercial
                   success. We set, measure and manage clear targets.
                 </AccordionContent>
@@ -341,7 +363,11 @@ const Approach = () => {
                   Sustainable Impact
                 </AccordionTrigger>
                 <AccordionContent className="flex text-[#7F7F7F] gap-x-4">
-                  <Image src={tile6} alt={"tile 5"} className="object-cover" />
+                  <Image
+                    src={tile6}
+                    alt={"tile 6"}
+                    className="w-24 h-24 object-cover rounded-md"
+                  />
                   We unite brand, culture and experience to drive impact inside
                   and outside an organization and to stay relevant over time
                 </AccordionContent>
