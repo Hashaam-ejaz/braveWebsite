@@ -114,7 +114,7 @@ const Approach = () => {
             BRAVE helps unlock new opportunities and gives its clients the
             confidence to make Iconic Moves
           </p>
-          <p className="lg:font-normal lg:text-[20px] leading-[1.75rem] lg:w-1/2 lg:text-justify">
+          <p className="lg:font-normal lg:text-[20px] leading-[1.75rem] lg:w-1/2 lg:text-justify lg:pl-6">
             BRAVE supports clients to take on the emerging challenges and to
             meet the diverse demands of business and brands on their growth
             trajectories. We provide a complete set of tools and services, as
