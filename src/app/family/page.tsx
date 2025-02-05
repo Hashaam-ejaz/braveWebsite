@@ -101,7 +101,7 @@ const Family = () => {
                 alt="Client 26"
                 fill
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
-                className="object-contain p-3"
+                className="object-contain p-12 sm:p-16"
               />
             </div>
           </div>
@@ -121,12 +121,13 @@ const Family = () => {
                 Expectations
               </div>
             </div>
-            <div className="flex h-1/4 lg:h-1/4 text-[24px] lg:text-[54px] text-white justify-center uppercase">
-              Our Team
-            </div>
+            <div className="flex h-1/4 lg:h-1/4 text-[24px] lg:text-[54px] text-white justify-center uppercase"></div>
             <div className="flex h-1/4 lg:hidden landscape-hidden" />
           </div>
         </section>
+        <div className="text-[24px] lg:text-[54px] text-center justify-center uppercase text-black mt-4 lg:mt-2">
+          Our Team
+        </div>
 
         <div className="w-3/4 m-auto mb-20">
           <div className="mt-10 lg:mt-20">

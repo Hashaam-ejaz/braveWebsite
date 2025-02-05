@@ -56,7 +56,7 @@ const Home = () => {
             <p>
               From launching new brands and reinvigorating established business,
               to creating a movement. Together, we
-              <span className="font-bold lg:mx-2">build stronger brands</span>
+              <span className="font-bold mx-2">build stronger brands</span>
               that inspire the world.
             </p>
           </div>
@@ -182,21 +182,8 @@ const Home = () => {
       </section>
 
       {/* approach */}
-      <section className="relative w-full h-auto overflow-hidden md:hidden">
-        <div className="relative w-full h-auto sm:h-full">
-          <Image
-            src={approachmImg}
-            alt="Hero Image Mobile"
-            className="block w-full h-auto"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white lg:bg-white/60 text-[#A30953] border-[#A30953] lg:text-[20px] px-4 py-3 text-[12px] w-[143px] h-[28px] lg:w-[200px] lg:h-[45px] flex items-center justify-center text-center rounded-full border-solid border-[1px] lg:border-[3.28px]">
-              <Link href={"/approach"}>Our Approach</Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="relative w-full h-[100vh] overflow-hidden hidden md:block">
+
+      <section className="relative w-full h-[110vw] lg:h-[100vh] overflow-hidden ">
         <Image
           src={approachImg}
           alt="Hero Image"

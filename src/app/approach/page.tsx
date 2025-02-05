@@ -109,7 +109,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <div className="px-4 lg:px-12 lg:bg-[#F4F1F1] pt-9 flex flex-col lg:flex-row">
+        <div className="px-4 lg:px-12 pt-9 flex flex-col lg:flex-row">
           <p className="text-[20px] font-medium mb-6 lg:font-normal lg:text-[48px] lg:w-1/2">
             BRAVE helps unlock new opportunities and gives its clients the
             confidence to make Iconic Moves
@@ -266,12 +266,11 @@ const Approach = () => {
         </section>
         <section className="flex-col px-4 flex lg:hidden">
           <div className="mt-4">
-            <span className="text-[#8F3966] font-extrabold">
-              From Where to go
-            </span>
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
-                <AccordionTrigger>Global Network</AccordionTrigger>
+                <AccordionTrigger className="uppercase lg:text-[24px]">
+                  Global Network
+                </AccordionTrigger>
                 <AccordionContent className="flex items-center text-[#7F7F7F] gap-x-4">
                   <Image
                     src={tile1}
@@ -318,10 +317,7 @@ const Approach = () => {
               </AccordionItem>
             </Accordion>
           </div>
-          <div className="my-4">
-            <span className="text-[#8F3966] font-extrabold">
-              To Getting you There
-            </span>
+          <div className="mb-4">
             <Accordion type="single" collapsible>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="uppercase lg:text-[24px]">
